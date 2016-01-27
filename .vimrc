@@ -1,5 +1,5 @@
-"  ____                                       
-" |  _ \                    _                 
+"  ____                                          
+" |  _ \                    _                    
 " | |_) | ___ _ __   __   _(_)_ __ ___  _ __ ___ 
 " |  _ < / _ \ '_ \  \ \ / / | '_ ` _ \| '__/ __|
 " | |_) |  __/ | | |  \ V /| | | | | | | | | (__ 
@@ -17,18 +17,19 @@
 " ░    ░    ░      ░   ░ ░ ░  ░  ░      ░        ░░   ▒ ░░      ░     ░░   ░ ░        
 " ░         ░  ░         ░       ░       ░        ░   ░         ░      ░     ░ ░      
 "      ░                                 ░       ░                           ░        
-                                                
+
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme molokai
+colorscheme Ben-Molokai
 
 set smartcase
 set autoindent
 set autowrite
 set autoread
 set number
+set showcmd
 set hidden
 set ignorecase
 set foldmethod=syntax
@@ -37,7 +38,7 @@ set foldlevelstart=1
 set foldenable
 set foldcolumn=3
 
-set shiftwidth=4
+set shiftwidth=2
 set softtabstop=4
 set expandtab
 
@@ -63,6 +64,9 @@ let g:processing_fold = 1
 nnoremap J 5gj
 nnoremap K 5gk
 
+" Make Y consistent with D and C
+nnoremap Y y$
+
 " Enter and shift enter to pad lines
 nnoremap <C-CR> o<Esc>k
 nnoremap <S-CR> O<Esc>j
@@ -77,7 +81,7 @@ xmap ia <Plug>SidewaysArgumentTextobjI
 nnoremap <Leader>a<Space> i<Space><Esc>la<Space><Esc>h
 
 " Autospell 1
-nnoremap z== z=1<CR>
+nnoremap z== z=1<CR><CR>
 
 " GoldenView Bindings
 let g:goldenview__enable_default_mapping = 0 "Disable default mappings
@@ -116,11 +120,14 @@ nmap <leader>X  <plug>SwapSwapWithL_WORD
 
 
 "NerdTree Toggle ;;
-nnoremap <F9> :NERDTreeToggle<CR>
+nnoremap <F7> :NERDTreeToggle<CR>
 
 "Tagbar Toggle
 nnoremap <F8> :TagbarToggle<CR>
 let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
+
+" Undo Tree Toggle
+nnoremap <F9> :UndotreeToggle<CR>
 
 " EASY MOTION
 " ===========
@@ -133,7 +140,7 @@ let g:EasyMotion_do_mapping = 0 " Disable default mappings
 " or
 " `s{char}{char}{label}`
 " Need one more keystroke, but on average, it may be more comfortable.
-nmap <Space> <Plug>(easymotion-s)
+nmap <Space> <Plug>(easymotion-s2)
 
 " Turn on case insensitive feature
 let g:EasyMotion_smartcase = 1
