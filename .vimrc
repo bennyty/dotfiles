@@ -56,13 +56,16 @@ nnoremap gk k
 xnoremap j gj
 xnoremap k gk
 
+" Leader k to lookup because K is remapped
+nmap <Leader>k <Plug>DashSearch
+
 " No Processing
 let g:processing_no_default_mappings = 1 " Disable default mappings
 let g:processing_fold = 1
 
 " Faster Movement
-nnoremap J 5gj
-nnoremap K 5gk
+noremap J 5gj
+noremap K 5gk
 
 " Make Y consistent with D and C
 nnoremap Y y$
@@ -144,10 +147,6 @@ nmap <Space> <Plug>(easymotion-s2)
 
 " Turn on case insensitive feature
 let g:EasyMotion_smartcase = 1
-
-" JK motions: Line motions
-map <Leader>j <Plug>(easymotion-j)
-map <Leader>k <Plug>(easymotion-k)
 
 "SimpleFold
 "function! Num2S(num, len)

@@ -49,7 +49,7 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
-	autojump
+	fasd
 	common-aliases
 	npm
         z
@@ -118,9 +118,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 
-### autojump
-[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
-
 ### vi cursor
 function zle-keymap-select zle-line-init
 {
@@ -156,3 +153,7 @@ bindkey -M vicmd 'j' history-substring-search-down
 #Todo.txt
 export TODOTXT_DEFAULT_ACTION=ls
 t
+
+#FASD
+eval "$(fasd --init auto)"
+function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
