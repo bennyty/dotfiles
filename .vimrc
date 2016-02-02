@@ -18,7 +18,7 @@
 " ░         ░  ░         ░       ░       ░        ░   ░         ░      ░     ░ ░      
 "      ░                                 ░       ░                           ░        
 
-source .plugins
+source ~/.vim/.plugins
 syntax on
 filetype plugin indent on
 
