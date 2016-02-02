@@ -18,7 +18,7 @@
 " ░         ░  ░         ░       ░       ░        ░   ░         ░      ░     ░ ░      
 "      ░                                 ░       ░                           ░        
 
-execute pathogen#infect()
+source .plugins
 syntax on
 filetype plugin indent on
 
