@@ -121,14 +121,20 @@ export PATH="/usr/local/bin:$PATH"
 ### vi cursor
 function zle-keymap-select zle-line-init
 {
-    # change cursor shape in iTerm2
-    case $KEYMAP in
-        vicmd)      print -n -- "\E]50;CursorShape=0\C-G";;  # block cursor
-        viins|main) print -n -- "\E]50;CursorShape=1\C-G";;  # line cursor
-    esac
+  # change cursor shape in iTerm2, doesn't work in tmux :(
+  case $KEYMAP in
+    vicmd)      print -n -- "\E]50;CursorShape=0\C-G";;  # block cursor
+    viins|main) print -n -- "\E]50;CursorShape=1\C-G";;  # line cursor
+  esac
 
-    zle reset-prompt
-    zle -R
+  # Change prompt to show status
+  #VIM_PROMPT="%{$fg_bold[yellow]%} [% NORMAL]%  %{$reset_color%}"
+  #RPS1="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/}$(git_custom_status) $EPS1"
+  #zle reset-prompt
+
+
+  zle reset-prompt
+  zle -R
 }
 
 function zle-line-finish
@@ -139,6 +145,7 @@ function zle-line-finish
 zle -N zle-line-init
 zle -N zle-line-finish
 zle -N zle-keymap-select
+export KEYTIMEOUT=1 #escape switches mode .1 seconds (down from .4)
 NPM_PACKAGES=/Users/Ben/.npm-packages
 NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
 PATH="$NPM_PACKAGES/bin:$PATH"

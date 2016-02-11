@@ -32,15 +32,16 @@ set number
 set showcmd
 set hidden
 set ignorecase
-set foldmethod=syntax
+set foldmethod=manual
 "set foldlevelstart=1000
 set foldlevelstart=1
 set foldenable
 set foldcolumn=3
 
-set shiftwidth=2
-set softtabstop=4
-set expandtab
+set shiftwidth=4
+set tabstop=4
+set softtabstop=0
+set noexpandtab
 
 set listchars=tab:▸\ ,eol:¬
 
@@ -102,6 +103,13 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" vim-easy-align, easy align bindings
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+
 " no more stupid shift key
 nnoremap ; :
 nnoremap q; q:
@@ -162,3 +170,8 @@ let g:EasyMotion_smartcase = 1
 "endfunction
 
 "set foldtext=FoldText()
+
+" Ctrl-Space ag
+if executable("ag")
+    let g:CtrlSpaceGlobCommand = 'ag -l --nocolor -g ""'
+endif
