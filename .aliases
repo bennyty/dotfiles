@@ -1,3 +1,5 @@
+#This allows for command following sudo to be aliases
+alias sudo='sudo '
 alias rmt='rmtrash'
 alias eclimd='~/eclipse/eclimd'
 alias cat=lolcat
