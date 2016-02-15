@@ -18,7 +18,7 @@
 " ░         ░  ░         ░       ░       ░        ░   ░         ░      ░     ░ ░      
 "      ░                                 ░       ░                           ░        
 
-source ~/.vim/.plugins
+source ~/.vim/.plugins.vim
 syntax on
 filetype plugin indent on
 
@@ -60,20 +60,19 @@ xnoremap k gk
 " Leader k to lookup because K is remapped
 nmap <Leader>k <Plug>DashSearch
 
-" No Processing
-let g:processing_no_default_mappings = 1 " Disable default mappings
-let g:processing_fold = 1
-
 " Faster Movement
 noremap J 5gj
 noremap K 5gk
 
 " Make Y consistent with D and C
-nnoremap Y y$
+map Y y$
 
-" Enter and shift enter to pad lines
-nnoremap <C-CR> o<Esc>k
-nnoremap <S-CR> O<Esc>j
+" Unite!
+nnoremap <Space> :Unite<CR>
+
+" No Processing
+let g:processing_no_default_mappings = 1 " Disable default mappings
+let g:processing_fold = 1
 
 " Argument objects from sideways.vim
 omap aa <Plug>SidewaysArgumentTextobjA
@@ -91,7 +90,7 @@ nnoremap z== z=1<CR><CR>
 let g:goldenview__enable_default_mapping = 0 "Disable default mappings
 
 nmap <C-w>w <Plug>GoldenViewNext
-nmap <silent> <C-n> <Plug>GoldenViewSplit
+nmap <silent> <C-s> <Plug>GoldenViewSplit
 nmap <C-w><Space> <Plug>GoldenViewSwitchMain
 
 " Disable M-p from AutoPairs so that YankStack can use
@@ -110,12 +109,12 @@ xmap ga <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
-" no more stupid shift key
+" No more stupid shift key
 nnoremap ; :
-nnoremap q; q:
 vnoremap ; :
 nnoremap : ;
 vnoremap : ;
+nnoremap q; q:
 
 " Exchange default mappings
 nmap cx <Plug>(Exchange)
@@ -151,7 +150,7 @@ let g:EasyMotion_do_mapping = 0 " Disable default mappings
 " or
 " `s{char}{char}{label}`
 " Need one more keystroke, but on average, it may be more comfortable.
-nmap <Space> <Plug>(easymotion-s2)
+nmap <M-l> <Plug>(easymotion-s2)
 
 " Turn on case insensitive feature
 let g:EasyMotion_smartcase = 1
