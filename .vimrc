@@ -1,23 +1,6 @@
-"  ____                                          
-" |  _ \                    _                    
-" | |_) | ___ _ __   __   _(_)_ __ ___  _ __ ___ 
-" |  _ < / _ \ '_ \  \ \ / / | '_ ` _ \| '__/ __|
-" | |_) |  __/ | | |  \ V /| | | | | | | | | (__ 
-" |____/ \___|_| |_| (_)_/ |_|_| |_| |_|_|  \___|
-
 " |3[-|\|'_\" .\/||\/||2(
 
-" ▄▄▄▄   ▓█████  ███▄    █   ██████          ██▒   █▓ ██▓ ███▄ ▄███▓ ██▀███   ▄████▄  
-"▓█████▄ ▓█   ▀  ██ ▀█   █ ▒██    ▒         ▓██░   █▒▓██▒▓██▒▀█▀ ██▒▓██ ▒ ██▒▒██▀ ▀█  
-"▒██▒ ▄██▒███   ▓██  ▀█ ██▒░ ▓██▄            ▓██  █▒░▒██▒▓██    ▓██░▓██ ░▄█ ▒▒▓█    ▄ 
-"▒██░█▀  ▒▓█  ▄ ▓██▒  ▐▌██▒  ▒   ██▒          ▒██ █░░░██░▒██    ▒██ ▒██▀▀█▄  ▒▓▓▄ ▄██▒
-"░▓█  ▀█▓░▒████▒▒██░   ▓██░▒██████▒▒    ██▓    ▒▀█░  ░██░▒██▒   ░██▒░██▓ ▒██▒▒ ▓███▀ ░
-"░▒▓███▀▒░░ ▒░ ░░ ▒░   ▒ ▒ ▒ ▒▓▒ ▒ ░    ▒▓▒    ░ ▐░  ░▓  ░ ▒░   ░  ░░ ▒▓ ░▒▓░░ ░▒ ▒  ░
-"▒░▒   ░  ░ ░  ░░ ░░   ░ ▒░░ ░▒  ░ ░    ░▒     ░ ░░   ▒ ░░  ░      ░  ░▒ ░ ▒░  ░  ▒   
-" ░    ░    ░      ░   ░ ░ ░  ░  ░      ░        ░░   ▒ ░░      ░     ░░   ░ ░        
-" ░         ░  ░         ░       ░       ░        ░   ░         ░      ░     ░ ░      
-"      ░                                 ░       ░                           ░        
-
+autocmd! bufwritepost .vimrc source %
 source ~/.vim/.plugins.vim
 syntax on
 filetype plugin indent on
@@ -32,11 +15,11 @@ set number
 set showcmd
 set hidden
 set ignorecase
-set foldmethod=manual
+set foldmethod=syntax
 "set foldlevelstart=1000
 set foldlevelstart=1
 set foldenable
-set foldcolumn=3
+set foldcolumn=2
 
 set shiftwidth=4
 set tabstop=4
@@ -46,7 +29,7 @@ set noexpandtab
 set listchars=tab:▸\ ,eol:¬
 
 " Re-source this file
-nnoremap <Leader>so :so $MYVIMRC<CR> :echo "Sourced" $MYVIMRC<CR>
+nnoremap <Leader>so :so $MYVIMRC<CR> :echo "Sourced $MYVIMRC"<CR>
 nnoremap <Leader>vim :e $MYVIMRC<CR>
 
 " Easy multiline navigation
@@ -84,7 +67,7 @@ xmap ia <Plug>SidewaysArgumentTextobjI
 nnoremap <Leader>a<Space> i<Space><Esc>la<Space><Esc>h
 
 " Autospell 1
-nnoremap z== z=1<CR><CR>
+nnoremap z== 1z=
 
 " GoldenView Bindings
 let g:goldenview__enable_default_mapping = 0 "Disable default mappings
@@ -128,6 +111,8 @@ vmap <leader>cx <plug>SwapSwapPivotOperands
 nmap <leader>x  <plug>SwapSwapWithR_WORD
 nmap <leader>X  <plug>SwapSwapWithL_WORD
 
+" Rainbow parenthesis
+let g:rainbow_active = 1
 
 "NerdTree Toggle ;;
 nnoremap <F7> :NERDTreeToggle<CR>
@@ -150,7 +135,7 @@ let g:EasyMotion_do_mapping = 0 " Disable default mappings
 " or
 " `s{char}{char}{label}`
 " Need one more keystroke, but on average, it may be more comfortable.
-nmap <M-l> <Plug>(easymotion-s2)
+nmap <Leader>e <Plug>(easymotion-s2)
 
 " Turn on case insensitive feature
 let g:EasyMotion_smartcase = 1
@@ -172,5 +157,5 @@ let g:EasyMotion_smartcase = 1
 
 " Ctrl-Space ag
 if executable("ag")
-    let g:CtrlSpaceGlobCommand = 'ag -l --nocolor -g ""'
+    let g:CtrlSpaceGlobCommand = 'ag -l --hidden --nocolor -g ""'
 endif
