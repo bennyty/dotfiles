@@ -76,8 +76,9 @@ nmap <C-w>w <Plug>GoldenViewNext
 nmap <silent> <C-s> <Plug>GoldenViewSplit
 nmap <C-w><Space> <Plug>GoldenViewSwitchMain
 
-" Disable M-p from AutoPairs so that YankStack can use
+" Disable M-p from AutoPairs so that YankStack can use it
 let g:AutoPairsShortcutToggle = ''
+let g:AutoPairsFlyMode = 1
 
 " Easy split movement
 nnoremap <C-h> <C-w>h
@@ -116,6 +117,7 @@ let g:rainbow_active = 1
 
 "NerdTree Toggle ;;
 nnoremap <F7> :NERDTreeToggle<CR>
+let NERDTreeHijackNetrw=1
 
 "Tagbar Toggle
 nnoremap <F8> :TagbarToggle<CR>
@@ -124,8 +126,9 @@ let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 " Undo Tree Toggle
 nnoremap <F9> :UndotreeToggle<CR>
 
+"=============
 " EASY MOTION
-" ===========
+"=============
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
 
 " Bi-directional find motion
@@ -140,7 +143,9 @@ nmap <Leader>e <Plug>(easymotion-s2)
 " Turn on case insensitive feature
 let g:EasyMotion_smartcase = 1
 
-"SimpleFold
+"============
+" SimpleFold
+"============
 "function! Num2S(num, len)
     "let filler = "                                                            "
     "let text = '' . a:num
@@ -158,4 +163,17 @@ let g:EasyMotion_smartcase = 1
 " Ctrl-Space ag
 if executable("ag")
     let g:CtrlSpaceGlobCommand = 'ag -l --hidden --nocolor -g ""'
+endif
+
+"=======================================
+" Tmux compatible cursor shapes in vim!
+"=======================================
+if empty($TMUX)
+  let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+  let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+else
+  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+  let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
 endif
