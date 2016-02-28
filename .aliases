@@ -5,3 +5,4 @@ alias eclimd='~/eclipse/eclimd'
 alias cat=lolcat
 alias t='todo.sh -d ~/.todo.cfg'
 alias vimrc='$EDITOR ~/.vimrc'
+alias dirs='dirs -v'

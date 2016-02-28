@@ -1,7 +1,10 @@
 " |3[-|\|'_\" .\/||\/||2(
 
-autocmd! bufwritepost .vimrc source %
+" Source all external configs first
 source ~/.vim/.plugins.vim
+" Unite!
+source ~/.vim/.uniteSettings.vim
+
 syntax on
 filetype plugin indent on
 
@@ -17,7 +20,7 @@ set hidden
 set ignorecase
 set foldmethod=syntax
 "set foldlevelstart=1000
-set foldlevelstart=1
+set foldlevelstart=2
 set foldenable
 set foldcolumn=2
 
@@ -31,6 +34,13 @@ set listchars=tab:▸\ ,eol:¬
 " Re-source this file
 nnoremap <Leader>so :so $MYVIMRC<CR> :echo "Sourced $MYVIMRC"<CR>
 nnoremap <Leader>vim :e $MYVIMRC<CR>
+augroup reload_vimrc " {
+	autocmd!
+	autocmd BufWritePost $MYVIMRC source $MYVIMRC
+augroup END " }
+
+" Mapping for quick finding git repos inside ' ' marks
+nnoremap <Leader>gitopen ^f'"gyi':!open http://github.com/g
 
 " Easy multiline navigation
 nnoremap j gj
@@ -48,10 +58,15 @@ noremap J 5gj
 noremap K 5gk
 
 " Make Y consistent with D and C
-map Y y$
+noremap Y y$
 
-" Unite!
-nnoremap <Space> :Unite<CR>
+" Atomic xp
+nnoremap <silent> <Plug>TransposeCharacters xph :call repeat#set("\<Plug>TransposeCharacters")<CR>
+nmap cp <Plug>TransposeCharacters
+
+" vim-wiki conflict with Ctrl-Space
+nmap <NOP> <Plug>VimwikiTabIndex
+nmap <Leader>wt <Plug>VimwikiToggleListItem
 
 " No Processing
 let g:processing_no_default_mappings = 1 " Disable default mappings
@@ -62,9 +77,6 @@ omap aa <Plug>SidewaysArgumentTextobjA
 xmap aa <Plug>SidewaysArgumentTextobjA
 omap ia <Plug>SidewaysArgumentTextobjI
 xmap ia <Plug>SidewaysArgumentTextobjI
-
-" Insert spaces to make a=b to a = b
-nnoremap <Leader>a<Space> i<Space><Esc>la<Space><Esc>h
 
 " Autospell 1
 nnoremap z== 1z=
@@ -78,7 +90,7 @@ nmap <C-w><Space> <Plug>GoldenViewSwitchMain
 
 " Disable M-p from AutoPairs so that YankStack can use it
 let g:AutoPairsShortcutToggle = ''
-let g:AutoPairsFlyMode = 1
+" let g:AutoPairsFlyMode = 1
 
 " Easy split movement
 nnoremap <C-h> <C-w>h
@@ -107,10 +119,10 @@ nmap cxc <Plug>(ExchangeClear)
 nmap cxx <Plug>(ExchangeLine)
 
 " Swap default mappings
-vmap <leader>x  <plug>SwapSwapOperands
-vmap <leader>cx <plug>SwapSwapPivotOperands
-nmap <leader>x  <plug>SwapSwapWithR_WORD
-nmap <leader>X  <plug>SwapSwapWithL_WORD
+vmap <Leader>x  <Plug>SwapSwapOperands
+vmap <Leader>cx <Plug>SwapSwapPivotOperands
+nmap <Leader>x  <Plug>SwapSwapWithR_WORD
+nmap <Leader>X  <Plug>SwapSwapWithL_WORD
 
 " Rainbow parenthesis
 let g:rainbow_active = 1
@@ -119,9 +131,12 @@ let g:rainbow_active = 1
 nnoremap <F7> :NERDTreeToggle<CR>
 let NERDTreeHijackNetrw=1
 
-"Tagbar Toggle
+"Tagbar Toggle {{{
 nnoremap <F8> :TagbarToggle<CR>
 let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
+let g:tagbar_compact = 1
+let g:tagbar_width = 40
+
 
 " Undo Tree Toggle
 nnoremap <F9> :UndotreeToggle<CR>
@@ -146,34 +161,35 @@ let g:EasyMotion_smartcase = 1
 "============
 " SimpleFold
 "============
-"function! Num2S(num, len)
-    "let filler = "                                                            "
-    "let text = '' . a:num
-    "return strpart(filler, 1, a:len - strlen(text)) . text
-"endfunction
+function! Num2S(num, len)
+	let filler = "                                                            "
+	let text = '' . a:num
+	return strpart(filler, 1, a:len - strlen(text)) . text
+endfunction
 
-"function! FoldText()
-    "let sub = substitute(getline(v:foldstart), '/\*\|\*/\|{{{\d\=', '', 'g')
-    "let diff = v:foldend - v:foldstart + 1
-    "return  '+' . v:folddashes . '[' . Num2S(diff,3) . ']' . sub
-"endfunction
+function! FoldText()
+	let sub = substitute(getline(v:foldstart), '/\*\|\*/\|{{{\d\=', '', 'g')
+	let diff = v:foldend - v:foldstart + 1
+	return  '+' . v:folddashes . '[' . Num2S(diff,3) . ']' . sub
+endfunction
 
-"set foldtext=FoldText()
+set foldtext=FoldText()
 
 " Ctrl-Space ag
 if executable("ag")
-    let g:CtrlSpaceGlobCommand = 'ag -l --hidden --nocolor -g ""'
+	let g:CtrlSpaceGlobCommand = 'ag -l --hidden --ignore .git --nocolor -g ""'
 endif
 
 "=======================================
 " Tmux compatible cursor shapes in vim!
 "=======================================
 if empty($TMUX)
-  let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-  let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+	let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+	let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+	let &t_SR = "\<Esc>]50;CursorShape=2\x7"
 else
-  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
-  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
-  let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
+	let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+	let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+	let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
 endif
+
