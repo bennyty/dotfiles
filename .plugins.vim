@@ -81,6 +81,7 @@ Plug 'Shougo/unite-help'
 Plug 'Shougo/neoyank.vim'
 Plug 'Shougo/unite-sudo'
 Plug 'Shougo/neomru.vim'
+Plug 'ujihisa/unite-colorscheme'
 " }}}
 
 " Text objects {{{
