@@ -8,6 +8,9 @@ source ~/.vim/.uniteSettings.vim
 syntax on
 filetype plugin indent on
 
+set t_Co=256
+syntax on
+set background=dark
 colorscheme Ben-Molokai
 
 set smartcase
@@ -18,11 +21,11 @@ set number
 set showcmd
 set hidden
 set ignorecase
-set foldmethod=syntax
+set foldmethod=indent
 "set foldlevelstart=1000
-set foldlevelstart=2
+" set foldlevelstart=2
 set foldenable
-set foldcolumn=2
+set foldcolumn=1
 
 set shiftwidth=4
 set tabstop=4
@@ -39,8 +42,17 @@ augroup reload_vimrc " {
 	autocmd BufWritePost $MYVIMRC source $MYVIMRC
 augroup END " }
 
+" Automatically set foldlevel to max fold level in buffer + 1
+autocmd BufWinEnter * let &foldlevel = max(map(range(1, line('$')), 'foldlevel(v:val)'))
+
 " Mapping for quick finding git repos inside ' ' marks
 nnoremap <Leader>gitopen ^f'"gyi':!open http://github.com/g
+
+" [[ mappings
+map [[ ?{<CR>w99[{
+map ][ /}<CR>b99]}
+map ]] j0[[%/{<CR>
+map [] k$][%?}<CR>
 
 " Easy multiline navigation
 nnoremap j gj

@@ -11,13 +11,15 @@ call plug#begin()
 " Syntax {{{
 Plug 'tpope/vim-git', { 'for': 'git' }
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
-Plug 'pangloss/vim-javascript'                         " Javascript syntax and indent support
+Plug 'jelera/vim-javascript-syntax'                    " Javascript syntax
+Plug 'pangloss/vim-javascript'                         " Javascript indent support
 Plug 'sophacles/vim-processing'                        " Processing/Java syntax and indent support
 Plug 'scrooloose/syntastic'                            " Auto syntax checking, might be set up right?
 " }}}
 
 " Visual sugar {{{
 Plug 'jeffkreeftmeijer/vim-numbertoggle'               " Switched from relative numbering to absolute when entering end exiting insert mode
+Plug 'junegunn/goyo.vim'                               " Distraction free mode
 Plug 'junegunn/limelight.vim'                          " Distraction free mode, paired with Goyo
 Plug 'mhinz/vim-startify'                              " Fancy start screen
 Plug 'reedes/vim-pencil'                               " Writing assist (I use for note taking
@@ -58,7 +60,8 @@ Plug 'tpope/vim-unimpaired'                            " Paired mappings for [<S
 " Organizers {{{
 Plug 'mbbill/undotree', { 'on': 'UndoTreeToggle' }     " <F9> to toggle undo tree, havent found this to be very intitive.
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' } " <F7> to open NerdTree for easy file tree browsing
-Plug 'majutsushi/tagbar', { 'on': 'TagBarToggle' }     " <F8> to toggle tagbar
+" Plug 'majutsushi/tagbar', { 'on': 'TagBarToggle' }     " <F8> to toggle tagbar
+Plug 'majutsushi/tagbar'                               " <F8> to toggle tagbar
 Plug 'tpope/vim-vinegar'                               " Press '-' in normal mode to open netrw in current buffer, awkward.
 Plug 'vim-ctrlspace/vim-ctrlspace'                     " Super complex space manager. Manages buffers, windows, tabs, workspaces, and file switching inside bookmarked projects
 " Plug 'vim-scripts/bufexplorer.zip'                     " \be \bs \bv to open buffer manager. Seems kinda useless now that I use Ctrl-Space
@@ -70,6 +73,7 @@ Plug 'junegunn/gv.vim'                                 " git commit browser :GV
 Plug 'rizzatti/dash.vim', { 'on': 'Dash' }             " :Dash to emulate K command in Dash (OSX only)
 Plug 'rking/ag.vim', { 'on': 'Ag' }                    " :Ag to run silver searcher
 Plug 'tpope/vim-fugitive'                              " :GStatus for git status :Gcommit for git commit etc
+Plug 'thinca/vim-quickrun'
 " }}}
 
 " Unite {{{
@@ -81,6 +85,7 @@ Plug 'Shougo/unite-help'
 Plug 'Shougo/neoyank.vim'
 Plug 'Shougo/unite-sudo'
 Plug 'Shougo/neomru.vim'
+Plug 'naquad/unite-digraphs'
 " }}}
 
 " Text objects {{{
