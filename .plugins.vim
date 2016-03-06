@@ -43,6 +43,7 @@ Plug 'easymotion/vim-easymotion'                       " Easily jump to anywhere
 Plug 'kurkale6ka/vim-swap'                             " <Leader>x for autoswap a=1 to 1=a. <Leader>cx for prompt swap pivot
 Plug 'mattn/emmet-vim', { 'for': 'html' }              " Emmet
 Plug 'maxbrunsfeld/vim-yankstack'                      " <M-p> to paste from stack, mapping is broken af right now
+Plug 'mjbrownie/swapit'                                " Use <C-a> and <C-x> to swap true/false etc.
 Plug 'terryma/vim-multiple-cursors'                    " <C-n> to make new cursor next word under cursor.
 Plug 'tmux-plugins/vim-tmux'
 Plug 'tommcdo/vim-exchange'                            " Normal mode cx{motion} to mark then same to switch. Visual mode is \X
