@@ -21,7 +21,7 @@ set number
 set showcmd
 set hidden
 set ignorecase
-set foldmethod=indent
+set foldmethod=syntax
 "set foldlevelstart=1000
 " set foldlevelstart=2
 set foldenable
