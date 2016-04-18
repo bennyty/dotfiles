@@ -21,11 +21,11 @@ set number
 set showcmd
 set hidden
 set ignorecase
-set foldmethod=syntax
+set foldmethod=marker
 "set foldlevelstart=1000
 " set foldlevelstart=2
+set foldnestmax=1
 set foldenable
-set foldcolumn=1
 
 set shiftwidth=4
 set tabstop=4
@@ -76,8 +76,12 @@ noremap Y y$
 nnoremap <silent> <Plug>TransposeCharacters xph :call repeat#set("\<Plug>TransposeCharacters")<CR>
 nmap cp <Plug>TransposeCharacters
 
+" I hit q way too often
+nnoremap Q q
+nnoremap q <Nop>
+
 " vim-wiki conflict with Ctrl-Space
-nmap <NOP> <Plug>VimwikiTabIndex
+nmap <Nop> <Plug>VimwikiTabIndex
 nmap <Leader>wt <Plug>VimwikiToggleListItem
 
 " No Processing
@@ -124,6 +128,14 @@ nnoremap : ;
 vnoremap : ;
 nnoremap q; q:
 
+" Easier write files with spaces {{{
+command! -bang -nargs=* W :call W(<q-bang>, <q-args>) 
+
+function! W(bang, filename) 
+	:exe "w".a:bang." ". substitute(a:filename, ' ', '\\ ', 'g') 
+endfu
+" }}}
+
 " Exchange default mappings
 nmap cx <Plug>(Exchange)
 xmap X <Plug>(Exchange)
@@ -131,10 +143,10 @@ nmap cxc <Plug>(ExchangeClear)
 nmap cxx <Plug>(ExchangeLine)
 
 " Swap default mappings
-vmap <Leader>x  <Plug>SwapSwapOperands
-vmap <Leader>cx <Plug>SwapSwapPivotOperands
-nmap <Leader>x  <Plug>SwapSwapWithR_WORD
-nmap <Leader>X  <Plug>SwapSwapWithL_WORD
+vnoremap <Leader>x  <Plug>SwapSwapOperands
+vnoremap <Leader>cx <Plug>SwapSwapPivotOperands
+nnoremap <Leader>x  <Plug>SwapSwapWithR_WORD
+nnoremap <Leader>X  <Plug>SwapSwapWithL_WORD
 
 " Rainbow parenthesis
 let g:rainbow_active = 1
@@ -148,10 +160,10 @@ nnoremap <F8> :TagbarToggle<CR>
 let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 let g:tagbar_compact = 1
 let g:tagbar_width = 40
-
+" }}}
 
 " Undo Tree Toggle
-nnoremap <F9> :UndotreeToggle<CR>
+nnoremap <F9> :UndoTreeToggle<CR>
 
 "=============
 " EASY MOTION
@@ -262,3 +274,4 @@ nnoremap <silent> <Plug>(RotateLines) :<C-u>call <SID>RotateLines()<CR>
 
 nmap \rot <Plug>(RotateLines)
 " }}}
+"

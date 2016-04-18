@@ -10,7 +10,7 @@ call plug#begin()
 
 " Syntax {{{
 Plug 'tpope/vim-git', { 'for': 'git' }
-Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
+" Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'jelera/vim-javascript-syntax'                    " Javascript syntax
 Plug 'pangloss/vim-javascript'                         " Javascript indent support
 Plug 'sophacles/vim-processing'                        " Processing/Java syntax and indent support
@@ -18,7 +18,7 @@ Plug 'scrooloose/syntastic'                            " Auto syntax checking, m
 " }}}
 
 " Visual sugar {{{
-Plug 'jeffkreeftmeijer/vim-numbertoggle'               " Switched from relative numbering to absolute when entering end exiting insert mode
+" Plug 'jeffkreeftmeijer/vim-numbertoggle'               " Switches from relative numbering to absolute when entering end exiting insert mode
 Plug 'junegunn/goyo.vim'                               " Distraction free mode
 Plug 'junegunn/limelight.vim'                          " Distraction free mode, paired with Goyo
 Plug 'mhinz/vim-startify'                              " Fancy start screen
@@ -74,7 +74,8 @@ Plug 'junegunn/gv.vim'                                 " git commit browser :GV
 Plug 'rizzatti/dash.vim', { 'on': 'Dash' }             " :Dash to emulate K command in Dash (OSX only)
 Plug 'rking/ag.vim', { 'on': 'Ag' }                    " :Ag to run silver searcher
 Plug 'tpope/vim-fugitive'                              " :GStatus for git status :Gcommit for git commit etc
-Plug 'thinca/vim-quickrun'
+Plug 'tpope/vim-dispatch'
+" Plug 'thinca/vim-quickrun'                             " This plugin has proved unstable
 " }}}
 
 " Unite {{{

@@ -6,3 +6,5 @@ alias cat=lolcat
 alias t='todo.sh -d ~/.todo.cfg'
 alias vimrc='$EDITOR ~/.vimrc'
 alias dirs='dirs -v'
+alias em='emacsclient -t'
+alias emacsd='emacs --daemon'
