@@ -105,18 +105,18 @@ alias fuck='$(thefuck $(fc -ln -1))'
 
 #Explain https://www.mankier.com/blog/explaining-shell-commands-in-the-shell.html?hn=1
 explain () {
-    if [ "$#" -eq 0 ]; then
+	if [ "$#" -eq 0 ]; then
 	while read  -p "Command: " cmd; do
-	    curl -Gs "https://www.mankier.com/api/explain/?cols="$(tput cols) --data-urlencode "q=$cmd"
+		curl -Gs "https://www.mankier.com/api/explain/?cols="$(tput cols) --data-urlencode "q=$cmd"
 	done
 	echo "Bye!"
-    elif [ "$#" -eq 1 ]; then
+	elif [ "$#" -eq 1 ]; then
 	curl -Gs "https://www.mankier.com/api/explain/?cols="$(tput cols) --data-urlencode "q=$1"
-    else
+	else
 	echo "Usage"
 	echo "explain                  interactive mode."
 	echo "explain 'cmd -o | ...'   one quoted command to explain it."
-    fi
+	fi
 }
 
 ### Added by the Heroku Toolbelt
@@ -129,8 +129,8 @@ export PATH="/usr/local/bin:$PATH"
 # {
 #     # change cursor shape in iTerm2, doesn't work in tmux :(
 #     case $KEYMAP in
-# 	vicmd)      print -n -- "\E]50;CursorShape=0\C-G";;  # block cursor
-# 	viins|main) print -n -- "\E]50;CursorShape=1\C-G";;  # line cursor
+#	vicmd)      print -n -- "\E]50;CursorShape=0\C-G";;  # block cursor
+#	viins|main) print -n -- "\E]50;CursorShape=1\C-G";;  # line cursor
 #     esac
 
 #     # Change prompt to show status
@@ -168,10 +168,14 @@ bindkey -M vicmd 'j' history-substring-search-down
 
 #Todo.txt
 export TODOTXT_DEFAULT_ACTION=ls
-t
+# Run todo on startup
+# t
 
 #FASD
 eval "$(fasd --init auto)"
+
+#gitignore
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
+
 ### Added by the Bluemix CLI
 source /usr/local/Bluemix/bx/zsh_autocomplete
