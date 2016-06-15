@@ -1,4 +1,4 @@
-nnoremap <Space> :Unite -start-insert -toggle -auto-resize file file_rec/async file_mru<CR>
+" nnoremap <Space> :Unite -start-insert -toggle -auto-resize file file_rec/async file_mru<CR>
 nnoremap <Leader><Space> :Unite -start-insert -toggle -auto-resize<CR>
 
 " Unite {{{ "

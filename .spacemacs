@@ -18,41 +18,43 @@ values."
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers
    '(
-	 html
-	 php
-	 ;; ----------------------------------------------------------------
-	 ;; Example of useful layers you may want to use right away.
-	 ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
-	 ;; <M-m f e R> (Emacs style) to install them.
-	 ;; ----------------------------------------------------------------
-	 auto-completion
-	 ;; better-defaults
-	 emacs-lisp
-	 games
-	 git
-	 markdown
-	 xkcd
-	 osx
-	 org
-	 python
-	 (shell :variables
-			shell-default-height 30
-			shell-default-position 'bottom)
-	 spell-checking
-	 syntax-checking
-	 simpleclip
+	 swift
+   shell-scripts
+   html
+   php
+   ;; ----------------------------------------------------------------
+   ;; Example of useful layers you may want to use right away.
+   ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
+   ;; <M-m f e R> (Emacs style) to install them.
+   ;; ----------------------------------------------------------------
+   auto-completion
+   ;; better-defaults
+   emacs-lisp
+   games
+   git
+   markdown
+   xkcd
+   osx
+   org
+   python
+   (shell :variables
+	  shell-default-height 30
+	  shell-default-position 'bottom)
+   spell-checking
+   syntax-checking
+   simpleclip
 
-	 ;; version-control
-	 )
+   ;; version-control
+   )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
    dotspacemacs-additional-packages '(
-									  smart-tabs-mode
-									  php-mode
-									  processing-mode
-									  )
+					smart-tabs-mode
+					php-mode
+					processing-mode
+					)
    ;; A list of packages and/or extensions that will not be install and loaded.
    dotspacemacs-excluded-packages '()
    ;; If non-nil spacemacs will delete any orphan packages, i.e. packages that
@@ -108,21 +110,21 @@ values."
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
    dotspacemacs-themes '(monokai
-						 spacemacs-dark
-						 ;; spacemacs-light
-						 ;; solarized-light
-						 ;; solarized-dark
-						 ;; leuven
-						 zenburn)
+			 spacemacs-dark
+			 ;; spacemacs-light
+			 ;; solarized-light
+			 ;; solarized-dark
+			 ;; leuven
+			 zenburn)
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font. `powerline-scale' allows to quickly tweak the mode-line
    ;; size to make separators look not too crappy.
    dotspacemacs-default-font '("Source Code Pro"
-							   :size 14
-							   :weight normal
-							   :width normal
-							   :powerline-scale 1.1)
+				 :size 14
+				 :weight normal
+				 :width normal
+				 :powerline-scale 1.1)
    ;; The leader key
    dotspacemacs-leader-key "SPC"
    ;; The leader key accessible in `emacs state' and `insert state'
@@ -140,7 +142,7 @@ values."
    ;; and TAB or <C-m> and RET.
    ;; In the terminal, these pairs are generally indistinguishable, so this only
    ;; works in the GUI. (default nil)
-   dotspacemacs-distinguish-gui-tab nil
+   dotspacemacs-distinguish-gui-tab t
    ;; (Not implemented) dotspacemacs-distinguish-gui-ret nil
    ;; The command key used for Evil commands (ex-commands) and
    ;; Emacs commands (M-x).
@@ -273,6 +275,7 @@ you should place you code here."
   ;; Personals
   (setq-default
    tab-width 4
+   evil-shift-width 4
    shift-width 4
    c-basic-offset 4
    smooth-scroll-margin 1
@@ -299,10 +302,13 @@ you should place you code here."
   (spacemacs/set-leader-keys ":" 'evilnc-comment-operator)
 
   ;; gk and jk
-  ;; (define-key evil-normal-state-map "j" 'evil-next-visual-line)
-  ;; (define-key evil-normal-state-map "k" 'evil-previous-visual-line)
-  ;; (define-key evil-normal-state-map "gj" 'evil-next-line)
-  ;; (define-key evil-normal-state-map "gk" 'evil-previous-line)
+  (define-key evil-normal-state-map "j" 'evil-next-visual-line)
+  (define-key evil-normal-state-map "k" 'evil-previous-visual-line)
+  (define-key evil-normal-state-map "gj" 'evil-next-line)
+  (define-key evil-normal-state-map "gk" 'evil-previous-line)
+
+  ;;Tab inserts tabs, not reindents, that is what == is for.
+  ;; (define-key evil-insert-state-map (kbd "TAB") 'self-insert-command)
 
   ;; Shift J and K move 5 lines up and down. Join lines is accessible through
   ;; the j Ex command and I've replaced K with Dash for OSX.
@@ -315,16 +321,10 @@ you should place you code here."
   ;;	'web-mode-fold-or-unfold)
 
   ;; Everyone loves clipboards
-	;; I actually hate clipboards now.
-	;; Wrote my first layer (simpleclip to make it actually bearable)
-  ;; (defun x-select-text (text))
-  ;; (setq x-select-enable-clipboard nil)
-  ;; (setq x-select-enable-primary nil)
-  ;; (setq mouse-drag-copy-region nil)
-  ;; (setq x-select-enable-clipboard nil)
-  ;; (setq x-select-enable-primary nil)
-  ;; (fset 'evil-visual-update-x-selection 'ignore)
-  ;; Don't use system clipboard by default
+  ;;	I actually hate clipboards now.
+  ;;	emacs automatically copies all killed text from vim x, s, d, c commands to the system clipboard.
+  ;;	I use a clipboard manager (Alfred for OSX with the paid Powerpack)
+  ;;	Wrote my first layer (simpleclip) to make it actually bearable
   (setq-default
    interprogram-cut-function   nil
    interprogram-paste-function nil
@@ -345,16 +345,41 @@ you should place you code here."
 
   ;; change mode-line color by evil state
   (lexical-let ((default-color (cons (face-background 'mode-line)
-									 (face-foreground 'mode-line))))
-	(add-hook 'post-command-hook
-			  (lambda ()
-				(let ((color (cond ((minibufferp) default-color)
-								   ((evil-insert-state-p) '("#e80000" . "#ffffff"))
-								   ((evil-emacs-state-p)  '("#444488" . "#ffffff"))
-								   ((buffer-modified-p)   '("#006fa0" . "#ffffff"))
-								   (t default-color))))
-				  (set-face-background 'mode-line (car color))
-				  (set-face-foreground 'mode-line (cdr color))))))
+				   (face-foreground 'mode-line))))
+  (add-hook 'post-command-hook
+		(lambda ()
+		(let ((color (cond ((minibufferp) default-color)
+				   ((evil-insert-state-p) '("#e80000" . "#ffffff"))
+				   ((evil-emacs-state-p)  '("#444488" . "#ffffff"))
+				   ((buffer-modified-p)   '("#006fa0" . "#ffffff"))
+				   (t default-color))))
+		  (set-face-background 'mode-line (car color))
+		  (set-face-foreground 'mode-line (cdr color))))))
+
+  (defun flyspell-correct-previous (&optional words)
+  "Correct word before point, reach distant words.
+
+WORDS words at maximum are traversed backward until misspelled
+word is found.  If it's not found, give up.  If argument WORDS is
+not specified, traverse 12 words by default.
+
+Return T if misspelled word is found and NIL otherwise.  Never
+move point."
+  (interactive "P")
+  (let* ((Δ (- (point-max) (point)))
+	   (counter (string-to-number (or words "12")))
+	   (result
+	  (catch 'result
+		(while (>= counter 0)
+		(when (cl-some #'flyspell-overlay-p
+				 (overlays-at (point)))
+		  (flyspell-correct-word-before-point)
+		  (throw 'result t))
+		(backward-word 1)
+		(setq counter (1- counter))
+		nil))))
+	(goto-char (- (point-max) Δ))
+	result))
 
   )
 
@@ -365,7 +390,8 @@ you should place you code here."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(indent-tabs-mode t))
+ '(indent-tabs-mode t)
+ '(paradox-github-token t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

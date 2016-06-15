@@ -3,7 +3,7 @@
 " Source all external configs first
 source ~/.vim/.plugins.vim
 " Unite!
-source ~/.vim/.uniteSettings.vim
+" source ~/.vim/.uniteSettings.vim
 
 syntax on
 filetype plugin indent on
@@ -33,6 +33,8 @@ set softtabstop=0
 set noexpandtab
 
 set listchars=tab:▸\ ,eol:¬
+
+set shell=/bin/zsh
 
 " Re-source this file
 nnoremap <Leader>so :so $MYVIMRC<CR> :echo "Sourced $MYVIMRC"<CR>
@@ -210,11 +212,11 @@ endif
 if empty($TMUX)
 	let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 	let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-	let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+	" let &t_SR = "\<Esc>]50;CursorShape=2\x7"
 else
 	let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
 	let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
-	let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
+	" let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
 endif
 
 

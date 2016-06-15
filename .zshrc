@@ -1,6 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
-export EDITOR='emacsclient -ct'
+# export EDITOR='emacsclient -ct'
+export EDITOR='vim'
 
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
@@ -57,7 +58,7 @@ plugins=(
 	fasd
 	common-aliases
 	npm
-	z
+	fzf
 	sudo
 	brew
 	brew-cask
@@ -122,36 +123,70 @@ explain () {
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
-export PATH="/usr/local/bin:$PATH"
 
 ### vi cursor {{{
-# function zle-keymap-select zle-line-init
-# {
-#     # change cursor shape in iTerm2, doesn't work in tmux :(
-#     case $KEYMAP in
-#	vicmd)      print -n -- "\E]50;CursorShape=0\C-G";;  # block cursor
-#	viins|main) print -n -- "\E]50;CursorShape=1\C-G";;  # line cursor
-#     esac
 
-#     # Change prompt to show status
-#     #VIM_PROMPT="%{$fg_bold[yellow]%} [% NORMAL]%  %{$reset_color%}"
-#     #RPS1="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/}$(git_custom_status) $EPS1"
-#     #zle reset-prompt
+function zle-keymap-select zle-line-init
+{
+    # change cursor shape in iTerm2, doesn't work in tmux :(
+    case $KEYMAP in
+      vicmd)      print -n -- "\E]50;CursorShape=0\C-G";;  # block cursor
+      viins|main) print -n -- "\E]50;CursorShape=1\C-G";;  # line cursor
+    esac
+
+    # Change prompt to show status
+    #VIM_PROMPT="%{$fg_bold[yellow]%} [% NORMAL]%  %{$reset_color%}"
+    #RPS1="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/}$(git_custom_status) $EPS1"
+    #zle reset-prompt
 
 
-#     zle reset-prompt
-#     zle -R
-# }
+    zle reset-prompt
+    zle -R
+}
 
-# function zle-line-finish
-# {
-#     print -n -- "\E]50;CursorShape=0\C-G"  # block cursor
-# }
+function zle-line-finish
+{
+    print -n -- "\E]50;CursorShape=0\C-G"  # block cursor
+}
 
-# zle -N zle-line-init
-# zle -N zle-line-finish
-# zle -N zle-keymap-select
-### }}}
+zle -N zle-line-init
+zle -N zle-line-finish
+zle -N zle-keymap-select
+# Modal cursor color for vi's insert/normal modes.
+# http://stackoverflow.com/questions/30985436/
+# https://bbs.archlinux.org/viewtopic.php?id=95078
+# http://unix.stackexchange.com/questions/115009/
+#zle-line-init () {
+#  zle -K viins
+#  #echo -ne "\033]12;Grey\007"
+#  #echo -n 'grayline1'
+#  echo -ne "\033]12;Gray\007"
+#  echo -ne "\033[4 q"
+#  #print 'did init' >/dev/pts/16
+#}
+#zle -N zle-line-init
+#zle-keymap-select () {
+#  if [[ $KEYMAP == vicmd ]]; then
+#    if [[ -z $TMUX ]]; then
+#      printf "\033]12;Green\007"
+#      printf "\033[2 q"
+#    else
+#      printf "\033Ptmux;\033\033]12;red\007\033\\"
+#      printf "\033Ptmux;\033\033[2 q\033\\"
+#    fi
+#  else
+#    if [[ -z $TMUX ]]; then
+#      printf "\033]12;Grey\007"
+#      printf "\033[4 q"
+#    else
+#      printf "\033Ptmux;\033\033]12;grey\007\033\\"
+#      printf "\033Ptmux;\033\033[4 q\033\\"
+#    fi
+#  fi
+#  #print 'did select' >/dev/pts/16
+#}
+#zle -N zle-keymap-select
+###}}}
 
 
 export KEYTIMEOUT=1 #escape switches mode .1 seconds (down from .4)
@@ -160,7 +195,7 @@ NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
 PATH="$NPM_PACKAGES/bin:$PATH"
 
 #External aliases
-source $HOME/.aliases
+source $HOME/.dotfiles/.aliases
 
 #History Substring Search
 bindkey -M vicmd 'k' history-substring-search-up
@@ -179,3 +214,5 @@ function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 
 ### Added by the Bluemix CLI
 source /usr/local/Bluemix/bx/zsh_autocomplete
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
