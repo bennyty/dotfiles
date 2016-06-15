@@ -23,14 +23,18 @@ inquire ()  {
 }
 
 link () {
-	if [ -e $2 ] ; then
-		inquire "$2 already exists, do you want to overwrite?"
-		if [ $answer = "y" ];
-		then
-			ln -sfn $1 $2
-		fi
-	fi
+	ln -sin $1 $2
 }
+
+# link () {
+# 	if [ -e $2 ] ; then
+# 		inquire "$2 already exists, do you want to overwrite?"
+# 		if [ $answer = "y" ];
+# 		then
+# 			ln -sfn $1 $2
+# 		fi
+# 	fi
+# }
 
 link ~/.dotfiles/.vimrc ~/.vimrc
 
@@ -38,7 +42,7 @@ link ~/.dotfiles/.spacemacs ~/.spacemacs
 link ~/.dotfiles/.uniteSettings.vim ~/.uniteSettings.vim
 link ~/.dotfiles/.gvimrc ~/.gvimrc
 link ~/.dotfiles/.zshrc ~/.zshrc
-link ~/.dotfiles/ben.zsh-theme ~/.oh-my-zsh/themes/ben.zsh-theme
+link ~/.dotfiles/colorschemes/ben.zsh-theme ~/.oh-my-zsh/themes/ben.zsh-theme
 # link ~/.dotfiles/.aliases ~/.aliases
 
 link ~/.dotfiles/vim ~/.vim
