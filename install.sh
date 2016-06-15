@@ -27,13 +27,13 @@ link () {
 }
 
 # link () {
-# 	if [ -e $2 ] ; then
-# 		inquire "$2 already exists, do you want to overwrite?"
-# 		if [ $answer = "y" ];
-# 		then
-# 			ln -sfn $1 $2
-# 		fi
-# 	fi
+#	if [ -e $2 ] ; then
+#		inquire "$2 already exists, do you want to overwrite?"
+#		if [ $answer = "y" ];
+#		then
+#			ln -sfn $1 $2
+#		fi
+#	fi
 # }
 
 link ~/.dotfiles/.vimrc ~/.vimrc
@@ -46,4 +46,5 @@ link ~/.dotfiles/colorschemes/ben.zsh-theme ~/.oh-my-zsh/themes/ben.zsh-theme
 # link ~/.dotfiles/.aliases ~/.aliases
 
 link ~/.dotfiles/vim ~/.vim
+link ~/.dotfiles/.xvimrc ~/.xvimrc
 link ~/.dotfiles/emacs ~/.emacs.d

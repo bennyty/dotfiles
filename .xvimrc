@@ -1,0 +1,55 @@
+" ____  ___     .__                       
+" \   \/  /__  _|__| ____________   ____  
+"  \     /\  \/ /  |/     \_  __ \_/ ___\ 
+"  /     \ \   /|  |  Y Y  \  | \/\  \___ 
+" /___/\  \ \_/ |__|__|_|  /__|    \___  >
+"       \_/              \/            \/ 
+
+" no status bar
+" set laststatus=0
+
+" proper search
+set incsearch
+set ignorecase
+set smartcase
+set wrap
+set wrapscan
+set gdefault
+
+" no bells
+" set noerrorbells
+
+" use system pasteboard
+set pasteboard
+
+" move between assistant editors
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+nnoremap <C-h> <C-w>h
+
+" Stupid shift key is stupid
+nnoremap ; :
+nnoremap : ;
+
+nnoremap J 5j
+nnoremap K 5k
+
+" quick open
+nnoremap <C-Space> :xccmd openQuickly<cr>
+
+" navigator
+nnoremap <C-n> :xccmd toggleNavigatorsVisibility<cr>
+
+" comments
+nnoremap gcc :xccmd commentAndUncommentCurrentLines<cr>
+vnoremap gc  :xccmd commentAndUncommentCurrentLines<cr>
+
+" dot works in visual selection mode!
+vnoremap . :norm.<cr>
+
+" D deletes to the end of the line
+nnoremap D d$
+
+" Y yanks to the end of the line
+nnoremap Y y$
