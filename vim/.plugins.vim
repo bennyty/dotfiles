@@ -15,6 +15,8 @@ Plug 'jelera/vim-javascript-syntax'                    " Javascript syntax
 Plug 'pangloss/vim-javascript'                         " Javascript indent support
 Plug 'sophacles/vim-processing'                        " Processing/Java syntax and indent support
 Plug 'scrooloose/syntastic'                            " Auto syntax checking, might be set up right?
+" Plug 'keith/swift.vim'                                 " Swift syntax
+Plug 'kballard/vim-swift'                              " Better? Swift syntax
 " }}}
 
 " Visual sugar {{{
@@ -53,7 +55,7 @@ Plug 'tpope/vim-abolish'                               " Working with variants o
 Plug 'tpope/vim-commentary'                            " gc to toggle comments
 Plug 'tpope/vim-repeat'                                " Does some amazing magic to make a lot of plugins' mappings repeatable the . operator
 Plug 'tpope/vim-sensible'                              " Sets a lot of default options to something reasonable
-Plug 'tpope/vim-sleuth'                                " Auto tab bullsh.
+" Plug 'tpope/vim-sleuth'                                " Automatically sets the shiftwidth and expandtab based on this file and nearby similar files
 Plug 'tpope/vim-surround'                              " ysiw( will surround the inner word with (). Same with cs and ds for change and delete
 Plug 'tpope/vim-unimpaired'                            " Paired mappings for [<Space> cos col con etc. Check :h unimpaired.txt
 " }}}
