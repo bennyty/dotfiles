@@ -5,6 +5,9 @@ source ~/.vim/.plugins.vim
 " Unite!
 " source ~/.vim/.uniteSettings.vim
 
+" Add GHC to path
+let $PATH = $PATH . ':' . expand('~/Library/Haskell/bin/')
+
 syntax on
 filetype plugin indent on
 
