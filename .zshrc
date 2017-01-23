@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias open.="open ."
 alias fuck='$(thefuck $(fc -ln -1))'
+alias MBE-Wargame-Lecture='ssh lecture@warzone.rpis.ec'
 
 #Explain https://www.mankier.com/blog/explaining-shell-commands-in-the-shell.html?hn=1
 explain () {

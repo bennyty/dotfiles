@@ -32,7 +32,7 @@ set tabstop=4
 set softtabstop=0
 set noexpandtab
 
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,eol:¬,space:⋅
 
 set shell=/bin/zsh
 
@@ -50,6 +50,9 @@ autocmd BufWinEnter * let &foldlevel = max(map(range(1, line('$')), 'foldlevel(v
 " Mapping for quick finding git repos inside ' ' marks
 nnoremap <Leader>gitopen ^f'"gyi':!open http://github.com/g
 
+" Silently source any ".vimlocal" file in current directory; if exists
+silent! so .vimlocal
+
 " [[ mappings
 map [[ ?{<CR>w99[{
 map ][ /}<CR>b99]}
@@ -64,6 +67,9 @@ nnoremap gk k
 xnoremap j gj
 xnoremap k gk
 
+" Insert Mode  word wise
+inoremap <expr> <c-y> matchstr(getline(line('.')-1), '\%' . virtcol('.') . 'v\%(\k\+\\|.\)')
+
 " Leader k to lookup because K is remapped
 nmap <Leader>k <Plug>DashSearch
 
@@ -74,13 +80,16 @@ noremap K 5gk
 " Make Y consistent with D and C
 noremap Y y$
 
+" NEED BINDING FOR AUTOCORRECT LAST SPELLING MISTAKE
+imap <c-f> <c-g>u<Esc>[s1z=`]a<c-g>u
+nmap <c-f> [s1z=<c-o>
+
 " Atomic xp
 nnoremap <silent> <Plug>TransposeCharacters xph :call repeat#set("\<Plug>TransposeCharacters")<CR>
 nmap cp <Plug>TransposeCharacters
 
 " I hit q way too often
-nnoremap Q q
-nnoremap q <Nop>
+nnoremap Q @q
 
 " vim-wiki conflict with Ctrl-Space
 nmap <Nop> <Plug>VimwikiTabIndex
@@ -107,7 +116,7 @@ nmap <silent> <C-s> <Plug>GoldenViewSplit
 nmap <C-w><Space> <Plug>GoldenViewSwitchMain
 
 " Disable M-p from AutoPairs so that YankStack can use it
-let g:AutoPairsShortcutToggle = ''
+" let g:AutoPairsShortcutToggle = ''
 " let g:AutoPairsFlyMode = 1
 
 " Easy split movement

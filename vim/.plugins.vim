@@ -9,14 +9,25 @@ endif
 call plug#begin()
 
 " Syntax {{{
+Plug 'scrooloose/syntastic'                            " Auto syntax checking, might be set up right?
 Plug 'tpope/vim-git', { 'for': 'git' }
 " Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'jelera/vim-javascript-syntax'                    " Javascript syntax
 Plug 'pangloss/vim-javascript'                         " Javascript indent support
 Plug 'sophacles/vim-processing'                        " Processing/Java syntax and indent support
-Plug 'scrooloose/syntastic'                            " Auto syntax checking, might be set up right?
+Plug 'eagletmt/ghcmod-vim'                             " Haskell - Gaslow Haskell Compiler Vim integration
 " Plug 'keith/swift.vim'                                 " Swift syntax
 Plug 'kballard/vim-swift'                              " Better? Swift syntax
+
+Plug 'vim-erlang/vim-erlang-runtime'                   " Erlang
+Plug 'vim-erlang/vim-erlang-tags'
+Plug 'vim-erlang/vim-erlang-omnicomplete'
+Plug 'vim-erlang/vim-erlang-compiler'
+
+Plug 'adimit/prolog.vim'                               " Prolog
+
+Plug 'fsharp/vim-fsharp', { 'for': 'fsharp', 'do':  'make fsautocomplete', } " F#
+Plug 'sheerun/vim-polyglot'                            " 70+ syntaxs
 " }}}
 
 " Visual sugar {{{
@@ -47,6 +58,7 @@ Plug 'mattn/emmet-vim', { 'for': 'html' }              " Emmet
 Plug 'maxbrunsfeld/vim-yankstack'                      " <M-p> to paste from stack, mapping is broken af right now
 Plug 'mjbrownie/swapit'                                " Use <C-a> and <C-x> to swap true/false etc.
 Plug 'terryma/vim-multiple-cursors'                    " <C-n> to make new cursor next word under cursor.
+Plug 'thirtythreeforty/lessspace.vim'                  " Automatically remove trailing whitespace
 Plug 'tmux-plugins/vim-tmux'
 Plug 'tommcdo/vim-exchange'                            " Normal mode cx{motion} to mark then same to switch. Visual mode is \X
 Plug 'tpope/vim-abolish'                               " Working with variants of a word.
@@ -58,6 +70,7 @@ Plug 'tpope/vim-sensible'                              " Sets a lot of default o
 " Plug 'tpope/vim-sleuth'                                " Automatically sets the shiftwidth and expandtab based on this file and nearby similar files
 Plug 'tpope/vim-surround'                              " ysiw( will surround the inner word with (). Same with cs and ds for change and delete
 Plug 'tpope/vim-unimpaired'                            " Paired mappings for [<Space> cos col con etc. Check :h unimpaired.txt
+Plug 'tpope/vim-eunuch'                                " Many Unix helpers
 " }}}
 
 " Organizers {{{
