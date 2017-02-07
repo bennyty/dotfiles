@@ -162,12 +162,23 @@ vnoremap <Leader>cx <Plug>SwapSwapPivotOperands
 nnoremap <Leader>x  <Plug>SwapSwapWithR_WORD
 nnoremap <Leader>X  <Plug>SwapSwapWithL_WORD
 
+" Signature (marks in gutters)
+let g:SignaturePurgeConfirmation = 1
+
 " Rainbow parenthesis
 let g:rainbow_active = 1
 
 "NerdTree Toggle ;;
 nnoremap <F7> :NERDTreeToggle<CR>
 let NERDTreeHijackNetrw=1
+
+" Normally don't use netrw but sometime I end up in it.
+let g:netrw_banner=0
+let g:netrw_browse_split=4
+let g:netrw_altv=1
+let g:netrw_liststyle=3
+let g:netrw_list_hide=netrw_gitignore#Hide()
+let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 
 "Tagbar Toggle {{{
 nnoremap <F8> :TagbarToggle<CR>
