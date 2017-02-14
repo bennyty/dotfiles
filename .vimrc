@@ -106,6 +106,7 @@ nnoremap Q @q
 " vim-wiki conflict with Ctrl-Space
 nmap <Nop> <Plug>VimwikiTabIndex
 nmap <Leader>wt <Plug>VimwikiToggleListItem
+let g:vimwiki_folding = 'list'
 
 " No Processing
 let g:processing_no_default_mappings = 1 " Disable default mappings
