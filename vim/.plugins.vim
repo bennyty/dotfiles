@@ -5,7 +5,6 @@ if 0
 endif
 
 
-
 call plug#begin()
 
 " Syntax {{{
@@ -32,10 +31,10 @@ Plug 'sheerun/vim-polyglot'                            " 70+ syntaxs
 
 " Visual sugar {{{
 " Plug 'jeffkreeftmeijer/vim-numbertoggle'               " Switches from relative numbering to absolute when entering end exiting insert mode
-Plug 'junegunn/goyo.vim'                               " Distraction free mode
-Plug 'junegunn/limelight.vim'                          " Distraction free mode, paired with Goyo
+" Plug 'junegunn/goyo.vim'                               " Distraction free mode
+" Plug 'junegunn/limelight.vim'                          " Distraction free mode, paired with Goyo
 Plug 'mhinz/vim-startify'                              " Fancy start screen
-Plug 'reedes/vim-pencil'                               " Writing assist (I use for note taking
+Plug 'junegunn/vim-journal'                            " Highlighting for bulleted lists
 Plug 'kshenoy/vim-signature'                           " Display marks in gutter
 Plug 'luochen1990/rainbow'                             " Rainbow parenthesis
 Plug 'chrisbra/Colorizer'                              " Colors hex codes
@@ -47,6 +46,8 @@ Plug 'vim-airline/vim-airline'                         " Drop in vim statusline.
 " }}}
 
 " Text Editing utilities (moves text around) {{{
+" Plug 'justinmk/vim-sneak'                              " Highly contrivertial medium distance jump. sab to jump to next 'ab'
+Plug 'goldfeld/vim-seek'                               " Kind of an alternative to vim-sneak.
 Plug 'AndrewRadev/sideways.vim'                        " :SidewaysLeft and :SidewaysRight to move function arguments && make argument objects with ia and aa
 Plug 'AndrewRadev/splitjoin.vim'                       " gS and gJ to auto split and join blocks of code
 Plug 'ervandew/supertab'                               " Tab for autocomplete
@@ -55,7 +56,7 @@ Plug 'jiangmiao/auto-pairs'                            " Auto closes pairs. <M-b
 Plug 'easymotion/vim-easymotion'                       " Easily jump to anywhere on screen
 Plug 'kurkale6ka/vim-swap'                             " <Leader>x for autoswap a=1 to 1=a. <Leader>cx for prompt swap pivot
 Plug 'mattn/emmet-vim', { 'for': 'html' }              " Emmet
-Plug 'maxbrunsfeld/vim-yankstack'                      " <M-p> to paste from stack, mapping is broken af right now
+" Plug 'maxbrunsfeld/vim-yankstack'                      " <M-p> to paste from stack, mapping is broken af right now
 Plug 'mjbrownie/swapit'                                " Use <C-a> and <C-x> to swap true/false etc.
 Plug 'terryma/vim-multiple-cursors'                    " <C-n> to make new cursor next word under cursor.
 Plug 'thirtythreeforty/lessspace.vim'                  " Automatically remove trailing whitespace
@@ -90,20 +91,22 @@ Plug 'rizzatti/dash.vim', { 'on': 'Dash' }             " :Dash to emulate K comm
 Plug 'rking/ag.vim', { 'on': 'Ag' }                    " :Ag to run silver searcher
 Plug 'tpope/vim-fugitive'                              " :GStatus for git status :Gcommit for git commit etc
 Plug 'tpope/vim-dispatch'
-" Plug 'thinca/vim-quickrun'                             " This plugin has proved unstable
+
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'christoomey/vim-tmux-runner'
 " }}}
 
 " Unite {{{
-Plug 'Shougo/unite.vim'                                " Bound space to pull searchable info from sources, kinda clunky in my workflow so far
-Plug 'Shougo/vimproc.vim', { 'do': 'make' }            " Dependancy for unite.vim, multithreading?
+" Plug 'Shougo/unite.vim'                                " Bound space to pull searchable info from sources, kinda clunky in my workflow so far
+" Plug 'Shougo/vimproc.vim', { 'do': 'make' }            " Dependancy for unite.vim, multithreading?
 
-Plug 'Shougo/unite-outline'                            " Sources for Unite.vim
-Plug 'Shougo/unite-help'
-Plug 'Shougo/neoyank.vim'
-Plug 'Shougo/unite-sudo'
-Plug 'Shougo/neomru.vim'
-Plug 'naquad/unite-digraphs'
-Plug 'ujihisa/unite-colorscheme'
+" Plug 'Shougo/unite-outline'                            " Sources for Unite.vim
+" Plug 'Shougo/unite-help'
+" Plug 'Shougo/neoyank.vim'
+" Plug 'Shougo/unite-sudo'
+" Plug 'Shougo/neomru.vim'
+" Plug 'naquad/unite-digraphs'
+" Plug 'ujihisa/unite-colorscheme'
 " }}}
 
 " Text objects {{{

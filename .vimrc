@@ -2,8 +2,6 @@
 
 " Source all external configs first
 source ~/.vim/.plugins.vim
-" Unite!
-" source ~/.vim/.uniteSettings.vim
 
 " Add GHC to path
 let $PATH = $PATH . ':' . expand('~/Library/Haskell/bin/')
@@ -21,6 +19,7 @@ set autoindent
 set autowrite
 set autoread
 set number
+set relativenumber
 set showcmd
 set hidden
 set ignorecase
@@ -38,6 +37,8 @@ set noexpandtab
 set listchars=tab:▸\ ,eol:¬,space:⋅
 
 set shell=/bin/zsh
+
+let mapleader = "\<Space>"
 
 " Re-source this file
 nnoremap <Leader>so :so $MYVIMRC<CR> :echo "Sourced $MYVIMRC"<CR>
@@ -65,10 +66,18 @@ map [] k$][%?}<CR>
 " Easy multiline navigation
 nnoremap j gj
 nnoremap k gk
-nnoremap gj j
-nnoremap gk k
+" nnoremap gj j
+" nnoremap gk k
 xnoremap j gj
 xnoremap k gk
+
+" http://blog.petrzemek.net/2016/04/06/things-about-vim-i-wish-i-knew-earlier/
+" better jk normally but don't remap when it's called with a count
+"  Unfortunately this breaks dj for deleting two lines down
+" noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
+" noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
+
+
 
 " Insert Mode  word wise
 inoremap <expr> <c-y> matchstr(getline(line('.')-1), '\%' . virtcol('.') . 'v\%(\k\+\\|.\)')
@@ -76,7 +85,7 @@ inoremap <expr> <c-y> matchstr(getline(line('.')-1), '\%' . virtcol('.') . 'v\%(
 " Leader k to lookup because K is remapped
 nmap <Leader>k <Plug>DashSearch
 
-" Faster Movement
+" Faster Movement (Dont use these very often anymore)
 noremap J 5gj
 noremap K 5gk
 
@@ -84,14 +93,14 @@ noremap K 5gk
 noremap Y y$
 
 " NEED BINDING FOR AUTOCORRECT LAST SPELLING MISTAKE
-imap <c-f> <c-g>u<Esc>[s1z=`]a<c-g>u
-nmap <c-f> [s1z=<c-o>
+inoremap <c-f> <c-g>u<Esc>[s1z=`]a<c-g>u
+nnoremap <c-f> [s1z=<c-o>
 
 " Atomic xp
 nnoremap <silent> <Plug>TransposeCharacters xph :call repeat#set("\<Plug>TransposeCharacters")<CR>
 nmap cp <Plug>TransposeCharacters
 
-" I hit q way too often
+" I hit Q way too often, lets make it something useful
 nnoremap Q @q
 
 " vim-wiki conflict with Ctrl-Space
@@ -118,15 +127,18 @@ nmap <C-w>w <Plug>GoldenViewNext
 nmap <silent> <C-s> <Plug>GoldenViewSplit
 nmap <C-w><Space> <Plug>GoldenViewSwitchMain
 
+" AutoPairs
 " Disable M-p from AutoPairs so that YankStack can use it
 " let g:AutoPairsShortcutToggle = ''
 " let g:AutoPairsFlyMode = 1
+let g:AutoPairsShortcutFastWrap = '<C-c>'
 
 " Easy split movement
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+" Replaced by christoomey/vim-tmux-navigator
+" nnoremap <C-h> <C-w>h
+" nnoremap <C-j> <C-w>j
+" nnoremap <C-k> <C-w>k
+" nnoremap <C-l> <C-w>l
 
 " vim-easy-align, easy align bindings
 " Start interactive EasyAlign in visual mode (e.g. vipga)
@@ -136,17 +148,17 @@ xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
 " No more stupid shift key
-nnoremap ; :
-vnoremap ; :
-nnoremap : ;
-vnoremap : ;
-nnoremap q; q:
+" nnoremap ; :
+" vnoremap ; :
+" nnoremap : ;
+" vnoremap : ;
+" nnoremap q; q:
 
 " Easier write files with spaces {{{
-command! -bang -nargs=* W :call W(<q-bang>, <q-args>) 
+command! -bang -nargs=* W :call W(<q-bang>, <q-args>)
 
-function! W(bang, filename) 
-	:exe "w".a:bang." ". substitute(a:filename, ' ', '\\ ', 'g') 
+function! W(bang, filename)
+	:exe "w".a:bang." ". substitute(a:filename, ' ', '\\ ', 'g')
 endfu
 " }}}
 
@@ -164,6 +176,17 @@ nnoremap <Leader>X  <Plug>SwapSwapWithL_WORD
 
 " Signature (marks in gutters)
 let g:SignaturePurgeConfirmation = 1
+
+
+" VTR [Vim Tmux Runner]
+let g:VtrOrientation = "h"
+let g:VtrUseVtrMaps = 1
+nnoremap <leader>ar :VtrAttachToPane<cr>
+
+noremap H ^
+noremap L $
+
+let g:seek_enable_jumps = 1
 
 " Rainbow parenthesis
 let g:rainbow_active = 1

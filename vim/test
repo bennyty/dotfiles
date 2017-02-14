@@ -1,0 +1,4 @@
+
+call plug#begin()
+Plug 'christoomey/vim-tmux-navigator'
+call plug#end()
