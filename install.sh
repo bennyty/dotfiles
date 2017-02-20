@@ -42,7 +42,9 @@ link ~/.dotfiles/.spacemacs ~/.spacemacs
 link ~/.dotfiles/.uniteSettings.vim ~/.uniteSettings.vim
 link ~/.dotfiles/.gvimrc ~/.gvimrc
 link ~/.dotfiles/.zshrc ~/.zshrc
+link ~/.dotfiles/.tmux.conf ~/.tmux.conf
 link ~/.dotfiles/colorschemes/ben.zsh-theme ~/.oh-my-zsh/themes/ben.zsh-theme
+
 # link ~/.dotfiles/.aliases ~/.aliases
 
 link ~/.dotfiles/.irssi ~/.irssi

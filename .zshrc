@@ -72,7 +72,7 @@ plugins=(
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin:/Users/Ben/.gem/ruby/2.0.0/bin:/Users/Ben/Library/Haskell/bin"
+# export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin:/Users/Ben/.gem/ruby/2.0.0/bin:/Users/Ben/Library/Haskell/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
