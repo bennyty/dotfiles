@@ -45,6 +45,7 @@ link ~/.dotfiles/.zshrc ~/.zshrc
 link ~/.dotfiles/colorschemes/ben.zsh-theme ~/.oh-my-zsh/themes/ben.zsh-theme
 # link ~/.dotfiles/.aliases ~/.aliases
 
+link ~/.dotfiles/.irssi ~/.irssi
 link ~/.dotfiles/vim ~/.vim
 link ~/.dotfiles/.xvimrc ~/.xvimrc
 link ~/.dotfiles/emacs ~/.emacs.d
