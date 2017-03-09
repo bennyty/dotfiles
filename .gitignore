@@ -10,3 +10,6 @@ Session.vim
 .netrwhist
 *~
 
+### Weechat ###
+.weechat/logs/
+.weechat/sec.conf
