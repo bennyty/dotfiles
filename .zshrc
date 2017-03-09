@@ -65,6 +65,7 @@ plugins=(
 	osx
 	vi-mode
 	zsh-syntax-highlighting
+	fancy-ctrl-z
 	git-flow-completion
 	history-substring-search
 	catimg
