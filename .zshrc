@@ -1,3 +1,4 @@
+source ~/.profile
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 # export EDITOR='emacsclient -ct'
@@ -5,7 +6,6 @@ export EDITOR='vim'
 
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-export TERM=xterm-256color
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -212,9 +212,6 @@ eval "$(fasd --init auto)"
 
 #gitignore
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
-
-### Added by the Bluemix CLI
-source /usr/local/Bluemix/bx/zsh_autocomplete
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

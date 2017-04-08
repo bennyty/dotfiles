@@ -11,8 +11,8 @@ call plug#begin()
 Plug 'scrooloose/syntastic'                            " Auto syntax checking, might be set up right?
 Plug 'tpope/vim-git', { 'for': 'git' }
 " Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
-Plug 'jelera/vim-javascript-syntax'                    " Javascript syntax
 Plug 'pangloss/vim-javascript'                         " Javascript indent support
+Plug 'MaxMEllon/vim-jsx-pretty'                        " React
 Plug 'sophacles/vim-processing'                        " Processing/Java syntax and indent support
 Plug 'eagletmt/ghcmod-vim'                             " Haskell - Gaslow Haskell Compiler Vim integration
 " Plug 'keith/swift.vim'                                 " Swift syntax
@@ -42,12 +42,14 @@ Plug 'vimwiki/vimwiki'                                 " Take notes and keep tod
 Plug 'zhaocai/GoldenView.Vim'                          " Auto resizes splits to the golden ratio for nice viewing
 Plug 'tpope/vim-afterimage'                            " Edit ICO, PNG, and GIF icons.
 Plug 'KabbAmine/vCoolor.vim'                           " Color picker <A-c>
-Plug 'vim-airline/vim-airline'                         " Drop in vim statusline. Seems nice.
+Plug 'vim-airline/vim-airline'                         " Drop in vim statusline.
+Plug 'haya14busa/incsearch.vim'                        " Incremental search hilighting while typing
+Plug 'osyo-manga/vim-over'                             " Incremental find/replace hilighting
 " }}}
 
 " Text Editing utilities (moves text around) {{{
-" Plug 'justinmk/vim-sneak'                              " Highly contrivertial medium distance jump. sab to jump to next 'ab'
-Plug 'goldfeld/vim-seek'                               " Kind of an alternative to vim-sneak.
+Plug 'justinmk/vim-sneak'                              " Highly contrivertial medium distance jump. sab to jump to next 'ab'
+" Plug 'goldfeld/vim-seek'                               " Kind of an alternative to vim-sneak.
 Plug 'AndrewRadev/sideways.vim'                        " :SidewaysLeft and :SidewaysRight to move function arguments && make argument objects with ia and aa
 Plug 'AndrewRadev/splitjoin.vim'                       " gS and gJ to auto split and join blocks of code
 Plug 'ervandew/supertab'                               " Tab for autocomplete
@@ -80,16 +82,19 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' } " <F7> to open NerdTree f
 " Plug 'majutsushi/tagbar', { 'on': 'TagBarToggle' }     " <F8> to toggle tagbar
 Plug 'majutsushi/tagbar'                               " <F8> to toggle tagbar
 Plug 'tpope/vim-vinegar'                               " Press '-' in normal mode to open netrw in current buffer, awkward.
-Plug 'vim-ctrlspace/vim-ctrlspace'                     " Super complex space manager. Manages buffers, windows, tabs, workspaces, and file switching inside bookmarked projects
-" Plug 'vim-scripts/bufexplorer.zip'                     " \be \bs \bv to open buffer manager. Seems kinda useless now that I use Ctrl-Space
+" Plug 'vim-ctrlspace/vim-ctrlspace'                     " Super complex space manager. Manages buffers, windows, tabs, workspaces, and file switching inside bookmarked projects
+Plug 'ctrlpvim/ctrlp.vim'                              " Fuzzy finder, unknown if this is faster than vim-ctrlspace
+Plug 'weynhamz/vim-plugin-minibufexpl'                 " Die vim-ctrlspace! Too much bloat.
 " }}}
 
 " External utilities {{{
+Plug 'vim-latex/vim-latex'                             " Huge plugin for editing latex
 Plug 'szw/vim-g'                                       " :Google
 Plug 'junegunn/gv.vim'                                 " git commit browser :GV
 Plug 'rizzatti/dash.vim', { 'on': 'Dash' }             " :Dash to emulate K command in Dash (OSX only)
 Plug 'rking/ag.vim', { 'on': 'Ag' }                    " :Ag to run silver searcher
 Plug 'tpope/vim-fugitive'                              " :GStatus for git status :Gcommit for git commit etc
+Plug 'christoomey/vim-conflicted'                      " :Conflicted to open better merger. dgu for get upstream, dgl for get local
 Plug 'tpope/vim-dispatch'
 
 Plug 'christoomey/vim-tmux-navigator'
