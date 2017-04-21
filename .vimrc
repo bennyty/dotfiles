@@ -19,20 +19,21 @@ set autoindent
 set autowrite
 set autoread
 set number
-set relativenumber
 set showcmd
 set hidden
 set ignorecase
-set foldmethod=marker
+" set foldmethod=marker
 "set foldlevelstart=1000
 " set foldlevelstart=2
-set foldnestmax=1
-set foldenable
+" set foldnestmax=1
+" set foldenable
 
 set shiftwidth=4
 set tabstop=4
 set softtabstop=0
 set noexpandtab
+
+set diffopt=filler,vertical
 
 set listchars=tab:▸\ ,eol:¬,space:⋅
 
@@ -41,6 +42,7 @@ let mapleader = "\<Space>"
 " Re-source this file
 nnoremap <Leader>so :so $MYVIMRC<CR> :echo "Sourced $MYVIMRC"<CR>
 nnoremap <Leader>vim :e $MYVIMRC<CR>
+nnoremap <Leader>plug :e ~/.vim/.plugins.vim<CR>
 augroup reload_vimrc " {
 	autocmd!
 	autocmd BufWritePost $MYVIMRC source $MYVIMRC
@@ -75,10 +77,18 @@ xnoremap k gk
 " noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
 " noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 
-
+" JSX (Javascript) React highlight on .js in addition to .jsx
+let g:jsx_ext_required = 0
 
 " Insert Mode  word wise
 inoremap <expr> <c-y> matchstr(getline(line('.')-1), '\%' . virtcol('.') . 'v\%(\k\+\\|.\)')
+
+" Switch zg and zG as I find them unintuitive. Lowercase should be for local
+" while uppercase should be for global list
+nnoremap zg zG
+nnoremap zG zg
+nnoremap zug zuG
+nnoremap zuG zug
 
 " Leader k to lookup because K is remapped
 nmap <Leader>k <Plug>DashSearch
@@ -218,7 +228,7 @@ nnoremap <F9> :UndoTreeToggle<CR>
 "=============
 " EASY MOTION
 "=============
-let g:EasyMotion_do_mapping = 0 " Disable default mappings
+let g:EasyMotion_do_mapping = 1 " Disable default mappings
 
 " Bi-directional find motion
 " Jump to anywhere you want with minimal keystrokes, with just one key binding.
@@ -227,7 +237,7 @@ let g:EasyMotion_do_mapping = 0 " Disable default mappings
 " or
 " `s{char}{char}{label}`
 " Need one more keystroke, but on average, it may be more comfortable.
-nmap <Leader>e <Plug>(easymotion-s2)
+" nmap <Leader>e <Plug>(easymotion-s2)
 
 " Turn on case insensitive feature
 let g:EasyMotion_smartcase = 1
