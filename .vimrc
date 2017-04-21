@@ -36,8 +36,6 @@ set noexpandtab
 
 set listchars=tab:▸\ ,eol:¬,space:⋅
 
-set shell=/bin/zsh
-
 let mapleader = "\<Space>"
 
 " Re-source this file
@@ -182,7 +180,10 @@ let g:SignaturePurgeConfirmation = 1
 " VTR [Vim Tmux Runner]
 let g:VtrOrientation = "h"
 let g:VtrUseVtrMaps = 1
+" let g:VtrClearSequence = ""
+let g:VtrClearSequence = ""
 nnoremap <leader>ar :VtrAttachToPane<cr>
+nnoremap <leader>si :VtrSendCommandToRunner <cr>
 
 noremap H ^
 noremap L $
