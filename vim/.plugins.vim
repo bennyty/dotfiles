@@ -27,6 +27,7 @@ Plug 'adimit/prolog.vim'                               " Prolog
 
 Plug 'fsharp/vim-fsharp', { 'for': 'fsharp', 'do':  'make fsautocomplete', } " F#
 Plug 'sheerun/vim-polyglot'                            " 70+ syntaxs
+Plug 'vim-pandoc/vim-pandoc-syntax'
 " }}}
 
 " Visual sugar {{{
@@ -44,6 +45,7 @@ Plug 'tpope/vim-afterimage'                            " Edit ICO, PNG, and GIF 
 Plug 'KabbAmine/vCoolor.vim'                           " Color picker <A-c>
 Plug 'vim-airline/vim-airline'                         " Drop in vim statusline.
 Plug 'haya14busa/incsearch.vim'                        " Incremental search hilighting while typing
+" Plug 'haya14busa/incsearch-fuzzy.vim'                  " Incremental search hilighting while typing
 Plug 'osyo-manga/vim-over'                             " Incremental find/replace hilighting
 " }}}
 
@@ -96,6 +98,10 @@ Plug 'rking/ag.vim', { 'on': 'Ag' }                    " :Ag to run silver searc
 Plug 'tpope/vim-fugitive'                              " :GStatus for git status :Gcommit for git commit etc
 Plug 'christoomey/vim-conflicted'                      " :Conflicted to open better merger. dgu for get upstream, dgl for get local
 Plug 'tpope/vim-dispatch'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'wakatime/vim-wakatime'                           " https://wakatime.com/ time tracking
+Plug 'katono/rogue.vim'                                " rogue2 vim port
+Plug 'uguu-org/vim-matrix-screensaver'
 
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'christoomey/vim-tmux-runner'

@@ -121,10 +121,6 @@ explain () {
 	fi
 }
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-export PATH="/usr/local/bin:$PATH"
-
 ### vi cursor {{{
 
 function zle-keymap-select zle-line-init
@@ -153,6 +149,7 @@ function zle-line-finish
 zle -N zle-line-init
 zle -N zle-line-finish
 zle -N zle-keymap-select
+
 # Modal cursor color for vi's insert/normal modes.
 # http://stackoverflow.com/questions/30985436/
 # https://bbs.archlinux.org/viewtopic.php?id=95078
@@ -193,7 +190,6 @@ zle -N zle-keymap-select
 export KEYTIMEOUT=1 #escape switches mode .1 seconds (down from .4)
 NPM_PACKAGES=/Users/Ben/.npm-packages
 NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
-PATH="$NPM_PACKAGES/bin:$PATH"
 
 #External aliases
 source $HOME/.dotfiles/.aliases

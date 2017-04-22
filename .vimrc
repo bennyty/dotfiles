@@ -4,7 +4,7 @@
 source ~/.vim/.plugins.vim
 
 " Add GHC to path
-let $PATH = $PATH . ':' . expand('~/Library/Haskell/bin/')
+" let $PATH = $PATH . ':' . expand('~/Library/Haskell/bin/')
 
 syntax on
 filetype plugin indent on
@@ -37,7 +37,7 @@ set diffopt=filler,vertical
 
 set listchars=tab:▸\ ,eol:¬,space:⋅
 
-set shell=/bin/zsh
+" set shell=/bin/zsh
 
 let mapleader = "\<Space>"
 
@@ -49,6 +49,23 @@ augroup reload_vimrc " {
 	autocmd!
 	autocmd BufWritePost $MYVIMRC source $MYVIMRC
 augroup END " }
+
+" Use the Silver Searcher when possible
+if exists("g:ctrlp_user_command")
+	unlet g:ctrlp_user_command
+endif
+if executable('ag')
+	" Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+	let g:ctrlp_user_command =
+				\ 'ag %s --files-with-matches -g "" --ignore "\.git$\|\.hg$\|\.svn$"'
+
+	" ag is fast enough that CtrlP doesn't need to cache
+	" let g:ctrlp_use_caching = 0
+else
+	" Fall back to using git ls-files if Ag is not available
+	let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
+	let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . --cached --exclude-standard --others']
+endif
 
 " Automatically set foldlevel to max fold level in buffer + 1
 autocmd BufWinEnter * let &foldlevel = max(map(range(1, line('$')), 'foldlevel(v:val)'))
@@ -66,8 +83,8 @@ map ]] j0[[%/{<CR>
 map [] k$][%?}<CR>
 
 " Easy multiline navigation
-nnoremap j gj
-nnoremap k gk
+" nnoremap j gj
+" nnoremap k gk
 " nnoremap gj j
 " nnoremap gk k
 xnoremap j gj
@@ -76,8 +93,8 @@ xnoremap k gk
 " http://blog.petrzemek.net/2016/04/06/things-about-vim-i-wish-i-knew-earlier/
 " better jk normally but don't remap when it's called with a count
 "  Unfortunately this breaks dj for deleting two lines down
-" noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
-" noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
+nnoremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
+nnoremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 
 " JSX (Javascript) React highlight on .js in addition to .jsx
 let g:jsx_ext_required = 0
@@ -99,6 +116,10 @@ nmap <Leader>k <Plug>DashSearch
 noremap J 5gj
 noremap K 5gk
 
+" Fold text object
+xnoremap iz :<C-U>silent!normal![zV]z<CR>
+onoremap iz :normal viz<CR>
+
 " Make Y consistent with D and C
 noremap Y y$
 
@@ -117,6 +138,11 @@ nnoremap Q @q
 nmap <Nop> <Plug>VimwikiTabIndex
 nmap <Leader>wt <Plug>VimwikiToggleListItem
 let g:vimwiki_folding = 'list'
+
+" incsearch
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
 
 " No Processing
 let g:processing_no_default_mappings = 1 " Disable default mappings
@@ -143,6 +169,8 @@ nmap <C-w><Space> <Plug>GoldenViewSwitchMain
 " let g:AutoPairsShortcutToggle = ''
 " let g:AutoPairsFlyMode = 1
 let g:AutoPairsShortcutFastWrap = '<C-c>'
+" When the filetype is FILETYPE then make AutoPairs only match for parenthesis
+au Filetype tex let b:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'", '`':'`'}
 
 " Easy split movement
 " Replaced by christoomey/vim-tmux-navigator
@@ -259,9 +287,9 @@ endfunction
 set foldtext=FoldText()
 
 " Ctrl-Space ag
-if executable("ag")
-	let g:CtrlSpaceGlobCommand = 'ag -l --hidden --ignore .git --nocolor -g ""'
-endif
+" if executable("ag")
+" 	let g:CtrlSpaceGlobCommand = 'ag -l --hidden --ignore .git --nocolor -g ""'
+" endif
 
 "=======================================
 " Tmux compatible cursor shapes in vim!
@@ -331,6 +359,6 @@ endfunction
 
 nnoremap <silent> <Plug>(RotateLines) :<C-u>call <SID>RotateLines()<CR>
 
-nmap \rot <Plug>(RotateLines)
+nmap <leader>rot <Plug>(RotateLines)
 " }}}
 "
