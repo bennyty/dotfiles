@@ -90,7 +90,6 @@ xnoremap k gk
 
 " http://blog.petrzemek.net/2016/04/06/things-about-vim-i-wish-i-knew-earlier/
 " better jk normally but don't remap when it's called with a count
-"  Unfortunately this breaks dj for deleting two lines down
 nnoremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
 nnoremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 
@@ -107,19 +106,15 @@ nnoremap zG zg
 nnoremap zug zuG
 nnoremap zuG zug
 
-" Leader k to lookup because K is remapped
-nmap <Leader>k <Plug>DashSearch
-
-" Faster Movement (Dont use these very often anymore)
-noremap J 5gj
-noremap K 5gk
-
 " Fold text object
 xnoremap iz :<C-U>silent!normal![zV]z<CR>
 onoremap iz :normal viz<CR>
 
 " Make Y consistent with D and C
 noremap Y y$
+
+" sudo vim
+cmap w!! %!sudo tee > /dev/null %
 
 " NEED BINDING FOR AUTOCORRECT LAST SPELLING MISTAKE
 inoremap <c-f> <c-g>u<Esc>[s1z=`]a<c-g>u
@@ -133,9 +128,9 @@ nmap cp <Plug>TransposeCharacters
 nnoremap Q @q
 
 " vim-wiki conflict with Ctrl-Space
-nmap <Nop> <Plug>VimwikiTabIndex
-nmap <Leader>wt <Plug>VimwikiToggleListItem
-let g:vimwiki_folding = 'list'
+" nmap <Nop> <Plug>VimwikiTabIndex
+" nmap <Leader>wt <Plug>VimwikiToggleListItem
+let g:vimwiki_folding = 'expr'
 
 " incsearch
 map /  <Plug>(incsearch-forward)
@@ -223,8 +218,6 @@ let g:VtrClearSequence = ""
 nnoremap <leader>ar :VtrAttachToPane<cr>
 nnoremap <leader>si :VtrSendCommandToRunner <cr>
 
-noremap H ^
-noremap L $
 
 let g:seek_enable_jumps = 1
 
@@ -308,10 +301,8 @@ endif
 
 
 
-
-
 " Sillyness {{{
-" Press \rot to start rotating lines and <C-c> (Control+c) to stop.
+" Press <Leader>rot to start rotating lines and <C-c> (Control+c) to stop.
 
 function! s:RotateString(string)
     let split_string = split(a:string, '\zs')
@@ -363,3 +354,4 @@ nnoremap <silent> <Plug>(RotateLines) :<C-u>call <SID>RotateLines()<CR>
 nmap <leader>rot <Plug>(RotateLines)
 " }}}
 "
+" vim: foldmethod=marker

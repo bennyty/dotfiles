@@ -1,0 +1,865 @@
+{
+  "BTTPresetName" : "Defaults",
+  "BTTGeneralSettings" : {
+    "BTTPathSampleSize" : 100,
+    "BTTCMOnTop" : true,
+    "BTTForceForceClickPressure2F" : 700,
+    "BTTHTTPServerEncrypted" : false,
+    "BTTMinDrawingMovement" : 2,
+    "disableScrollingIf2" : true,
+    "batteryWarning" : false,
+    "BSTDontShowSnapAreasWhileModMoving" : 0,
+    "BTTSavedMousePosition" : "{2337.640625, -486.60546875}",
+    "BSTWindowGrabPosY" : 10,
+    "showTrackpadTab" : true,
+    "BTTDrawingStrokeWidth" : 4,
+    "cornerSnap" : true,
+    "BTRScrollSpeed" : "1.000000",
+    "singleFingerTapRight" : 0.05000000074505806,
+    "showDrawingsTab" : true,
+    "SIRIMouseSpeed" : 1,
+    "BTTHTTPServerListenInterface" : "127.0.0.1",
+    "useAppleRemotePlugin" : false,
+    "BTTTouchBarFontSize" : 15,
+    "BSTSnapAreaDefaultPictoDistanceFromBottom" : 0.10000000149011612,
+    "BTRMouseSpeed" : "1.000000",
+    "BSTPreventTopMissionControl" : true,
+    "BSTSnapAreaDefaultDashedBorder" : false,
+    "BTTEnablePalmRecognition" : true,
+    "nextMonitorMoveWarningShowed" : true,
+    "oldScale" : 1,
+    "BTTAllowThumbIfAllFingersArePlacedSimultaneously" : true,
+    "BTTRemoteEnabled" : true,
+    "BTTCMHideOnBlur" : false,
+    "BTTShowControlStripItem" : true,
+    "BSTSnapAreaDefaultCornerRadius" : 20,
+    "BTTLastScreenshotDateFormat" : "yyyy-MM-dd HH.mm.ss a",
+    "BTTMovePastedToTop" : true,
+    "BTTMaxAllowedDrawingRotation" : 30,
+    "BTTDidRegisterForUpdateStats" : "2.660",
+    "BTTTpFourFingerSwipeSensitivity" : 0.40000000000000002,
+    "BTTNumberOfStarts" : 2904,
+    "BTTForceNormalClickPressure3F" : 150,
+    "showSiriRemoteTab" : true,
+    "SIRIScrollSpeed" : 1,
+    "BTTShowControlStrip" : false,
+    "SHOWEDHIDEMENUBARWARNING" : true,
+    "tpThreeFingerDoubleTapDelay" : 0.5,
+    "showNormalMiceTab" : true,
+    "BTTHideGlobalTouchBarActionsAppSpecific" : false,
+    "BSTSnapAreaDefaultBorderWidth" : 3,
+    "BTTForceNormalClickPressure" : 150,
+    "BTTTouchBarHapticFeedback" : 1,
+    "BTTDrawingRightMouse" : false,
+    "BTTConvertedDevices" : true,
+    "BTTThreeFingerTipTapMinSpread" : 0.029999999999999999,
+    "BTTTouchBarVisible" : true,
+    "BTTIMGURDefault" : true,
+    "BSTSnapAreaDefaultBackgroundColor" : "129.988836, 201.126536, 227.013985, 104.550000",
+    "BSTSnapAreaDefaultPictoSize" : 0.69999998807907104,
+    "BSTSnapAreaDefaultBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BSTTopMissionControlTreshold" : 34,
+    "BSTSnapAreaDefaultHighlightColor" : "92.624286, 122.650411, 161.665578, 56.100000",
+    "BTTForceForceClickPressure5F" : 600,
+    "BTTCMShowDockIcon" : true,
+    "BTTForceForceClickPressure" : 700,
+    "BSTMemorySaver" : true,
+    "BTTLastClamshellState" : false,
+    "BTTShowBTTWhenControlStripHidden" : false,
+    "BTTFreeSpaceAfterESC" : 0,
+    "mmZoomRepeatDelay" : 0.10000000000000001,
+    "BTIMGURExpiry" : 842987450.69314599,
+    "BTTDrawingAreaWidth" : 915,
+    "BTTTiltWheelDelay" : 0.44999998807907104,
+    "twoFingerDoubleTapDelay" : 0.5,
+    "BTTForceNormalClickPressure5F" : 200,
+    "BTTTouchBarChecked" : true,
+    "BTTRotateTrackpad" : false,
+    "BTTShowESCWhenControlStripHidden" : false,
+    "showBTTRemoteTab" : true,
+    "BTTFilterMagicMouseLeftRightEdge" : true,
+    "BTTLeaveSystemAppsInControlStrip" : true,
+    "BTTDrawingsHighlightStartPoint" : true,
+    "BTTTouchBarGlobalPosition" : 0,
+    "BTTEnableUsageLogging" : true,
+    "BTTScreenshotOpenImgurInBrowser" : true,
+    "BTTForceNormalClickPressure2F" : 140,
+    "BSTSnapAreaDefaultInvisible" : false,
+    "BTTDrawingAreaHeight" : 626,
+    "BTTLastScreenshotOptions" : "-t;;png;;\/Users\/Jason\/Desktop\/Screen Shot {datetime}.png;;",
+    "BTTForceForceClickPressure4F" : 650,
+    "BTTTouchBarUseMonoSpacedFont" : true,
+    "BSTCornerRoundness" : 40,
+    "BTTForceForceHapticResponse" : 13,
+    "showMagicMouseTab" : true,
+    "BTTForcedHidden" : false,
+    "showTouchBarTab" : true,
+    "BTTFreeSpaceAfterBTT" : 20,
+    "BTTTwoFingerTipTapMinSpread" : 0.029999999999999999,
+    "BTTDismissIfNothingToShow" : false,
+    "BTTDrawingsRestoreMousePosition" : true,
+    "BSTDisableSnapAreas" : true,
+    "BTTDefaultTBIconWidth" : 22,
+    "BTTClipboardFrame" : "{{9, 386}, {1047, 417}}",
+    "BSTSnapAreaDefaultShowPictogram" : false,
+    "BTTSelectedKeyboardTabIndex" : 0,
+    "BTTTouchBarKeepIconRatio" : true,
+    "showKeyboardTab" : true,
+    "BTTForceForceClickPressure3F" : 700,
+    "disableScrollingIf3" : true,
+    "BSTWindowGrabPosX" : 67,
+    "BTTHandleThumbsRestingOnTopEdgeAndCorners" : true,
+    "BTTAutoSwitchToOldKeyboardImplementation" : true,
+    "BTTTpThreeFingerSwipeSensitivity" : 0.29999999999999999,
+    "BTTCopyImgurURLToClipboard" : true,
+    "BTTForceNormalHapticResponse" : 12,
+    "BTTTouchBarSupportEnabled" : true,
+    "BTRMessageChangeScrollDirection" : 0,
+    "BTTDaysToKeepHistory" : 14,
+    "BTTDefaultTBIconHeight" : 22,
+    "singleFingerTapLeft" : 0.44999998807907104,
+    "BTTClipboardManagerMonitor" : 0,
+    "BTTForceNormalClickPressure4F" : 175,
+    "BSTSnapAreaDefaultAnimationDuration" : 0.30000001192092896,
+    "pluginDictionary" : {
+      "1" : {
+        "Apple Remote Plugin" : {
+          "10" : "Play\/Pause, Holding (only on aluminum remote)",
+          "2" : "Up, Holding",
+          "3" : "Down",
+          "11" : "Menu",
+          "4" : "Down, Holding",
+          "5" : "Left",
+          "12" : "Menu, Holding",
+          "6" : "Left, Holding",
+          "13" : "Center",
+          "7" : "Right",
+          "8" : "Right, Holding",
+          "14" : "Center, Holding",
+          "1" : "Up",
+          "9" : "Play\/Pause (only on aluminum remote)"
+        }
+      }
+    },
+    "showOtherTriggersTab" : true,
+    "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000149011612
+  },
+  "BTTPresetUUID" : "E4D39EEB-678A-471C-B8D2-3ABC908CB76B",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 643,
+          "BTTTriggerTypeDescription" : "Named Trigger: Open Titleless Youtube",
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTPredefinedActionType" : 137,
+          "BTTPredefinedActionName" : "Execute Terminal Command (Async, non-blocking)",
+          "BTTTerminalCommand" : "\/Applications\/Google\\ Chrome.app\/Contents\/MacOS\/Google\\ Chrome --app=\"https:\/\/www.youtube.com\"",
+          "BTTTriggerName" : "Open Titleless Youtube",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "97C0F1AE-6AEB-460A-B82A-9B5815ABD375",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 241
+        },
+        {
+          "BTTTriggerType" : 620,
+          "BTTTriggerClass" : "BTTTriggerTypeDrawings",
+          "BTTPredefinedActionType" : 152,
+          "BTTPredefinedActionName" : "Move Window One Space\/Desktop Right",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "040BCF7B-69C3-43B1-9FD5-FE1BDC6AC79A",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTTriggerConfig" : {
+            "BTTRequiredDrawingCertainty" : "0.700000",
+            "BTTDrawingDirectionShouldMatter" : "0",
+            "BTTDrawingName" : "Right Arrow",
+            "BTTDrawingBezierPath" : "YnBsaXN0MDDUAQIDBAUGKClYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBEVHB8iJVUkbnVsbNIJCgsQWk5TLm9iamVjdHNWJGNsYXNzpAwNDg+AAoAEgAWABoAH0hIKExRaTlNTZWdtZW50c08RBMgAQslaAENKKwABQslaAENKKwABQs46AENKKwABQtaOAENKKwABQuWuAENKKwABQvTOAENKKwABQwNQAENKKwABQwd6AENKKwABQxbAAENKKwABQyKwAENKKwABQzIYAENKKwABQzdIAENKKwABQ0TmAENKKwABQ1DWAENKKwABQ1zGAENKKwABQ2i2AENKKwABQ3SmAENKKwABQ4EiAENKKwABQ4WWgENKKwABQ4rGAENKKwABQ486gENKKwABQ5MCgENKKwABQ5bKgENKKwABQ5qSgENKKwABQ55agENKKwABQ6IigENKKwABQ6XqgENJagABQ6mygENIqQABQ616gENH6AABQ7FCgENHJwABQ7W3AENGWAABQ7l_AENFlwABQ73zgENEyAABQ8G1gENECAABQ8TegENDVQABQ8Z+AENCywABQ8mjgENCGAABQ8w7gENCGAABQ85MgENCGAABQ8_sAENBjgABQ9EkAENBjgABQ9ICAENBjgABQ9LgAENBjgABQ9NwAENBjgABQ9QCAENBjgABQ9RVgENBjgABQ9SpAENBjgABQ9T8gENBjgABQ9UfAENBjgABQ9VCAENBjgABQ9VlAENBjgABQ9WHgENBjgABQ9WqgENBjgABQ9WqgENByAABQ9WHAENCDwABQ9VkAENCVQABQ9VkAENC_QABQ9UlgENFbgABQ9TtgENHKwABQ9TtgENLVgABQ9ShAENPgQABQ9RNgENUsgABQ9RNgENZ4wABQ9PzgENgNgABQ9PzgENjdgABQ9OnAENnoQABQ9NagENrzAABQ9McAENuPQABQ9McAENv+gABQ9LkAENxtwABQ9K6AENyXgABQ9KQAENzBgABQ9KQAENzTQABQ9JsgENzlAABQ9KJAENzlAABQ9KsAENzlAABQ9M+AENzMwABQ9PkgENx5gABQ9UZAENw8AABQ9ZRAENvegABQ9fqAENt4QABQ9n5gENsHQABQ9yRgENqKwABQ98pgENoOQABQ+I_AENmKwABQ+VoAENkEAABQ+kwAENhzAABQ+xZAENfsQABQ_AhAENeLgABQ_NHAENcyAABQ_TmgENcPgABQ_d+gENa8gABQ_oWgENZpgABQ_wrgENZDgABQ_3LAENYhAABQ_8DAENXiwABQ__hAENXHAABRAA5gENWuwABRABjQENWaAABRACNAENWFQABRACegENVzwABRACwAENViQABRACwAENVSgABRACwAENVBAABRACwAENUvgABRABmwENT_AABQ_+agENSjAABQ_5iAENRFgABQ_yZAENOtQABQ_iLgENJ2QABQ_R+AENE_QABQ_I4gENBvwABQ+3mAEM7sgABQ+mTgEM1pQABQ+VIgEMuyAABQ+FyAEMn9gABQ9zaAEMfsgABQ9nTAEMaZwABQ9djgEMViQABQ9ZpgEMTlgABQ9TsgEMQBQABQ9NvgEMNDAABQ9K0AEMLGQABQ9INgEMJzQABQ9HqAEMJhwABQ9GWAEMI4AABQ9FygEMImgABQ9FygEMIVAABQ9FygEMIjgABQ9FygEMI1QABQ9GVAEMI1QABQ9G4AEMJHAABQ9HbAEMJYwABQ9IugEMJYwABQ9JRgEMJqgABQ9LjgEMJqgCAA9IWFxgZWiRjbGFzc25hbWVYJGNsYXNzZXNcTlNCZXppZXJQYXRoohobXE5TQmV6aWVyUGF0aFhOU09iamVjdNISCh0UTxEFuwBDZN0AQyReAAFDZN0AQyReAAFDbG0AQyReAAFDcr8AQyReAAFDej8AQyReAAFDfmkAQyReAAFDiNwAQyReAAFDjguAQyReAAFDlNqAQyReAAFDnI6AQyReAAFDo1KAQyReAAFDq_kAQyReAAFDssgAQyReAAFDtfEAQyReAAFDvLiAQyReAAFDwrCAQyReAAFDyKiAQyReAAFDyeCAQyReAAFDzaiAQyReAAFD0NGAQyUSAAFD0m+AQyUSAAFD1A8AQyWdAAFD1O0AQyWdAAFD1X8AQyX_AAFD1dKAQyX_AAFD1fWAQyX_AAFD1hiAQyX_AAFD1juAQyX_AAFD1juAQyZGAAFD1juAQyaGAAFD1juAQybNAAFD1juAQycTAAFD1juAQydaAAFD1juAQyehAAFD1hGAQyhJAAFD1b2AQyjxAAFD1WmAQymZAAFD1QgAQyq+AAFD1JmAQyx4AAFD1DgAQy2dAAFD1AAAQy9aAAFD05CAQzEXAAFD01+AQzI7AAFD01+AQzNgAAFD0zWAQzQIAAFD0zWAQzSwAAFD0zWAQzVYAAFD0zWAQzYAAAFD0zWAQzZHAAFD0zWAQzbvAAFD0zWAQzeXAAFD0zWAQzg_AAFD0zWAQzlkAAFD0zWAQzoMAAFD0wSAQzsxAAFD0wSAQzvZAAFD0wSAQzx_AAFD0wSAQzzGAAFD0wSAQz0NAAFD0wSAQz1UAAFD0wSAQz0aAAFD0wSAQzxzAAFD0wSAQztUAAFD0wSAQzowAAFD0wSAQzmJAAFD0wSAQzhlAAFD0wSAQzdBAAFD0wSAQzYdAAFD0wSAQzT6AAFD0wSAQzM+AAFD0wSAQzDOAAFD00KAQy5eAAFD04AAQyv3AAFD08UAQyi4AAFD1AMAQyZIAAFD1EgAQyMJAAFD1IwAQx_UAAFD1MoAQx1kAAFD1Q6AQxopAAFD1UyAQxe5AAFD1YEAQxYTAAFD1biAQxRXAAFD1ekAQxMzAAFD1hmAQxIPAAFD1kMAQxFoAAFD1kMAQxEiAAFD1mYAQxDcAAFD1mYAQxCWAAFD1oWAQxCWAAFD1oWAQxDUAAFD1oWAQxH1AAFD1oWAQxMaAAFD1oWAQxQ_AAFD1oWAQxd_AAFD1fuAQxq5AAFD1VUAQx_qAAFD1FuAQyUbAAFD05mAQyysAAFD0ncAQzQ9AAFD0jGAQzd9AAFD0X2AQz3PAAFD0TEAQ0H6AAFD0JiAQ0YlAAFD0FoAQ0iWAAFD0FoAQ0pTAAFD0FoAQ0t4AAFD0FoAQ0u_AAFD0FoAQ0wFAAFD0JgAQ0wFAAFD0XYAQ0wFAAFD1A2AQ0wFAAFD1iKAQ0wFAAFD21IAQ0wFAAFD4IGAQ0wFAAFD5nmAQ0wFAAFD7UiAQ0z_AAFD9e8AQ04UAAFD+bcAQ04UAAFEALWAQ08bAAFEA7GAQ08bAAFEBP2AQ08bAAFEBt8AQ08bAAFECHOAQ08bAAFECUNAQ08bAAFECd9AQ08bAAFECihAQ08bAAFECjnAQ08bAAFECktAQ08bAAFECgAAQ06FAAFECZDAQ02nAAFECPSAQ0wxAAFECCSAQ0qSAAFEBh3AQ0aFAAFEBBuAQ0G0AAFEAhTAQzzYAAFEAK0AQzlVAAFD_QeAQzNIAAFD9_oAQyzaAAFD86eAQybNAAFD75oAQyHxAAFD60eAQxvkAAFD50EAQxcQAAFD5eaAQxTmAAFD4t+AQxBdAAFD4JoAQw0fAAFD3tEAQwq+AAFD3ZiAQwlIAAFD3J8AQwdWAAFD3AyAQwaUAAFD2+kAQwZOAAFD21aAQwWMAAFD2zMAQwVGAAFD2w+AQwVGAAFD2w+AQwWBAAFD2w+AQwXIAAFD2w+AQwZwAAFD2w+AQwa3AAFD2zKAQwb+AAFD21WAQwdFAAFD23iAQweMAAFD25uAQwfTAAFD276AQwgaAAFD3BIAQwhuAIAD0hIKIBRPEQTjAENSnwBDDaQAAUNSnwBDDaQAAUNTwwBDDaQAAUNWLgBDDaQAAUNX6gBDDaQAAUNbKQBDDaQAAUNb0ABDDaQAAUNfwABDDaQAAUNi_wBDDaQAAUNmPgBDDaQAAUNpfQBDDaQAAUNrOQBDDaQAAUNxiwBDDaQAAUNz+wBDDaQAAUN4JQBDDaQAAUN6kABDDaQAAUOAcQBDDlgAAUOChgBDDlgAAUOEmwBDDvEAAUOHMwBDDvEAAUOJywBDDvEAAUOMYwBDDvEAAUOOdwBDDvEAAUORDwBDDvEAAUOTpwBDDvEAAUOVvABDDvEAAUOYVABDDvEAAUOaaQBDDvEAAUOdAQBDDvEAAUOfmQBDDvEAAUOiLQBDDvEAAUOkxQBDDvEAAUOnXQBDDvEAAUOp9QBDDvEAAUOtDwBDDvEAAUOwOABDDvEAAUOzYQBDDvEAAUO2igBDDvEAAUO5swBDDvEAAUO7UoBDDvEAAUO96oBDDvEAAUO__4BDDvEAAUPBnwBDDvEAAUPDPoBDDvEAAUPEHIBDDvEAAUPEroBDDvEAAUPFAgBDDvEAAUPFVYBDDvEAAUPFeIBDDvEAAUPFmwBDDvEAAUPFmwBDD2YAAUPFd4BDD60AAUPFd4BDD_MAAUPFd4BDEDkAAUPFTYBDEOEAAUPFHIBDEgYAAUPFHIBDEysAAUPEuwBDFFAAAUPEgwBDFg0AAUPESwBDF8oAAUPEEwBDGYcAAUPD1IBDG_gAAUPDiABDICMAAUPDVwBDIUgAAUPDA4BDJnkAAUPCvgBDKbkAAUPCvgBDLCoAAUPCeIBDL2oAAUPCOgBDMdsAAUPCOgBDNEwAAUPB+4BDNr0AAUPByoBDN+IAAUPByoBDOQcAAUPBoIBDOa8AAUPBoIBDOfYAAUPBoIBDOj0AAUPBoIBDOgMAAUPBoIBDOVwAAUPBygBDOLUAAUPB+oBDN5EAAUPCoQBDNkQAAUPDmoBDNFEAAUPElABDMtsAAUPF7gBDMLEAAUPHSABDLocAAUPJEIBDLCYAAUPL34BDKKMAAUPOJIBDJgsAAUPQvIBDI3MAAUPTVIBDINsAAUPV3QBDHlMAAUPYdQBDHGEAAUPbDQBDGckAAUPdUgBDFzEAAUPflwBDFJkAAUPhrABDEtEAAUPj8QBDEDkAAUPk6oBDDsMAAUPmigBDDSQAAUPn5ABDCvoAAUPpHABDCYQAAUPqFYBDCA4AAUPqvABDBsEAAUPrD4BDBhoAAUPrMoBDBdQAAUPrVYBDBY4AAUPreIBDBUgAAUPreIBDBQIAAUPreIBDBLwAAUPreIBDBH0AAUPrVQBDBDcAAUPqwoBDA9YAAUPp5ABDA2cAAUPpBYBDAvgAAUPoJwBDAokAAUPnSIBDAasAAUPlMwBC_8YAAUPjkwBC_IgAAUPfhYBC8tAAAUPd5YBC75IAAUPafgBC6AIAAUPWcIBC3koAAUPTCQBC1TgAAUPPoYBCzagAAUPORwBCyVQAAUPMAYBCwtgAAUPKPwBCvPwAAUPIdgBCuDoAAUPHfABCtFQAAUPG6YBCstAAAUPGlYBCsYIAAUPGQYBCsNwAAUPGHgBCsFAAAUPGHgBCr8QAAUPGHgBCsLoAAUPGR4BCsgoAAUPGaoBCspgAAUPGlABCs+gAAUPG54BCtJAAgAPSEgojFE8RBicAQ1DSAEL52AABQ1DSAEL52AABQ1F5AEL52AABQ1PhAEL52AABQ1ZRAEL52AABQ1pnAEL52AABQ12mAEL52AABQ2LWAEL52AABQ2bTAEL52AABQ20lAEL52AABQ3JVAEL52AABQ3inAEL52AABQ4AbgEL52AABQ4MtAEL52AABQ4b1AEL52AABQ4q0AEL52AABQ43dAEL52AABQ48VAEL52AABQ5REgEL52AABQ5bcgEL52AABQ5jxgEL52AABQ5uJgEL52AABQ52JgEL52AABQ5+egEL52AABQ6DWgEL52AABQ6LrgEL52AABQ6SLAEL52AABQ6YlAEL52AABQ6fEgEL52AABQ6iiAEL52AABQ6mAAEL52AABQ6oSAEL52AABQ6qkAEL52AABQ6rGgEL52AABQ6saAEL52AABQ6s9AEL52AABQ6tmgEL7KAABQ6uJgEL7tgABQ6uJgEL9BAABQ6uJgEL_TgABQ6u6AEMAywABQ6u6AEMDPAABQ6vxgEME+QABQ6wpAEMGtgABQ6xnAEMJJwABQ6ylAEMLmAABQ60vgEMO2AABQ626AEMSGAABQ65AgEMVQAABQ66FgEMYgAABQ67DgEMa8QABQ68BgEMdYgABQ68_gEMf0wABQ68_gEMhjwABQ68_gEMjTAABQ68_gEMkcQABQ68_gEMllgABQ68_gEMmPgABQ68_gEMmhQABQ68_gEMmzAABQ68_gEMmkQABQ68_gEMl6gABQ68OgEMkxgABQ68OgEMjogABQ68OgEMh6wABQ68OgEMfewABQ68OgEMdCwABQ68OgEMZzAABQ68OgEMWjQABQ68OgEMSYwABQ68OgEMOOQABQ68OgEMJCQABQ68OgEMD2QABQ68OgEL7DgABQ68OgELwrgABQ68OgELkCgABQ69oAELXZgABQ69oAELKwgABQ6_BgEK+HgABQ6_BgEKzvgABQ6__gEKu3gABQ6__gEKmigABQ6__gEKgDAABQ7A9gEKbMgABQ7A9gEKXugABQ7A9gEKVcgABQ7BnAEKUJAABQ7BnAEKTmAABQ7BnAEKUmAABQ7BnAEKYEgABQ7BnAEKbjAABQ7BnAEKj4gABQ7AhgEKqYgABQ6+BAEK0agABQ67ogEK8wAABQ66QgELJGAABQ649AELTegABQ62JAELgIAABQ62JAELmoAABQ608gELu9gABQ608gEL3TAABQ6z3AEL9zAABQ6z3AEMBVwABQ6z3AEMDFAABQ6z3AEMEOQABQ6z3AEME4AABQ6z3AEMFiAABQ6z3AEMFzwABQ6z3AEMGFQABQ60aAEMGFQABQ608gEMGFQABQ61fgEMGFQABQ62CgEMGFQABQ62lgEMGFQABQ635AEMGFQABQ65MAEMGFQABQ66fgEMGFQABQ68xgEMGFQABQ7BpgEMGFQABQ7GhgEMFmQABQ7NBAEMFDwABQ7VWAEMD3wABQ7drAEMDRwABQ7oDAEMB+wABQ70sAEMAlAABQ7_EAEL_3AABQ8OMAEL81gABQ8a1AEL7cAABQ8psgEL59AABQ840gEL4cgABQ9FXAEL3DgABQ9L2gEL1+gABQ9ULgEL0ygABQ9arAEL0ygABQ9hKgELztgABQ9knAELztgABQ9m5AELy9AABQ9ncAELy9AABQ9n_AELyaAABQ9oiAELx3AABQ9oiAELxUAABQ9oiAELwxAABQ9oiAELwOgABQ9n+gELvrgABQ9lsAELuKgABQ9jZgELspgABQ9f7AELq6gABQ9bCgELn_gABQ9UigELkwAABQ9NZgELf_gABQ9FEAELcbgABQ86rgELXPgABQ8veAELQPgABQ8h2gELIrgABQ8USAELBJgABQ8EEgEK3bgABQ71KAEKufAABQ7nigEKlagABQ7XVAEKdUAABQ7LOAEKUPgABQ7GVgEKRUgABQ69QAEKMIgABQ64YAEKJNgABQ60eAEKGSgABQ6w_gEKFbAABQ6vrgEKExgABQ6vIAEKEOgABQ6ukgEKEOgABQ6vDAEKFMAABQ6vmAEKFvgABQ6w5AEKHDAABQ6xcAEKHmgABQ6yvgEKIQgABQ6zSgEKIQgABQ60mAEKI6gCAA9IWFyYnV05TQXJyYXmiJhtfEA9OU0tleWVkQXJjaGl2ZXLRKitUcm9vdIABAAgAEQAaACMALQAyADcAQABGAEsAVgBdAGIAZABmAGgAagBsAHEAfAVIBUoFTwVaBWMFcAVzBYAFiQWOC00LTwtUEDsQPRBCFm0WbxZ0FnwWfxaRFpQWmQAAAAAAAAIBAAAAAAAAACwAAAAAAAAAAAAAAAAAABab"
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 218,
+          "BTTPredefinedActionName" : "Move Window To Desktop 3",
+          "BTTAdditionalConfiguration" : "655360",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "CD40F4F0-F80A-499E-BA51-48FA1693A8E0",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 20,
+          "BTTShortcutModifierKeys" : 655360,
+          "BTTOrder" : 9
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 216,
+          "BTTPredefinedActionName" : "Move Window To Desktop 1",
+          "BTTAdditionalConfiguration" : "655394",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "F88800F9-8448-48F4-A567-884790A5101F",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 18,
+          "BTTShortcutModifierKeys" : 655360,
+          "BTTOrder" : 7
+        },
+        {
+          "BTTTriggerType" : 624,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 171,
+          "BTTPredefinedActionName" : "Capture Screenshot then edit in BTT (easiest)",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "39395267-DC6D-471A-B886-BCB54D705C9F",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : -1,
+          "BTTShortcutModifierKeys" : -1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+            "BTTPauseBetween" : 0.14788602941176474,
+            "BTTKeyCount" : 4,
+            "BTTKeySequenceDownKeys" : [
+              {
+                "BTTKEYCharacter" : "⇧",
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1
+              },
+              {
+                "BTTKEYCharacter" : "l⇧ ",
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1
+              }
+            ],
+            "BTTKeySequenceMixedKeys" : [
+              {
+                "BTTKEYCharacter" : "⇧",
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1
+              },
+              {
+                "BTTKEYCharacter" : "⇧",
+                "BTTKEYCode" : 56
+              },
+              {
+                "BTTKEYCharacter" : "l⇧ ",
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1
+              },
+              {
+                "BTTKEYCharacter" : "l⇧ ",
+                "BTTKEYCode" : 60
+              }
+            ],
+            "BTTKeySequenceUpKeys" : [
+              {
+                "BTTKEYCharacter" : "⇧",
+                "BTTKEYCode" : 56
+              },
+              {
+                "BTTKEYCharacter" : "l⇧ ",
+                "BTTKEYCode" : 60
+              }
+            ]
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 219,
+          "BTTPredefinedActionName" : "Move Window To Desktop 4",
+          "BTTAdditionalConfiguration" : "655360",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "44BCC6CB-7ED1-4E15-9B5C-D7F188F019BB",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 21,
+          "BTTShortcutModifierKeys" : 655360,
+          "BTTOrder" : 10
+        },
+        {
+          "BTTTriggerType" : 624,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "53",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "4F0303F7-E485-4A77-A52C-FD5ECB2ABB55",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : -1,
+          "BTTShortcutModifierKeys" : -1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+            "BTTPauseBetween" : 0.29530228758169941,
+            "BTTKeyCount" : 2,
+            "BTTKeySequenceDownKeys" : [
+              {
+                "BTTKEYCharacter" : "⌃",
+                "BTTKEYCode" : 59,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1
+              }
+            ],
+            "BTTKeySequenceMixedKeys" : [
+              {
+                "BTTKEYCharacter" : "⌃",
+                "BTTKEYCode" : 59,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1
+              },
+              {
+                "BTTKEYCharacter" : "⌃",
+                "BTTKEYCode" : 59,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1
+              }
+            ],
+            "BTTKeySequenceUpKeys" : [
+              {
+                "BTTKEYCharacter" : "⌃",
+                "BTTKEYCode" : 59,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1
+              }
+            ]
+          }
+        },
+        {
+          "BTTTriggerType" : 620,
+          "BTTTriggerClass" : "BTTTriggerTypeDrawings",
+          "BTTPredefinedActionType" : 123,
+          "BTTPredefinedActionName" : "Toggle Between Big and Normal Cursor",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "F9818122-9C24-46FB-B286-D10293FBE53A",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : "",
+          "BTTTriggerConfig" : {
+            "BTTRequiredDrawingCertainty" : "0.700000",
+            "BTTDrawingDirectionShouldMatter" : "0",
+            "BTTDrawingName" : "Upside-down 4",
+            "BTTDrawingBezierPath" : "YnBsaXN0MDDUAQIDBAUGICFYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKYHCA8TGh1VJG51bGzSCQoLDlpOUy5vYmplY3RzViRjbGFzc6IMDYACgASABdIQChESWk5TU2VnbWVudHNPEQGMAEOWsYBDkv0AAUOWsYBDkGIAAUOWsYBDi7IAAUOWsYBDg1yAAUOWsYBDapcAAUOYQgBDRRYAAUOZ0gBDHX8AAUObYgBC7_oAAUOc8gBCxDoAAUOd_IBClEwAAUOeroBCcQgAAUOfNABCR1wAAUOfuQBCMoQAAUOfuQBCKjAAAUOfuQBCJjAAAUOfuQBCIjAAAUOfOQBCJjAAAUOeLoBCMrAAAUOaiQBCS7AAAUOTw4BCeYgAAUOITYBCoDAAAUN0egBCx8gAAUNVOQBC9Z4AAUNCeABDDIUAAUMtogBDH0YAAUMj6QBDKbEAAUMdqABDL_EAAUMaiABDMxIAAUMaiABDNScAAUMbiABDNScAAUMm_gBDNScAAUM__wBDNScAAUNnlgBDNScAAUOO4YBDNzwAAUOpcoBDOVIAAUO7KIBDOl0AAUPPeYBDPHIAAUPaPYBDPSQAAUPjGIBDPSQAAUPmvgBDPSQAAUPp3gBDPSQAAUPrbgBDPSQAAUPr7gBDPSQAAUPsbgBDPSQAgAPSFBUWF1okY2xhc3NuYW1lWCRjbGFzc2VzXE5TQmV6aWVyUGF0aKIYGVxOU0JlemllclBhdGhYTlNPYmplY3TSEAobEk8RAWgAQ7MLgEOL54ABQ7MLgEOKZ4ABQ7MLgEN_+QABQ7MLgENpDQABQ7MLgENElgABQ7MLgEMhKgABQ7QWgEMB6QABQ7SbgELYEAABQ7UhAEKwegABQ7UhAEKfzgABQ7UhAEKROAABQ7UhAEKI4gABQ7UhAEKG4gABQ7ShAEKG4gABQ7MRAEKG4gABQ63bgEKTYgABQ6DVgEKypAABQ5AqAELeZgABQ4MkgEMB9AABQ3BoAEMUtAABQ1uSAEMkrgABQ1EnAEMr+QABQ0jRAEMyOQABQ0SmAEM2ZAABQ0GGAEM4eQABQ0GGAEM5eQABQ0GGAEM6eQABQ0a8AEM6eQABQ1uSAEM6eQABQ4GUgEM7hAABQ5_LAEM+pAABQ8KxgENAugABQ9gNAENAugABQ+b8AENAugABQ+3BgENAugABQ_N8gENAugABQ_WSAENAugABQ_aSAENAugABQ_cSAENAugABQ_eSAENAugCAA9IUFR4fV05TQXJyYXmiHhlfEA9OU0tleWVkQXJjaGl2ZXLRIiNUcm9vdIABAAgAEQAaACMALQAyADcAPgBEAEkAVABbAF4AYABiAGQAaQB0AgQCBgILAhYCHwIsAi8CPAJFAkoDtgO4A70DxQPIA9oD3QPiAAAAAAAAAgEAAAAAAAAAJAAAAAAAAAAAAAAAAAAAA+Q="
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 128,
+          "BTTPredefinedActionName" : "Send Shortcut to Specific App",
+          "BTTShortcutApp" : "\/Applications\/Skype for Business.app",
+          "BTTShortcutSwitchToAppFirst" : "2",
+          "BTTShortcutAppUnderCursor" : "com.microsoft.SkypeForBusiness",
+          "BTTShortcutToSend" : "56,55,46",
+          "BTTAdditionalConfiguration" : "524288",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "4863A5ED-F13A-4081-A7AE-648D7C1E3DF4",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 46,
+          "BTTShortcutModifierKeys" : 524288,
+          "BTTOrder" : 4
+        },
+        {
+          "BTTTriggerType" : 600,
+          "BTTTriggerTypeDescription" : "Doubleclick Window Titlebar",
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTPredefinedActionType" : 48,
+          "BTTPredefinedActionName" : "Maximize Window to Next Monitor",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "2A5A3A4B-318A-43D1-B708-5ECB4B0D7DB0",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 217,
+          "BTTPredefinedActionName" : "Move Window To Desktop 2",
+          "BTTAdditionalConfiguration" : "655360",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "3641EF22-7DC1-4EF5-B211-AAA05F51FCA1",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 19,
+          "BTTShortcutModifierKeys" : 655360,
+          "BTTOrder" : 8
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 223,
+          "BTTPredefinedActionName" : "Move Window To Desktop 7",
+          "BTTAdditionalConfiguration" : "655360",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "D631E74E-0FBF-47BE-8BAB-1C3C9CE4399C",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 26,
+          "BTTShortcutModifierKeys" : 655360,
+          "BTTOrder" : 13
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 220,
+          "BTTPredefinedActionName" : "Move Window To Desktop 5",
+          "BTTAdditionalConfiguration" : "655360",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "365E6108-ECC4-4E74-A091-3E686B8369D1",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 23,
+          "BTTShortcutModifierKeys" : 655360,
+          "BTTOrder" : 11
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 225,
+          "BTTPredefinedActionName" : "Move Window To Desktop 9",
+          "BTTAdditionalConfiguration" : "655360",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "F558A87B-35DC-4588-A1DB-21458CD4188C",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 25,
+          "BTTShortcutModifierKeys" : 655360,
+          "BTTOrder" : 15
+        },
+        {
+          "BTTTriggerType" : 116,
+          "BTTTriggerTypeDescription" : "Pinch Out",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,28",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "08B7FAD3-7A1D-486B-9CAE-8F203C9BFCC0",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 262144,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : "",
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0,
+            "BTTGestureForceFeedbackPattern" : 6
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 224,
+          "BTTPredefinedActionName" : "Move Window To Desktop 8",
+          "BTTAdditionalConfiguration" : "655360",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "8B950794-B3FD-4B3C-98B9-C73B88CC4886",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 28,
+          "BTTShortcutModifierKeys" : 655360,
+          "BTTOrder" : 14
+        },
+        {
+          "BTTTriggerType" : 118,
+          "BTTTriggerTypeDescription" : "Rotate Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 24,
+          "BTTPredefinedActionName" : "Volume Up",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "8E5AE5D6-7D8C-46A8-9887-6C52B344BE8F",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : "",
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0,
+            "BTTGestureForceFeedbackPattern" : 14
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "New Chrome Window",
+          "BTTTriggerType" : 629,
+          "BTTTriggerTypeDescription" : "Touch Bar button",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : 128,
+          "BTTPredefinedActionName" : "Send Shortcut to Specific App",
+          "BTTShortcutApp" : "\/Applications\/Google Chrome.app",
+          "BTTShortcutAppUnderCursor" : "com.google.Chrome",
+          "BTTShortcutToSend" : "55,45",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "6A077424-EBB5-4541-89AE-A56A25EA0527",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 162,
+          "BTTIconData" : "iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAMSWlDQ1BJQ0MgUHJvZmlsZQAASImVVwdUU8kanltSSWiBCEgJvYlSpEsJoUUQkCrYCEkgocSYEETsyrIKrl1EwIauiii6FkDWirrWRcG+lhd1UVlZFws2VN6kgK573nvn_efMnS___PP9JXPnzgCgV8uTSvNRfQAKJIWyxKgw1oT0DBbpIdABeoAGSGAUjy+XshMSYgGUwf7v8uYGQFT9VTcV1z_H_6sYCIRyPgBIAsRZAjm_AOKDAOClfKmsEACiH9TbziiUqvAkiI1kMECIpSqco8GlKpylwVVqm+REDsS7ASDTeDxZDgC6LVDPKuLnQB7dWxC7SwRiCQB6ZIiD+SKeAOJoiEcUFExTYWgHnLK+4sn5G2fWECePlzOENbmohRwulkvzeTP_z3L8bynIVwz6cICNJpJFJ6pyhnW7lTctRoVpEPdIsuLiITaE+J1YoLaHGKWKFNEpGnvUnC_nwJoBJsTuAl54DMTmEEdK8uNitfqsbHEkF2K4QtBicSE3WTt3sVAekaTlrJVNS4wfxNkyDls7t5EnU_tV2Z9W5KWwtfy3RELuIP_rElFymiZmjFokTo2DWBdipjwvKUZjg9mViDhxgzYyRaIqfjuIA4SSqDANPzYlWxaZqLWXFcgH88UWi8TcOC2uLhQlR2t5dvN56vhNIG4RStgpgzxC+YTYwVwEwvAITe7YFaEkRZsvppQWhiVq576U5ido7XGqMD9KpbeB2FxelKSdiwcXwgWp4cfjpIUJyZo48axc3tgETTx4MYgFHBAOWEABWxaYBnKBuL2nuQf+0oxEAh6QgRwgBG5azeCMNPWIBD6TQAn4EyIhkA_NC1OPCkER1H8a0mqebiBbPVqknpEHHkNcAGJAPvytUM+SDHlLBb9Djfgf3vkw1nzYVGP_1LGhJlarUQzysvQGLYkRxHBiNDGS6Iyb4cF4IB4Ln6GweeJ+uP9gtF_sCY8JHYSHhOsEJeH2VPFC2Tf5sMA4oIQeIrU5Z32dM+4AWb3xMDwI8kNunImbATd8NPTExkOgb2+o5WgjV2X_Lfffcviq6lo7ijsFpQyjhFKcvp2p66LrPcSiqunXFdLEmjVUV87QyLf+OV9VWgD7mG8tscXYAewsdhI7jx3BmgELO461YJewoyo8tIp+V6+iQW+J6njyII_4H_54Wp+qSsrdG9y73T9qxgqFxar9EXCmSWfKxDmiQhYb7vxCFlfCHzmC5enuAXdt1XdEs029Yqq_DwjzwhfdIioAQZKBgYEjX3QxHwA4aA0AVflF59gJtwO4159byVfIijQ6XPUgACr8QhkBU2AJbIETzMcT+IBAEAoiwFgQD5JBOpgCqyyC61kGZoDZYAEoAxVgBVgLqsEmsBXsBHvAftAMjoCT4BdwEVwB18EduHq6wDPQC96AfgRBSAgdYSCmiBVij7ginogfEoxEILFIIpKOZCI5iARRILORRUgFsgqpRrYg9chPyGHkJHIe6UBuIw+QbuQl8gHFUBpqhFqgDugo1A9lozFoMjoZzUGnoyVoKboMrULr0N1oE3oSvYheR5XoM7QPA5gOxsSsMTfMD+Ng8VgGlo3JsLlYOVaJ1WGNWCv8n69iSqwHe48TcQbOwt3gCo7GU3A+Ph2fiy_Fq_GdeBN+Gr+KP8B78c8EOsGc4EoIIHAJEwg5hBmEMkIlYTvhEOEMfJu6CG+IRCKT6Ej0hW9jOjGXOIu4lLiBuJd4gthBfETsI5FIpiRXUhApnsQjFZLKSOtJu0nHSZ2kLtI7sg7ZiuxJjiRnkCXkheRK8i7yMXIn+Qm5n6JPsacEUOIpAspMynLKNkor5TKli9JPNaA6UoOoydRc6gJqFbWReoZ6l_pKR0fHRsdfZ7yOWGe+TpXOPp1zOg903tMMaS40Dm0STUFbRttBO0G7TXtFp9Md6KH0DHohfRm9nn6Kfp_+TpehO1KXqyvQnadbo9uk26n7XI+iZ6_H1puiV6JXqXdA77Jejz5F30Gfo8_Tn6tfo39Y_6Z+nwHDwMMg3qDAYKnBLoPzBk8NSYYOhhGGAsNSw62GpwwfMTCGLYPD4DMWMbYxzjC6jIhGjkZco1yjCqM9Ru1GvcaGxqONU42LjWuMjxormRjTgcll5jOXM_czbzA_DLMYxh4mHLZkWOOwzmFvTYabhJoITcpN9ppcN_lgyjKNMM0zXWnabHrPDDdzMRtvNsNso9kZs57hRsMDh_OHlw_fP_w3c9TcxTzRfJb5VvNL5n0WlhZRFlKL9RanLHosmZahlrmWayyPWXZbMayCrcRWa6yOW_3BMmaxWfmsKtZpVq+1uXW0tcJ6i3W7db+No02KzUKbvTb3bKm2frbZtmts22x77azsxtnNtmuw+82eYu9nL7JfZ3_W_q2Do0Oaw_cOzQ5PHU0cuY4ljg2Od53oTiFO053qnK45E539nPOcNzhfcUFdvF1ELjUul11RVx9XsesG144RhBH+IyQj6kbcdKO5sd2K3BrcHoxkjowduXBk88jno+xGZYxaOersqM_u3u757tvc73gYeoz1WOjR6vHS08WT71njec2L7hXpNc+rxevFaNfRwtEbR9_yZniP8_7eu837k4+vj8yn0afb184307fW96afkV+C31K_c_4E_zD_ef5H_N8H+AQUBuwP+CvQLTAvcFfg0zGOY4Rjto15FGQTxAvaEqQMZgVnBm8OVoZYh_BC6kIehtqGCkK3hz5hO7Nz2bvZz8Pcw2Rhh8LecgI4czgnwrHwqPDy8PYIw4iUiOqI+5E2kTmRDZG9Ud5Rs6JORBOiY6JXRt_kWnD53Hpu71jfsXPGno6hxSTFVMc8jHWJlcW2jkPHjR23etzdOPs4SVxzPIjnxq+Ov5fgmDA94efxxPEJ42vGP070SJydeDaJkTQ1aVfSm+Sw5OXJd1KcUhQpbal6qZNS61PfpoWnrUpTThg1Yc6Ei+lm6eL0lgxSRmrG9oy+iRET107smuQ9qWzSjcmOk4snn59iNiV_ytGpelN5Uw9kEjLTMndlfuTF8+p4fVncrNqsXj6Hv47_TBAqWCPoFgYJVwmfZAdlr8p+mhOUszqnWxQiqhT1iDniavGL3OjcTblv8+LzduQN5Kfl7y0gF2QWHJYYSvIkp6dZTiue1iF1lZZJldMDpq+d3iuLkW2XI_LJ8pZCI3hgv6RwUnyneFAUXFRT9G5G6owDxQbFkuJLM11mLpn5pCSy5MdZ+Cz+rLbZ1rMXzH4whz1ny1xkbtbctnm280rndc2Pmr9zAXVB3oJfF7ovXLXw9aK0Ra2lFqXzSx99F_VdQ5lumazs5veB329ajC8WL25f4rVk_ZLP5YLyCxXuFZUVH5fyl174weOHqh8GlmUva1_us3zjCuIKyYobK0NW7lxlsKpk1aPV41Y3rWGtKV_zeu3UtecrR1duWkddp1inrIqtallvt37F+o_VourrNWE1e2vNa5fUvt0g2NC5MXRj4yaLTRWbPmwWb761JWpLU51DXeVW4tairY+3pW47+6Pfj_XbzbZXbP+0Q7JDuTNx5+l63_r6Xea7ljegDYqG7t2Tdl_ZE76npdGtccte5t6KfWCfYt8fP2X+dGN_zP62A34HGg_aH6w9xDhU3oQ0zWzqbRY1K1vSWzoOjz3c1hrYeujnkT_vOGJ9pOao8dHlx6jHSo8NHC853ndCeqLnZM7JR21T2+6cmnDq2unxp9vPxJw590vkL6fOss8ePxd07sj5gPOHL_hdaL7oc7HpkvelQ796_3qo3ae96bLv5ZYr_ldaO8Z0HOsM6Tx5NfzqL9e41y5ej7vecSPlxq2bk24qbwluPb2df_vFb0W_9d+Zf5dwt_ye_r3K++b36_7l_K+9Sh_l0QfhDy49THp45xH_0bPf5b9_7Cp9TH9c+cTqSf1Tz6dHuiO7r_wx8Y+uZ9Jn_T1lfxr8Wfvc6fnBv0L_utQ7obfrhezFwMulr0xf7Xg9+nVbX0Lf_TcFb_rflr8zfbfzvd_7sx_SPjzpn_GR9LHqk_On1s8xn+8OFAwMSHkynvoogMGGZmcD8HIHAPR0ABhX4PlhouaepxZEczdVI_CfsOYuqBYfABphpzquc04AsA82h_mQGzbVUT05FKBeXkNNK_JsL08NFw3eeAjvBgZeWQBAagXgk2xgoH_DwMCnbTDY2wCcmK65X6qECO8Gm9Ucnczi+eAb+Tf5O3+43OVRTQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAQABJREFUeAHtvQmAHEd1N17dc+29q_uWVrIkW5JvG3xh8AG+MNgEbEwIfOQy_iDEYCAQvoQoJH+SLwSck2CSLxAIRyzA5sYHxly2sS18yLKxLcs6fEiWdle7s3NPd_9_v6qumZ6Z7p5jZ1YreWt3uq5Xr169eq_urhZi1sxyYJYDsxyY5cAsB2Y5MMuBWQ7McmCWA7McmOXALAdmOTDLgVkOzHJglgOzHJjlwCwHZjkwy4GjkwPG0VmsmVWqB6+9Nhbp6entjhd7UqbdE4klEoaVTxhOLBE1I7GC48RicccQtqnqwzScQj7vxIxYoWhbBadYyDldIgdXzrDNtJGfTFvpeOr0z3++MLNKevRRM6sgbazT7e+5qq_YM2_YjEWGDTO6MmoYS23hrDIdMS8ixKBpi37LLvQL2+mxLLvLceyE4ziIcqASjoBb1odh0AenYdiGIyzDNHORiJkVpkhHzGgSejRh2WLCNsRBwOyxbfsFJ+_sMZ38s5Fxa89x__mfyTYW62WNalZBWqz+zeedF33jK9csTDh9Jxox4yTh2JvAzLUR4SwybHvALhb7RdFKmE5ROJBmUSwK27KEbfMHZbBt6ImD3KVi+FIBRUG4IUzYdJvoYEzTFEYkgl9UCDMibLrNaM6MRpKOaU4UHPESYJ4C5u2OXXg0ZxQe3fFscv_VW7ZYvpnMBoZyYFZBQtlTjrznAx_o7u_JzY9HouuFFXm1YxXPtB37+IhtzTWKVtwp5EwrXxB2IQ9FgFJQAagI+JMGFnqIMkLtKtVAyeHGeGCl0+PXaWFLxdEKFI0KMxoTkXhcmLGE7USj+YJhjkYixjbTjNxXtJ2f20XnqaRz4ODZN27JeNDMOgM4UF0rAWAvz+CfvOtdXYtXzFkHOT89Kuxz0COcXSwUjk04tlnMZkU+mxFWPi+VgT0BW_t6xldJ6iUqxfsriYzWyudRJgM9TCQWF_HubhHrioucGbEi0dhT6IF+mbPte9ANPTiyf_Lp87_4xWwpi1lHBQfq12gF+MvD89SH33OyFYtfIQznvKhlr7dzmaWRQkEqRB4KYRUxN4YgyiGQHAZV8UULa1Ww9rauJCEKQuR++SJMBmMyE8GwLI7eJdbVJWwojtnd_QImOE+iJHebheK3j_3MTY9oGmdtxYFZBQEfNm_ebL4pPbK0K2FegGHRVVHbOd3KZBYZuaxRzGVFgcMmOVxqpI8AQj9B9Uhc6wpCJCFKUidf0qVTR6DYsTiGY4luYSS6HKOre59tmA86ZuQbkXz0x18bHHwRfMHk6eVtXtYKshfzitSg2CSKzpXoFn7bKBRXO5mUyKdSspdQLW8AixoQxiDROmwK4kcQysEScu6S6O0VortHGNH4ThGPfLVgGd9OFvZvfznPVwJq34+TR0_Y9g_8_lyzZ+gNUdN6m53JnmXm8wPZVFIUcrly6+83dKpmQZiShMUBT+tKovuAamJcf518A1IJdJEyiuoSTyREoq9POImuCaO76x7bsr9eSI5_58R_++pYYPqjNOJlpSC7P_rROVkz+2bDFO8Q+fypZjrVl01NinwOE21wQi2rNlHT9YQxJL51BSF9IUoSkmdoybzp6MZPKorsVfqSVjT+kGOKL3Xn099c_Q9fPBSK6yiKfFkoyKNQjFgsd2nEtm+AYpxoT07E8pkMFqWKaDkhDI30Fn6V7hWqJuNntILosrjli2JyH+VKWP9AHoqyDZsxnz4YcX507t_+21HfoxzVCvKD970vMTwnelnccd5dyGQuFugtMpOTahillaKekGthCbLD0ofFAV_rStLhHqS6rMyOZQHPujD0MnsHHKM7cTs2KT_n7Nj_g01btuSrkxwt_qNWQbZ__P2Xxh3zOjuTuVSkkrE05hhcifIdRtUR5NDKrpc2JP6IUhCXCaSZO_o9nKP09BWi3T3fzzvWTZs+ddOPQvl0hEYedQry+If_eF2kK_J+rOu_zUkl52QnMfnGHoYsqO41_CorRJD9wEth9dKFxB+JCiLLjTKxU4lFIyLe1y+Mvv5RJxr7WjZn_+Mp_3TT0yXeHAWOo0ZBXtq8uW_cmrgSR0A+ITLp1dlDYzj+VCz1GHWFMUSQQ+u5XrqQ+Lo0BWZ8GIZYAbTwSE0kFhXdQ3OF6OrdacUiHxeT4tubPvtZjGWPfHNUKMjjmz90fKRofQhb3W+zxg_Fs9jH4HjZO5yqK4whghxazfXShcTXpSkw4xmkICwffrS6e3uEOTSEc_pdX8Upyr_fdOO_bg8swhEScUQryNOYhFuDsQ9FHet_i+TEstT4IWHhxCyOh_uyP1QgQwTZF5k3MCxtSFwoPV78Ne5pVhDmH5qlipS9CYZdvQODGHYNPOfEop81M9HPrPvnf8YG05FpjlgFeQhzjZ64+VdGNvOWYnI8ksPhwXomVCBDBLkeXtl8BgGF4A2lJwifDA+V1tCUoZEhtDaiIIo0RVsC571iA4OW09O7JW0V_vy0G__fjtC8Z2jkEakg2z7+x29KFJy_EunUptShUdW66Ql4SCXXFciQtKH1F5YuJK4uPYGZzmAF0TSj3Bzi9s6ZIyJ9A9syhvj4iZ_+_K06+kixjygFue997xvoH4p_JJZNvb8wMd6TTadlJXjnGqGtOWolVChDhDm0QsPShcXVoyc80+DYOnkGJgxLF6qTwZF4a1L09PSIyOCctN3ddeNEJvl3Z_7zVyYCaZhhEUeMgjzyZ3+0Ou5EPmVmUlfmxsZw+hwrVO4r3BUKQgaHVPS0K8hU6AkVlmChDCt_OMownMEpQ3mKsRnjY7GY6Joz1xI9_d_KFJ0_OeUfPrcrGOPMiTkiFOSxj99wfrRQ_JSdHD8tg4k4jRpRlcmvUJJZBWlNwkL41vAcpCbnstJx6aR7cEiYg3MfwHv1H97wqX_7aQ34DAsoS9gMI0yT8+jH3n9ppJj7HFapVqYncBeBXL6FBQCvUnjdYS1oaGsXJiCaoCA7LG1IXCg9QXnJ8LLg1YCF5FcD6w0ISxeaXUhktWYhj76BASEGhnYVE7Hrjv+_n7vNS8JMc_uvh84MKo1HPvJH10dy6a8WDh5YmZqYkCdu1Za4mpd7hYtur7+lIuiJfkuJZxM1xAHwODk+LgoHXhqOZrJfe_LD__u9DaU7TEAzsgf5yebN0Xm5kb8ws5kP5cZGuoq4DAEHgFSvgadXjnnjh9fIniSkJayrRCFpvfnUuMPShcTVpacmIx0Q0mqH5KdT+9ph6UKzC4ms7kHcjFnuBOYl8XnzMk5P99_t61n61+dv3ozj1TPL4E6mmWVuxlt+K8zJj5np9P_JjhyM80i6gRc4aMq6oJWES4kyRsYrGASUAUvh2lExFNOBs_a0c4D1YKFurUw2hnflX9VnF+y3XHz8_f9198MzSklmlILct_l9Awucwj9FUpPXZw6ORCzcISVnG5R5WYXKAfWAj+++qWeNkkhY_0frLbY_vtnQqXEAl94JO502cfDxNX2id9HbNpz00_986KEZc3x+xijIfe97+0CPmfgU3tn4_cyhMZOM0619yXbVhBaVg0Yrh7ZVaDle+2ftmckB1i0v0LOzOSNqGqfG+3vmXn3qGT_9rwcemBFKMiMURJ6p6on_s5Oc+IPsoVFcTAjl4J+S+rISyDpWw6tqBVFKo0PZu2j3zBSMWarKHGA98wC9nc1CSczT+3rjC15_+tm3f+X++w_7bZCHXUF4sXOx3_hTLONer5RDHVFQCkImKkEvKUtJ9F04Vw+q4bnk5epXuSbqucImqfXSzsZPmQMc_jr5nIiZ5ikD3ZHCVRe_4Z7_uvvuw3r1EC54PXwGax_GrwfMv3BSEx9Jj47gjmcKvSm3MXB_M2xKv1IEMo8CX7FeIgVaKQLTqpsXZBLAMj2HYK4GdbKYko5OZvAywY26KuI0dmb0oNllOB+fj1dNUPLNh7P0h3Uf5P4PXvt+J536YGZkFHe1UfSVQpAhFYpQh0NaPpWSuCk1ujppOx6tiet4RkdHBmzQLPAsPzoajWaTf_LEB679o8NZssOmIA98+N2XxXK5P88dGuvCpcps6iUfKhWjyie9fKjwyljNxuC4mbaC1To9_iVXDAyJ0yya4TaVpIh5aH5srNvMpTc_9sE_vPhwkXxYFOSX77_uApHJfS47OjKH74uz5We1yqrFQ_qlrd0qVo5R0bq4PskzJWQIU4HKVpikW0E3wN7Zlr4BJk0vCGUjP3pwnpnN3oQd93OnN3eV27QryK8+9Aero1buM1ZybEUWF0HrnsOVaUUVhR1Gy6xSGBWoFMEFkKpUCUeVUrg0TDleYZ19+nJAM9svssxKv9jOhaEnyVFGJsZXFbPpG7d_5NqVncvMH_O0KgjuqRrAl5ButCfGTkpNpmom0KyHcl2UXSRd+bxPHaYLVoaXLu2l7U7YNWRb7TDBamtGMxNZ68PEBsuDRZs07xiYGD_NzBQ+_ciH3oELhKfPTJuC3HzVzZF+M_0xJz3++jQvb0PrUOoZVLcgJZ7yrIZSdNBdZobHWRFRxqNhNaR3gKXDNMysfcRwALKShcwYqdQVsULXRx3cxj9dtE9bRkuX_fgKMz35x5nxiShXb7XgS+FGaZVSYMkbEUqU3RgCemRbhuogwrrxBHFTSHgNR0Y6XAQg3Kw5YjnA2stOjMVEauKGRyeev3y6CjItCnLX9b93bDGb_GRu4lB3AevcSlRL4oyyBgsvY_xk29WLclqNArZ2KlfZ54mo5K9fBpUQs74ZwIEivvVopyZ6otns_7f1A+9ZOx0kdVxBfrL5XV242vCTVjJ5bIafF+DQikJc6kWoKGWjx7RKZj0xHmcZWrk0BgWCZ3k7RfUwAJNxmIvMmiOYA5AdypCZnDi+u5j5BI8odbo0HVeQwgHnTwrJiSsncQWojXc68OFLwbMDUgEgrxz9UHy1kEsfIhlcVhL4PbKthlUqTIfLFIBR6eBzFZDxSuncSEIQSBuNQPubseulDYnXDUEz2c3Csn01RQqXkDvJ8auzkfQNneZJRxXkh3_wzhPtTPq6_GRS5QNtUNMBKc6QUyWpUohRUq_csuD06zj65GfQlEYpWJ1A2wj1OIlCGokHLhlXfijkLsysdSRxALvtqVQkkk699+GP_OGmTlLeMQXZfPPmvgO9xgdzyYkl+QLmHRBMKai00YuwBVWy6hFqhMiwmhIzXMV4n8RIv04jbTegpoXWQMTtGYLVZNWuABa4I6ZTeDtCbMeQ5nnvcnpyWWwyd8ODm6_t6VRGHVOQfYsGr9i2fu5bD6QzUhk4rOJ5K_7xMLtUENcPT8lPtxR8KJFSAOVXDFDCIUFkrAqVT4_clJwEdD06TNrlhwdBk05NRJPJCF6jvC3g8E0yBZp88U05UHN9yohqEWA+koZsGZnU27vHxZW1AO0J6YiCvOfbf7M2Ozb217sXRhPPLhkSKa4+oPI4OlI2lYRGhUm1cStXuVXhtCCpKM1sZes4qVwAl_gQJcNpS+x4eHoLlYbKSDj1Uzk1+XRpDUxVLz4w4csoIoxHoXFlHrHOi5PJBJZ+__rRj35gTTmmfa62KwiE0CiK4g25YnY4X8iKvScuFS_hevx8xdxB9RhukBRWFkkLPZWkbJTby7NyrAspA+jWMbDVv7SlkrgIvXjKeUyfS5extRx1+VpLHZgqjCkdyjKQliYi+A4Qh+9GOr1aJEdvQDHYHLbVtP2FqQOndl2SslJ_kcmkutllFAe6hJHFhXovjosu3PzNDNE74qfe49Dva8iSyQg2+ozzlJWwbjrVJZTjJB5qg4ZxeaRSMBGj8GBF060s+ZTBKin8bTJhwtamLHzRHIZ8p6bsvqVoPhCVaGM+Eo1E1r700zMf+rf7HnqmeSTBKdrag1z73Zt6Mk7uPTkrN4evzZKBVrEgDhy3UIwMdIsJXBdagEBSVhmnbHewRcmV4ZW28uk0EoJQOli6pQ8PFaqfypaAFB6J383TTX0YZMpD96yzXRzg+yNGNj3XSGffcw9uxWkXXuJpq4KI4ksX5YqZi_PcENQGipLqj4oXTlmOuYgjkkWrpCRyTgLJlcoCGZbiS1sqD3yujNNPwyedyg8F5F8pjhEKpvyUGN10OlKHwd+K0US1kFbTqpOyB5M_BOiercLW8bRRioq4mjSy3wWM318AfuJAecLxhqStocELG4K3Xp7ecjfoLuBVXTOTvnTQnnwdyGqbIW_aYj76vc_O2Vfc__VUPnlRPpOtHCLhkumYHREbbn9KLN53SHQlYqIvYoouWXhTRLDDHcEGEImRGgup0RfCqSFUmUQlUIpsHccwVTV4wkOvCwEbLncHXccpaCVI0q2A6Qw3jShHFYxGTXWUvSquMrLQaMjFCrQQvJXABs1SeVgQpb_agr+syPJ+MPJJFVjSKmM9MP4FKOOojGd+QXGeqECYkLSyWXJzqwHzBng5BHhvVCWxlZFVcORfdzxm2P1zbpsozn_b5V9tzyeq2_ZO+kF7_JJcIfu6GuVgISEIhZgQ+45fLAZGJ4WJVS1+wM7EznrcZE+AHXb5pLAgHIVn+RXr4CoJBAWJXh2r7Mowb1pmDhgNTh_cWg4VfoWTkKVs6Kk2TFjPuDDeKuc71vLFHyhGwYwKJ445WX+fiPT2iijuqI1194koP10Ww6kJNBpOxLCNYtGxrbxjF9LCyiVFMTsh7Ax+uUmMt7FsbhfRgEBR8P1yPEAVWmt9jKaiEKAENJEeDwuQRv4jVA1vWSwml1cA0OMBRjMCXykBYz38Q3NGWNcwH7fSkG05QpMk4zWwtIHdDZQNGcLc9qECih4FpnGyvBVkqnS2ZfQO5i9YuiR7kfiq+J8aJC0E1NLcApL333Lj0Kg9ctdkLnkKJ0xBJhKLizW_3C2Gn9qPL6SaIoZSDkAoErBZ4AgfMBFYZBi9ylZuhVeH00e3SsOnhmc42afCJAYCy2AJzypHpCdG+nlJhItOweunp7J1UI3tUQ6+LprB23A53BwoBuaIrhXDond4jejDr3v+YpEYGoJS9IpIokuY0RhkPIJ8Sa2qdHS42Eu1DdvBBitw2IWMsPIpUcwcEvnkfpE9uFPkRnaI3Ngu4UB5+BmISJRtHQtVLgPLJ_kgy0rsMNLNcAmKpxI6CesOuEvtTwmmjIApFankbzkcwTI3XY4SH4FMuw1qoDcJ3W4kLfy7D9d29YEwMo600kG_Cy_jZKQCTsQiomj0PzSeMC9Yff4X1acAiLdF05YeJBObeHMumzshTDlIn4WW74Xjl4h5e8fEUC4vLAjGZBHbhlCWBFpEtjosMGVNMQSJSg5dQrQxJUa7HNTso5cVIm0NTxFwK5NBEjmQAsYhIP5LeVYnLKMIdxEnlCLP+RbmWBY+GNO9fpNYcuKpYu7GE0T3goUC3xMXBu6iZXFk6wpYftOP6WzeIEkcrkGolACKhSGiIhIfENHEHJHoXyF6Fh4vxPCrhYXeJT_xkki9+KhIPb9VFEaeEU4xJb9hbpjoVUpC5GGgmwUtYlatNV0MUDxxSZB8oVuTxWhpFDCccNBdJlv6FW5PuKwrD2wJQKHQ3RbBJKpyp+bSpcKZFTOgzeG3VhoZ7qEhl7dFojt3woA19GaA_j+mmopR+U4Bw0e_9zdzns+nvp3JT54rL5mug8tAi7nssZfE+vt3iS5oOwvLnmQQPUkcLSEJYmWo5WDtdxlSopZ+VT+SafQwnftTbgWg5zQSogSn4ZXiqGCFU+mPiiceabSUaL9rs5JsDKGyuazIQCjNRUvF3FeeLRaefpboXbEKn0eOlZWBOALwVKGt70W+_JMzNjYsVl5k0Jskd98j0s_9SliT+zBoLaB3iktB0kJcwQN4SsMyYGJZJEo3d9lWyHD9oM1_1YgptwvsghC_amzIV9eQVtcjLTy0TQiZr7Sr2AMgiIOM5zdZJXkeXC72kuXF2RWPCsvs+7kdX3TF0Ll_O1YCasEx5R5kpFC4omjnT+bXZRsxNnqRkbXzxMjuMbF0_7gQKEwRgjOJeUk_KjvullQ2NPLhj1XKGhkooyl8cHi55AboYG0rbGUfXQRlBRCn15awPkKtssH70litSyGNuWqtWHTmq8SiM84RvUuXQ2AtDIsK8qfya_MTNKnWH80tCwCiexasw822G0R2_etEctc9YnLvPcIaf1agc8YQDhNA12gWSRUz3OZaB1YAIR385IfLZBlLgZZhMlipKeMlCg3qhZER5TREotOTdJ22rChcoMGsFNqhegoFTzSqzG4ij0Wn11g4phSNFE7OFQ9dgfAveuOadetyNZtOwn_oS5_q3d9_6Js5K3txPl3_K7OlTOIxMX9vUmy680nR5zKC844Y3P2cuMNNhskWhEILh_xzwyUeyV3Vymgul2AkAH0wxOPaKsRNyCj+SSDioUN5pLMMxtQlQ4gihkQTGCKamFssf8ObxfwTTxdxzCvUfAGfajiMhspgGDi5kBkTqRd+LQ498S1hJ3ejHYKScOjlGllSt5tAuwSDELfVYfn1Qohmi4QnFOMkDs+wVYch0gunULo9jspBppQ4pQu4ULcYPMDmaibxqzrxwqjsKAhuIu3Q_opGTAX29sRE1um6LZWZ9+bFF_89XmpvzUypB0kO5jYUcrmzCoUm7xnGhuHY0n4xshwT2L0jqDwME1BobiJOYkzeD6Zx2MV9EioJW0kyTPEBHtewOujTTwmomYdwFefaSMyVMlmFwCXZ6OKmR8MSNfOR8fS4RoKiZUrnCiLdNyAWXPImsfy1l4ruefPlXMLKZjToYbUdi9coFUQs0SeG1pwnehZtEoee_pFI77wTq4cTmMyzN0Fp+O8WUlpUFhXsKoGKlDAuoB6SuTFSmGsKqyIlLsZpgZdwiGNDxDplDxGBRuiG0ItHZacRuTFSib1QrltWnAvrSVLAYpEZLZ7V35vcAMgHfVI2FNS6gmCmnP3W5isswxngkKLEkUayhQRa6N73YsI+tG9cRNAiS0YivIgC40NrYgDVTCXRpty9KqarcMmdkpMTPS3pJaUBiAzXiGi7YZSJEgbpcH2gQ6qSh+8cQiZxBU1k3QZx3DXvEnM2HC97DIvX0rRgWDQpKLDpllnJh0sfLZAjN1Nh092M4VIwTax7rlh48jtFaskpYvTR_xbFQ0_ig5pRtNjoTVycMn83b9YDI2RDApf0arqkh1hdI8NVpI7SNiF0Wi7ns5egUnDIx3LLEmu8yucygXE0nshyLVUGl2BqmYO1H9EddQayhvFGLIpsRblqgVRGoU8vFaGA1ZHXffevl01kJn6ZKWRWOZg_tGJMTGJXbH1BrHtor+iKc8IO5qHQbGU4Ye8FY_USMCtMM18qk0t5RbiEURGElS5oh7S1HxHSL2EJoyIYJlkoIxFKGyxl5eawSzsZ6xaL3vBbsteIowexENasoXBg4U4Kex5tSiqDkwUYmWbyjshiZIYFMGlwZA0LGKjgBIacXUL0YkcV7JE0sS1i5TdrzEhCFHLjYnzHbWLy6VtFTORAi9s+kgWy3GWsXh7rSK+MVYK7_EKgiU0s7tGAbbKHiOpegqhli8TMyvlUuCrCvR5UhNdbkSjYE4kiUbRnl0gsOKf31L97IRgyOKblHiRfKF5YEMVVXMXRIhecjX+MjTV+ntOav2tELJrAN88hPaq1R08CrGn0LCZaOvYk5A9bUVWRbAzKHCv76KJB_yGdbAm1KbvK8NQBt7VEoHSTALcimSKLUwHZhUvE6re+E5PwsyURjSqHVHiiwy+HBn3PQUfsGcHvgCP240vhY9gtTUM58ohjG6N7CcJzoppABXdjQjanT4hFg0Ksmm+IlfgtnmMgTsHrHkaXMsi2rZyIxvux7PwWEe9fKg5t_28QtR9hcSRhSZXlulw+K5_iOePhB5G0VE8jU7nzCPQOUAYqN5WDNabhdK3IfEoZqLTyqQF0HAO97kqPm9AFKDFNBXuTcfU8EisO2_nUhYj9spuwKcuLr+GEm53N5lM3Z7+btTOX2ZhPTMlgTLx4x6jY9PMdohv9cARSBf4qGxymBvdDcWjrStGMl7bMXFUGnbJiZBjhlb8UrkuLCOl0bbqrew9CZLJZYa1YLdZd9wExuOYYYWM45d0hdrOpsSgknHCyV9h70Bbbnxdi+15HPD_qYA4jtz5ImKRP0UYCPGggMBR8GmnhwXwpeD1QmOXzhNi0wsRPiJXzcGQHvQ2OuZV6IJUy4Ikym5E4blDfIQ4++C_CTO+GkmAXvzQO1QpA+jxEuW4OXTmpZz3xF4US45serlK4eXqSVVChw92yyTgdpm1vgoqwCo8HqoysDAGX64mh67Wc7u91n7n8CsPY3HTfW8bpybKe893f+sRJhwrjt+UKuUWlmqyXKCDeAZMTFir7tifF4gNJjI_BbFQGd9WxvyzLGYPi9AKO00uWnHWlfop8V9xVGPnFeJmSLbGbRlpuKBPD0Kdcqhdxg2X+aSiHs3ajWPcH7xUDK4axMVd_rsH0HApNZB3xGyjF1p222LbHEROYv1NhOLxifuUqlWTUPHSjWBPBtEhchDbwrUwckBYnrjTEaWtMsWEZ5m3deD8CrWZYeo3TgJLkDu0SB399EyZ9mJfwCIyMVAqiPCpErjBJpXDcXsKEzTNhIIatmSwQYKszVsl1lpW2jPMAyBaqEkRxqzJM11E5lJl78JQjZDCHtXasa58dGby477R_fNQb3YibDXPTJlPIvgkH7hZMVTmYMc5TiBxaxb0nLBN9v9ghhtAvUlyp6mQG+c_b37lO14uAmNvUsy5kq4owNUxS9SMZiNaQu+QUf8U+dyDFNMDJE6zayHiXvwzmeloqi+HIKWeI9b__HtGFVapGJuJUjDSW4e56zBH3PIkFiINC4F0egb1QORxifsyrnLOmoNL2kFYZ4fpYvhjH1jAZ9EY__40j7nvawtBLiHOONcWrN2JPJKYUxU3ia3FzMTE0LBae+UFx8OHPYyd+q4ijJ5FcA_pS7wBFYC8he3aES_4CoyoHA+Dhz1swDeTNmTAeUwbRiasBPMDEXU7giSg7K3o7HQyUPNsXidgLLDvzJgQ3rSBVVGnMwfYHbv5M935n3_dzIne+xYF1m0wEu77rfv6sGN7xEgSKZ5PY+qsJO1tfurH2gp4E8y64NUNo60LQhtf1E4Z+FUso6dJ+SiLcMhQRVET6sxk09zgmsuH6j4qeBpQD8iNl44nnHPHDhyzxBKaCnEjLsbjKusQhrwyVAqsc9RSkClx6ORzjBJ+0sCd5_akRsXG5yrze+omByXsxfUC89MBnRCz9pOjFwUn2DlQK8pzsko0KSlmizVsuv0J5412CiadsKjwIZl2UY7WLdVfKUwd67AqcPuk1zu5ERGSt+F3dC1a+3li9uYkNO1cuPHnWdY6JsbW2YR0nZ5V1oRsHsJwiepElYgIDat6gR77L8T44RCbxyh+ccRUp2OxjSpwjoMfIdK5fukvx7EUUTuItBUtcKgHfY7FWHoNh1R81pBw4BCAOYSv9G_dZ4l9+ZInHn6Miy8MB0vaQ1ZAzTBjCEOg8KTCc6_zTDyxx870WaEPvpcalgckdTt575osFp1wruuccg8bJFl1dnFMAGf41n6QNvzQ6kADMVP4Qw3gNQyfC9a8c6QWolwbxXqOzou3SV51niR6mc+nk1gFa1w2TB_et9aJrxC0bzkYANUzRKJ5edKzFVr2mSSdo1Eazm5oTF7tPXIZTsDzAByVBweRNKFKgqSi85AFDIMQXZekp6AxXmUgLD9oMVxEqXioF8RDYhWE8YWm42ZlfuFSs_98fEP0rMecI2d9gFVM5tj9nixu_b4kfbMXWnNtreKpf4tUPnY_2V9u6DNXhjfqZnnlzJYnzkO89aItPf7coHoPCkNYguoifw63owLBIbLxOpM0FopAvSDmTeVP4YWRfS4GHYMqfFH4lqATRiuC1S+mJwvOrwSFxKWVSaTS8Jz_mqzJSrZAiS4KrNJII5WccFUgqEe7Qwrp43LQWY3Hh9HKCxlxNKcjmn3yhyzats8ktXggtha2xfBqAQncKJTmIc1oHFg8Kp0AFUQJcFmOVJ+cnaSqJuybB+AoB9Hik4BGPDNMRsNW_pItHRDLxHrHyrf8Lu89r5WpVEMGsIw5lOM_49x_bWLrlnEDVRVAanWtQfLvDKRecp+wGbTfdYYlf_gYf+wPNpD3QSCU5RsSG3yoyVgINEZYBpFC66bxptaD6IfTGyXhV+hrFqSaE+PlzhbqCWB2naSBK_iryctNrGE806x7lNyKmc7bz7GbsLDVumlKQ3ft2LIA2nmPpHS3k004l4YQ9i+79BdyEkkaJ9AVzsjgUcnBQ8gYP6kYWvQyXN2mUAii+ST_D6PAxOlzawMF3Nxa+8S04cHhOqHKw7ihoP3rEFl_6mS2HMLJ19lRKdXY6r+rwdvp12b04KTukbQzDrC_cbYkfgubyLrYX0uPmxH3hmcJcfjkOYmKNWq8sVQiiT2G98S66cpCnZ_Bk5e1R6ioFmSgZibw1YkouSdE_OhFX+sHvTVNka2oXXpXZP4LljMZNUwpixZ21eKdjra2bbjcf2dL71VLjdJQh0YuM4pzWgaWDGLZwLsIlTVVWySdUmuQVHozNlJSE4TJGQWunm7acgYrQsBxaRY_dhB3yy+TqVpDCs164D3H3dlt8635bUH4ocO0w7WKdHy2kMVc0xBbMSe56zFb7FRQqX0PeOKJr2YWi2L1WDbXYKjRotOzSrjEM079SL8EwF1jHud5SVTKRZD5tDw43g7JCINJT5zKNJEil4bzWNO21sURhrZu0IaupKsZR9ddA2_mSgy9yrShe2xcwJJC9iIWJ4u6TcclDV1yuJCPIVRKINZdwkT8pkOHsdaSSMI6hWvTp1z4VViabcDBgWr5_SAy_7XdFAq+_Br3wxXqRPcfDtvjqL9BruStGEkfIw80lEELSVw8oMLWKKJfJH5DoSbuF9c4v_xw9CcpAP8vka7BYYkYHReKYa3Aatk++7+KFKwkkhE+5lfxqOS8LJnKgIuifFnKpHMDoJUAmZoD7KykQ_PwnvdKJPOUf_Sp_SRuTUZL5o1v68fDgodxEY0YsL+zXAKJhQ5QNmatuviqSt60zLYzXmzGtKAvnH5OLesXz6xbgGAb7CQg6Hg4qWQlVWRlIC699oZJQYQhLo23lKz+1QJGHWfQe8y64VMzbcALe_Q4+W8U5xn1P2eLbmPhCp6SAlTH6u4Ly94fufKhWklt+ZYl7URaWKcg4Nla2hjaKyKLX4GUwvHgFQasQSG9CKbngJm2v8JPBNLT1j0zRPwb6pXHTldASjuvMaq1Z4fIqggvPrCQ+nVAGVD544NR0rDMdyHJlTLCvYQWZEzl5YTFfxGu1HPC0ZrzK4nVXY2OZrWJevLBxsRjDxXM8zkJ4ThxlOjCNNrkl+wY4ORfJQEMowNowrlQf0qVjOBzl+xyrxYrXXYZWMljpeebpcexxbLkXwypsplPQ6hnmOR1GK3ujeZH2bMEQ_3MPjr+gTCxboMGGbWLJ60Sxa5koYo5GuZOGdtCPAFpApQ1_iRlIpOO8isQ0MDpKJQMsFYIZuVZF7yBTVCciYJXRaV3bgZBAik4Qpy9teB7SQHWrTJNW8iS8hzNPNuFVdEzV61UW7ea72ukeU+w+ZSUEHwoAySevy8u+fF_EVQC5a67isqhYvqFYMnDSV_4hDXDn0G8vu+Ktomv+Arl6VoL3ODh+P5h0MKyyxMik2vzzRPs6PTn7xjOQ5HlJDAQMiWgkvR8t3MA8iPcJ_vtnWDGEHTiPwoURRtc8EVv2RpFF+yE57RmylIZOITRKqS+lgayDn+XhEmXf_aNWaE2gm1LJH4OZvoQDbq8mIVonUzbjVVh5Kbrc+3Hl1TCd+blU4SQmbcSQjIYMlkJPApPqbDs1hKpBIJQUSjGyakCMLOT8AAN_VypY8RxOeYdUrEIadiA5REAHXINwFVVKz3NV8ZVrxLyTT1MXJ2hQj00+M7s7tmE+dEAdGfFE+zp1Nr6RbmAjgh2WvtG4MFp4_GUXThTf_gi2XAHIsvoaRMbmniSsrhWiyNtqXOGTsEwoEyPQK7QaxkXqjSq1UkTghfO6JXIE6ITSX_WogFee8nxIKURVComOD9ySFIvYxfYrCFavNqF1b1ihqglsyY8KyONc0XN4sWoSg+ZSjwFkbNGkEGDYRVPSB9edRbhUILci5Yc8mQKBFt6DGDrr1aJraA5uAvEfXnGM_vjzNlatICRws77CjKQlDKCNcSzSVAzLwp7kx1jV2o4yBs5HOGGPDYrIvFfK4_pSIZi3lEk8ZMuu_couC6oCk5Uk6QU8M_ZJI8vCOP2TAZ4HoioUyvV48_JAl5waHXsThRvZ4x+S0fBHdxoS+Pf8ZHMfLrNZqySylP+0OAzMP0ZWDYr9q+a6E3alGkpG3CVgLTF63R5+OXF3h2WuKknyecVOdPEysfCVrwpUDvKTBwF_8BAm_5h30B9mGpVXTWYYrnbENUKPLCPeRfn+VgsvbAWXkW_mxOe_UljxReApmiEpbKDS5YmevGu7RiGqlcJbwJIE+zCYQfrnoxBMWm286MpKUQmIN46g587aF17Y3NBHdxpSkJH9+WEceV4kW5BqqjrtR21jVoG5yHIx3ou34uREi4rBHkKJfmlegt6BPQXPbbGiGJ6lX0qMfMBti4FXnCP6ly3HsA2bGT6GQ5CfYff5N8_zeLcPgBtEjAprMIyOaZdy1MNTj57SHA+E8VjK4yjjTx9HLxJUTry6a_YsE9G5p6pPDUAKvX+6fNKmLFKivEok3YgoSS_itVsm0g8mVr_a+YNKormtlVHawC_hq_PRaLUtUbv4o2Jx_74Xh3VUmN2Qglj41odjGAP1mB+W0ZTioBTpwbjYs3GJKGAuwkqmkZUtlQF+hMlQTxxhGI1VY7nKxYmJ090vFuB6HtztyegaQ4WYwKuwPErClbEgExJVk6SeUNckCAhoFx4veu6P_OJJvG+PMgc2BuBVDMOsotMDFoKZWpYpPdpNm0YLv7ZVqPus5porsIDV4LSrTbVC1ORZnYB+L10enFJcTGcAw8phv2TVYQ0pCKRvJTiDexSqC1iNrnN+buIdWM9zWngfHCcDpXJIlXB7EbgZxvP_HGmxlZMGbqoCb0zhRLNrzTrRv2I4cFOQR+v5shMuW8Gxev_yNMOFdrGsHXh0w+ItFcvLV4CfQJnp9jWci_SsEEbPSvAQS766hyCwV7J9pNsb7ZVaJfQquV+eJaXQealK9QEl0S7h2hlUDkCSB4blDOC41CofZDVBDSkIhiXL0PbG21FJNRQ0GMCXnDJdEfHcpqUig7VCNelWL1bJVsHdRNRjHgqx+ilx5iQ+g95n4OTT8Z4y3sP2KQzrguPxrc9ihx1zdx4tOZKMKmlzFLOMeRxFefAZzEUw4iQPag0w4wBFZOgE1YNLQcTDRyGYtlIpytiCwlUa9iLur6QU5bSVLkmAmxFiXG8lTLAP7_sncLnE0mCIckxDIoAp70oTzQsPDx5Wg53QA5iw78N9WgUc8uccgz0+f+xHKPMUErnHJF3wgOkyDmmNwUExZ9OJgeVgvewdxWuyu3FEvGpMLvESd4MMkLQ0ClwHp48u16Sol5Vf76GRcP7xMMrM9+f9FUTxNzKwEd+675P7RmVh14LtyqsUbld5XKCS4GsF0DZgy_MHUBMk6DLci9OF1QVouFYoKxxKQuwdjIoaMHUV5KrNV8UhcLgmQBkpbE0QpNO1w5bntNDV7j5hqUhiG9hCYaXggnfSlpl4RKUkpVBxXNPTg72PngWL1cTEhyDW5+N7OQep7D08GH1S1QY1ItC1qfxDGsHVLH3VObEXGU874jHsrpMHvoYbhwlsQHdztA23BKTQAlr+6KbDE0Q3wzRSCecBIHCQ8cIGwcjwFkoPegzTnv_gTdfW3derqyC9q5b1mJEI73GrMIdNUTBMSi7uE8+vXYheBAM_MFLSQvqgPLQUba7SoNdTx+ZxY+PqdXh7Dqt7AVLHE7pc1fGOxauKXcEDP08Aaj_QumGN4GqEvrDeQxPBhv+xPRha+izsyfQgxojiOyY9q_AeDnjKhBRi15TkWSsEbdmbAEBHauCSrSNge5xevCXQtjpAfcQcXHOaqLvUW1dBRruKQGIPBjFZK4rXbmtZqpCRjzyn9dyJS8TBOb3ybTGCsMrYfcolX1agqxisSR4tMfD9jIHVx2Dji4eRa4eKPHKxfxzDDNxbxdtHKABSCIi8AUNhbkSgG0AlQdqFK6jequngku8eLEy8CB74Hz9BATEPMXtXgc9gFhqj0tCJiqB_XkHXmUhGIsKrPNINAAnfDKc10inYZC5WshJmsbcelroK0p3r7ga+vkYZzQy9ykJ3uw3qRmRwTmvP8UvdYyUqRyoJ6aT402bOvN1EKkiiW3QvWoz6YI3UGi5x7sbFbry3KgCkNpEbQn4fDtPObCmvmRyGrwd4M3pwaTjMsk28lMdCS+EOhi3FhMK1sxSlHEMdsr4cp69gR+t+8LOughRFmq8o1kUURpES39pnWBpvXG1KKAEm3QdXD4kDC_rlsi+1gawu_xjAlDDYUY_19uMG9rmqYr3IXTfhdmO5s1lhbxbeJ+uaoEZwynLVpKwMaKZRY0rmy0bCi7sSBy6viw+h9cVE3acXlrlrZdB2JUlt9nkpbRw1y4l2s7vbTOHGvHBTV0FwxUgcTXBX05ITnq+M9RN8vzA_VJyw57Fa+9yGRWISTR6HV2QXLJBKN1evYFx_tK8fnz1DxXLJq8qwLjn_eAnXgTZjGhHkZvARthGcslzNIm4Qfv8h3FMGXpAnlcrBAPAu0ovvKOJFKkkEoLQiaLvBfBRYJ0sSTIgsl+10GQbX+8NNXQUxY5EuCF9C7TuEI5v2WEzYXzpmnnhu9TwMtcqbh6w8ORchQXCzGmJY4o1imOWnIFzFmcRtiKOTIas4nsJRiBsRZE+Sus524pQNRCsEYpw1Omng4jx0EvySao3BXA73aBlR7hkjnmPdMFMnOixp_bjWkcvjSI7ThTWeuhc41FWQXFTe+InPs4Ig_atP_fRAgCR8ElbsPWmpmOhOlF6WIuvkjyS7lER7elGxHFzrkDKJnF9SKHgwMczMhOLXUl9JcU2rXxkd6mMnwMu0k2gs6K4xUimwSRvpRo_NWF8olaweoTXIpy9A8shxcP+gM_UeBG_zxTDrrVSkmSApLj8d9CLpIdyntWEJ7oPiAUaqAP6krdysy0h3Ly5txllORlQZTlApGGEXRfokq8LSurdR3LWUt55nUEou86YxWSdPfI2DWy9jenV0KhQdrrQoFbLGF3dxdSQKU8dUCr4PMD_bHdhQSClEbl7bB0dng3DcBBP2F_EZhRdwn5aFW9PYuslddtAlSQMBkS4MDfg6GwOqDIWBN7FDvyoEo9PF0viryKnxkuJaqmvAfJW_Fio4hDrBzVd+r8RfQUAFIgxT3eEbiKkusXUBAlFPOULXP6Xaxq3pdUxdAMfmlyrU4Y06uFS0rnVtN5RoCkDMB5KdxWjyuU1L8LVZlBsawipgT8L3QmgMfiwmqFVEPDqiCt1xk8m0R8LDr2dsmm7whz0weRHCKjIzGLVid3D8DIlh+bCME1pMklpXQSS3plIorShhdhD+sDQ6TqdFrR5c3if2LR0CyW7P4VZWM3VWjVajb7fNfBoxjYC1RTlIDDNrJEOpPnVlK6B4DWUQkJbBU0jfKNM9uddVECOO0Vrd5QoPxlacWiqr7SZwGeg1LDRsu_F6bhJf0S0t+4KhclWLr9aG8Ja7x+7CcBO5Ng+qi9hIyhByS8nbrRxcsOBaRnDejOFYtETCEelgKZxivWW4BnoQ24qo8cqMZwNqjF_PXd4vdh+7UE3YUc2yOiGVvPdKCpPP4JpCizvq5PF2ujtlmsHdCBltUw63wMyTB127wQt_WsFjRuAtQ+83Vkr8qkt0XYASKn_HVNNXYMWuZ9BuZxmubg9iYRkLxzXQCE9H+1omrBUX510OXuh5ftMiMTLYjauCFEN53CSfmVTHtH2aPtY5vwWYwAURnTL+AuefWyNi0Fbl8GQYAw_48dBgetFeWjjuXN34enD4l2qqoVPMwFsgqeeOU7Rj_q+VekitqyC24WB9R35TUyYjmVMk1ZN9B5xchemNiGdxJF5dJIdeBGGFyUl1QZxPD8IhWB8m+fzWX7sN68VbN_XwN8LbTikH8+Y3EPtwAIM8qTHkHRtdO4uziZ7GxA+2JnFDQDWpOhEgG1LDwKFknHqtY+oqiJE38KlpI+flB3GyuH6_Ovl1PJo08Q6tl9bMEXtWz8etgEU5H8mNHxIWvh7F7+1VGy4L9+FTy_P6w1rO6lT1_c0qxrSLUFWGVLy5_Q4+Pc2VQL_ygXd2Hq+sJsFHN74Kh18qJSn+MY2FNpRJMKqqiiDtuE41G0k4db82pYsZiBxLxeCIkQ1YGK9Jx6J4fzUAbQ7w5qXZyPFxHr3B8_KclrpPK59MikJ60ldBmI5fYsL9dDAaS+uEsj6q6iQUWaM5UoDb2nv4ULVokEPNIC6gAUHv4Vipyh7EB085qNHSlVO01eVTEeplL9zNncMNgnVMXQUxY+hBhJNxkdZBVxtN9vj9aiHDQ_xwhLHeQC9yiBdgr5onP7STTU6I7Ngoxs6eoYEnS4auWoDO1z_aAxnu9KmP0ARhZfAmbLti+GTMFSx+iz3QgDlOMYmb11LgUwhcIIJWInwIbQWNJw1JBz8zacsMvrHcha+rILiwGjMygZtp22tY7GZ+TecuW1tL7MHHeCZ6u0QulRKZ_S+6udZi4+bYynn1Jqi16bwhR7JykPYeTM7ZSJAXvoYVlh_F4g8n6ZQyX6gZH6iU25g0HYOyHWrqKkhv0U7j2Mb49LUYofQ2EYnWDjvsyXlx8cyJy0UO3z0fe3YHbnXnTeW1xeal9YuHDLECb99zo7FRQ8HSv4bTALDRHKaj5yDdLPMKvHK+BDzwv8CfPQbmc9kX8EoyeOizGkg8labRUlamKvummD6oxVI9yMREBmPFOqZWUqoS7H0innIK1oTaUaiKPAK8vHt3__r5Yt+iITH2mydEMZMOHGZx7L1xuYkVHApDfRPE_7CUzVT5dCkH6eWq1fErDPnZNn_62eDkhZN9DgrCUtTjUTMl9ctxqun9cLphVJCiPX7nzp0QhnBTV0G2fv7zBXDvoBoPgehWpCKchs7GomfI4LuHe05dKfbt3CHS+17ERN2_clm04_F98QG8P+m_iqNIJVwrbGimytuuHCFc5iHNARzQ3bSC34UMAOSQqjAmjPzzvgsdlamCkFRCddQXWBDkivKiwzz47ndv5RZGqKmrIEyNFnUPj5WXhllaQqrt0KymMbKaLiz1HhyeI3b0CfHCr7eWy1FFElvRFZiHnDSsPqXsjfai9IY34qa4NCMybVeOOgTwE9YnD5uy7L77H7KQWPpN7xRm8RCWSMPEppmSNsK9FmBYWQGGX8viV8vQCe4OAKkIDitpGdBxXsAQC8u95SBfl1eKtNsXsI2BOh+vXYWey7482LwLlzw88_ivhc1PRfmswlA4eMzi1NWmHGpoYSHqVk2zSTuiHCHEs6eMRx1x+hpTdGOIqctcmQQVj+tH7dSTTcw_KjE052uWa41jZ7WjyDl8SvCFRlI1pCD4eM4eNBsTfkJVNxOv4HrddRNWAXjTet1VYIFe9CKTq4bEI9aIGN+1U0RwDZCf4fx8w1L2JJy4tjaU0nibqWYqRtuVQxMSYuOCSrESK1cblslhhz8kjrc7uf3CyOzBQcZOz0ab4ZoPuZSNEOOOgibyeXtPCFgpqiEFwefPnsWgfKJeB1LC2ojDK+SNuBvBGQJD2nmj+9OrusX2xx7AxdT+7zRQKQZ6DHHOcSYO7oUzOyg7pmotZRDGFsMbIIJlfBXK2t8dsryLVT8r+YSIOhxehUlBAxm2WJR2JZPUW86EVXB2NYKzIQVxMvYuO2fta6kHaYSK6YLBeCLTHxN3Tu4Qh57bE9iLcEz+mg2mOG4ZhaaxSieU_jVaHN1rtL3naJAQfmtlA8rIsrLMvgYfpnTyB4QzuU3EcKjCf_WqwQx9M9CB7cChcQXbXKAsFq19z2eyu4KhyjENKcjtH_5yCrX_TDnZkeoCd9Bb7YiOi_v2PobbKPx7ET0XufxUE8fgMTll3YWYOtEhKTsQ1SAx1HuW7Q2nYe6BeVdwGbHsPfG4iOZfRO_RAXrbiZIjkTqGEDitv+P0N3y37hIvUTVcZHx+6zHiZqIj2XCDKyUK4mej28VEegLDKH8lwZRFbFxmigs2GXzNJHD5s36V1HJL9xy1MdMTQjlimV57giH3fej2NRyGWnhNIMneg3tqfsOrVjjgm9vUAhtQDmaAjhJ7xfbjjWbWsII4efsRGy+HkB3612gmhxtO06urMgqleGpir3h0_1PoQ_wqXZWRKx4XnRQRwwsgUFVDEI2z2bK1fTjlJUAX0Bvm48a9FmL1QpTtRFX64GSYe6R2oPfY7W4O+iBrS1AwBW1B7yJhTeN0RT5niocaxduwguAisUccyzrI74Roo4UkyNZwnbaD8tfh1fmbmHQW0M9+66mfiJEMehGfoydMwyMX8_uFePurIzgK765qIZx4mzUd7TWCClpFJMHyGFuxTL+DMtH2P1YCQPDEKY479uhP0XtgNFKudhdrg5lW0VDrbYWbVVga7D0MyG4hZx_MjaQercIQ6G1YQXrvTh1wHGOb3_sUQdg1C_3soDRB4X44dFhQmrBw9iI7x3aL23fdj2GW_5Iv0_OurE3YXX_r2SaOgWM_pclBZkcVgwSSCQ0a0s5Xi685x5RlCrsHjKPv7OiDRqywF_xhoWs0pMFcw8CaID4ITYPKweQm3ifGXQXbHswlDgahqw5vWEG2bNlioXv6Vbtmalq4G7WrCW+Hn1V+5zO_EE+M7MIXpbBLFmA4Rj9rvSnedEZELv02qiQdHU4F0BoUzJ6CexhvPsOUZQmcdwCBacZEamKXMJNbRQInwmvL0QbBDiK0g+FcosbK3X1XX72lasAcnGnDCkIUeEnxp3jJpFA6chKM94iI4anekdSI+Mpj3xfJfBrfxfCfsFMcqBSXnmyKd5wbriS6x6gVqjayxNuq1EFLUH7ll_sdpP3SkyOyLEEizkWLVHZSpPb9WPSK_UyNn7f3CEpZh5Ca6DbgaaL34Pm7bKaAlzecn9WQEhLQlILYVu5p23J2mLGmkoVkf_ijeK5o+74nxB0YanGFK0j5WRc8lnHB8aa46qyISOB4RvX4vaNK0SKrCli_Ja1XY4hI2lmGILli2bk3snPXvaLf2Ylvp1d_LKUNQi3L0QY8QYUI4FMUMovrR56eLOR3BID4Bjcl6dhkw9jN+YXf+xS+2Gd0ICsJN79QKcDsW5+4Q_zqxe0iwRsYAwz3CqgUl55kit89LyLwgSt8sgz3biFi2pSjQdmi_HCOMbfXEL9_geo5SHvwfgduwMcwc+vTvxa5sZ+L+d05eaVrmRUNZlxOMKNcHF5ZlvHL5_aPNjz_YAH8xxQBRdv17YeLay89eZ4RM6+ASOAFgQDAGRvsTzAVPocXJ3dP7BfHzj8GwoE7fkOuTKLwDS80cIZJfXBmNIlLkVABPucf28cJf9J98VMJ8jhkRRqpHKfhIKI8V+YLrQIT+FTG4889Kx7atkVcdIwlYnitVik9h1dNZB6Sh4pqA64mew8qB5I46WTuX45_0_e31iXRA9BUD8J0xcnCg1ju3ccVAcU4Frj6R8jDYarpqPYH02RiU2zP2F7x2Qe_LnaP78ekPbgnIVZ+R_0EvD_x4TdExRtfwSEXl4E7dJCPGTZgJF2gIQ5arniFoo0vQZHWMBSJaEw89eIe8YXb_kNcsDIj+jG04pdsK+ceDRBQFySMirqJWwaIQFZzRefFTEEueTQAAB5mSURBVM56sFkkTStIPrV3BzYNnwhvLskIv1+z5AXB++GeOvM5SX_64DPiPx7+JvZHkqErW6SMX2IawhDmasxJ_viyiHwjj3dwUSDDhjJBpaoJ18WsiagMUD0GOI5mkgpxPWghTUMYApLGMJPAR01fSo6JT9_yH+K4wYNi3YKYKOa9u+ZT56vKv014muw9mDePyBSy1hPbn0rvCOOFX1xTQywi2HX3ruKaS05cHYlHzkWFNK1gfkTMpDBOVPdPHhAHcklx7LzVoh_fwqg33GKdLZ1jiNOPicg38_i1Kn53PF_EJygwQmlp6NWAPHHCzXkGV6g4nHr9aRFxDSbjy0AL5xv1ZCkRjUM5DonPfPcLYnxsu_jjc5fja604WoJ3P1Tv0QAR01l59QrkQwt5j6tBrYlk_kunXXPrXT4goUHB44iQZIV07pZoV_w6I2ouDvyYY0j6GR0FmeDE_d5dD+BLSynx+6f8lhge4F2_FJpgw16Dlz5zGfWcY03xm+eFeHCnLR7aZePMFxYDUFH81HJdZakjk5QRDuXYawyghzhrlYk5RkRsWA4_jqyTDh4lqWc4rHrmpT3iH3_0RfHQkw+Lv7rkGLG0p4grWvXKVR1C6mVQim8TnhaUgyRw_pHNWy9Zhfy3SiQ14WhJQc5NHfvYfT17tsYHEq8Pmcs2QcbhBfVbgeLUdBtWtf4NFxW8+7SrxDGDyyB4BQwcgyucdcgWvRc3E75ynRAnrorgu+uGeGyPIx7ba4u9WD9J4eM0FG7ip7ZIm076tUG8zoW2pA8ODhV4NeiKpYZ8d_74leo1We6Oc5+m3nCK6NlDsud4et9u8ekf_rvYumO7OHNZvzhnJe4yxpU+yujcXe_htlpUDkk2FSRrPbji3pNwQPGWpktSUS_NpL74H9_1jvhg_EtTob2Z_DoB66cY1flweLVq7kpxzfGXiTMWb5SSXJQT2GrIWj97Df7Ya1B4+QXZXQdt_By4hRjDbWP89BtXnPCRLLlHQU1hGq6BxKKGVIi5fY7gjYe8s2oYv0W4moeLAuQ9lY2_RkyMCw+A_cWOX4sv_uwbYse+nSKBvD9x0bB4DXqgfDbZCJomYBokrB7GKQgZ2g1xaDT_O0tf+z9fqZeNX3xLPQgR2Vnzx1aiuCvSEx_m_VNHgmlEIarLwYOMe0f3is9tvVnsO_YCceHwK8VAvEf2JtWw1X6v8LL1X4FbC1cv4ncSoTBQiFTGEROYr2TwTUB+QJRLsTQcqrFX4C3r_bhUmz1SAmFUNMJwflF9ulilDH6y1ziEhYcfPfozcfP938McCXcVYw_nHHxr_uwVKE_2ABJToJFJW0yblGMKtETw0Zf0ZGFnvli4q1U0U+GGcem__t5fxgYSf255Pk7DLvxwmlaUoBF6bfQkJg41blp8nLhm0yVi49xhTN6t0Al8OF41L9E9DNmmOUfRohJ5e4hWG1EqeAQ9x7bnnxL_9Ytvikf3PI6XeopSOdApiX9+w1ox3JvGSxLelatwyuvHtkk5Wi00CCQ_Y7GIODCW_8uF5371L+FtiaiWexDWYTFX+E6kEL3ejJoDNps1BoYUql3KE5aHJKIDDx6R5zvt2158TLyIDcULjjlbvA69yfzuAQxxeOzEbf7r5O2lHXNtvsDTEcMlax6jOZAcFT_Y9jNx+_afYVj3kjw1wJlPPlsUV71isRgexJyIl+mV1HOq5LQkh7WZhshRLXBtCHuPyWxxPJlOf3dRi8pBrFNREGG8sP8Jp2f5vWY8cTEGXbVUVoV4haMq6ojwUsHZyvOA4ze3_UBsfWG7uHL9eeLERevFULxX9iiFEEWZjvJznsEDh2N4W_LX6C2+ufVHWK3ahTlOQa7OsQBpKMfwQFxccuyQMAsTqDkKNUt29BgqSCFZuOeJXdYTUylV0_sg3syeueeZwvCFG6LReOxCvCeSmA4B8OZ_eNx65ckRo1CUrS8+IbZjc3GimBWDiX4xt2tArhTp5e_p4AlFm+eo4li6fR69xI+2_0J8+d5bxfe33SVeGle9hhyvQRH41a1I3ha_+4pF4uwlOJyY573k7VCONvUcrNQ29B65nJ0cGcv+3ZnX3Nr07jlJ0GZKPQiRFET61li2+_civdFzG+hEdL5HhS3fTIRiPIFXd3eO7hE_3_2geMWSE8TpSzeKlQOLRAw3gtiyfebiMP6mWPGaaaonwyYkBJvuAnqHp1_aLe7b9Yj41bMPY1HhRUz604jHipgU_nLvXsBy2qmLe8Vl6wbxdt2IRjlFe+YoBwvCBZFUpvDQ6MShb0+xYG1pOsRFN77z9+KDXTfhW4C4I2aqJB2Z6TGSR9FNvFMSFf3oSYbnrhAnLTxWbFqwWizoGRLd0S4R5yUIEGgqCyf9nLtweEyLYV7DfgqgfEoloDKynee3Iot4XThVyIoDEwfFthd2iIeef0LsPLBbTOD14QK+0ehgi132CUBMpeTxF2ZSxDzRzBbE31yyRpyN634KGaw1K0hv1k26K+luMnEtOJkxBUOe4Yh_8cCB7LWrL_nGF6aASiadcg9CLHYu8007G31PpC92mp6sT5WwIy0923MKIcf64+kx8UhmVDyKOcpAz6BYObhErBlcLlYNLYWyzMFQrE_0xBKiK5LA+95QKmx6yPSeQlPhLAg65zRZfEqPCnEIx18OTo5BGfaKHQf3iN2jz4mJFJZruYlCuYLSqW9rsu9wF01oIY5yl0nlxevXzRGvWNqNs0lc1p1hZorKwdJw7nFoLPfIyITR0s55NUdkQ1Md2Ir_on9451tj_fGvYS6C1ytYW0e_CS8neaB7C7T7aNpi0QTuv+0S_ZjQ9yV6YPfBD0VBWCISx+URakpoQSly+BZgNp8VaShGMjeJX0pMYtiUgp0ZT8sVNdmnMBvNbygD302RyoEw9hzyB8XJYYt_EV4a+szrj5HLulZhqitXba5jXYYpiA15nCvY9sHRzNvWXPLNm6eAqpS0LT0IsaUzxdv74+YdsYHuiyweCDqKTbhi6IKrtodDpAj7fZhiMScmCjm5Scdmne+hyPkE4mUP4sJR4OWQjbYUdN0NEAkGchQmpJU9Ax9IrdIwHD8oBEFoiIdKU8TO5FtOXSxWD2JpGR8zlWkkRCsPF3krSf3SaGL94poIiyfQe0zmbx_PWLc3kSwUlH1xW8wv_vSrY07e+Vd8Vj2v3hVpC9oZhUQK6xQqU6oBlIAKww08Mh+foEeDb0GmMXfgB2r4g5thjCMM4QnNTy8T3N9QaJVySJ2hj8CgN4veY81gl3gdJuYGvjFI9ZsxZgr89JYhiqFVJmvlUunCZ095062cXLXFtE1BSM24nb6jmC7+UH6gpm2Dt7aUs2kkWhm8dtNIKhK4AlwjnGRU2E_KOOScwyXqDTWEiqB6FxmIHX1NJ7NUbvYi6pqiOKYo15yyUCzpyosCerDWew9dBubSBtMm5UC7gSIZYmIi_8N94+adbaCshKKtCnLvDVsyVi7_2WK2OMpjxkei8Qpae+ifolBpRQAxXJ2SJxOVfjBEkijlTDnLiuL685miOGlJj7hk7YDIYy7TunERto6gQykx5ISsTU7mRyfG8589++otdT_M2QwhbVUQZnzHDV+5w8rkvtZ6K9UM+e2B1UpBu32GuKaKz5NeosNDTsLZYLpxpFn+86GGVKoM6D2wrJuA552nLBZd+KArvvMCXysNl5uXQtyeZxt5TZYk08WvrL_ilrb2Hixo2xUEOJ1C1ryxkMo9izNa7WFmB7B0RilIKIWpTQIFNGU5wpAK8l2NuZybmlnIJxJRV7LoPV67dkicvCQhLB5lb0U3OsB7T6GmjJ3X+YwnCzutYubG9jG+TFZHJPiuP_mvZ5yC_Wd23soFfTCzTEL7XV7hD3K3L1ctotpuE2YKOVDKXk0KPNajOMSikYKOh4Rhvmq+wd5FdiJUDqxaLYhHxNtPWSQSNifmTNuMhujy0G6TUQVqFzL5zkw6bWVTGevPhi_+7rNtQlyBpiMKwhziY2O3FrL5rxjy9pOKPNvm6bzwh5GqBSgMpvW4knIQBbKS+xk8_qv90ASpPIyWwFJfJCz1iEvtF2JT8Bic1i3mp7qsq7KdOU8ukXNTMCLGU8WvPPZsZspHSoLKNqXDikFIGf7U3U8VVr564zORiHGFGY8OyAlmWIIjKs4V1E7STKGnkTZ6BigHf9QALt+q4yNuvAwuw+dwWndNf0Jc_6qlYtBMoudpdu7h4mL+7TK6PG3CF1NDq+dGRjPvfdXvfOeFNqGtQdOxHoQ5_eSjX9teTBX_1SlgtthM715D5kwIUMIpm+hOkwNhqpYnqRxaMTha0vrgpQVh3BTEHcriyuPni9X8vEE+6LNp3oRe90xXDtV7ZLK2NTZe+NdNV34b75p3znRUQUh2ZNfBzxRS+Zv58s6RY7zKoN3TRL1XOaRbHVGX8w+OK_CPQ6GSGKiRu+xLheIPR1TSRXH68j5xxXFDeClqHPAKtj71HSpntabXJyQEAjSi_Dy4OTaRvfnJpyc5Me+o6dgQS1O94_4d1orXHPuIYUQujHbHFsqhgY6cUXajgtRBokvCBFroptBzDROTCjkHccPknEQ+XBg33MIxFHzCRHzo3GViVW8B3+JrdO6BRJ0wpKttRuGK49rIg2O5x9KZ_LvP_J3vdfzE5bQ063f_6ZYddqr4MTtXTM+sYyhkuv61rSanhKikA3CoSThszj+oKCWBUzSrybkK59Aqg2Xdy9YN4Q1HLOvKF6EaIYW4OmBKtLYDt6Ixhm2D5GQxnZrM_em6y259ph2Y6+GYFgUhEXdk1n6vmMzfiIqepu+LKCEqK4Cfvx57pjHeVQguZqifqyCYb1QoRwkOY3GQByip4jm8JbikOyKuOnGB6Ja3I9Zb1tX8aHMZqRgdUA7ulufzdmHsUPbTX37glh+0mepAdB0fYpVyvvtuZ8XZx95vmM5x0a7YxvbwkJV8FBgwQ748hV6gxBctv5S30vKujodySDmkMqmJeREvQl25cYG4ZE03Tu5OgClUnyDTIb6ViA_Kt9lwl0512EocGMne8pv9Ex_+g+uf4crDtJhp60FYmrs3b5nE+dQPFiazvzZxKRrbv6n9iPXINmpyLaXdLYjrdoVNLumST_CrINr6p5SggLtGVw91ias3zRV2HpuCbtpazmh+18ZMOSQwz1Yxk1ZlYthLGz2UezCXjtxw8Ttv5_1E02amVUFYqjuv_9IeJ2V9wJos7DZ5Q9rL2FQIclkeyhxReqHaEIZ62hTKo5y4c36C4dVbNi0Qi3vxFiLeOQnvPcro2+Zqu3KUKeO848BobvdEKnvD2iu_vrccMz2uwyKhz9y5bffwqzc+YcSMSyOxSE+FoExPuQ9LLr7lhHAxXMkYJxzsLPggiRh68Xg7h16cmzBEuulXv3SqiPfL+8V1Z+BrPnm8BsExV8XwSiIiss4YRXibcSua+Y7H5GRx5KWJ7P_acPmtP2lzJg2hOywKQsp23rntmeELNqbxEtD5Bu+s6XA9NsSNDgH5Kgbz0oohy44H_+l2_VJPcD2oVgYp+zJQwfKW915MRm44dzleo_Vb1pWIOlQqRX_7kSua5cVvk8XM2FjmY+tff8vX259PYxgPm4KQvJ23bbt_1fnHxyKRyKvQm+DqwsaIPpKgApWjVAi30FIzGFhmAu88tqkgpTgVTT9_GUzM37Jxvrh8PbbMC9gULCetwEOsbTdemtqGXBXAxGcislmnMJbMf3LNpd_8+7ahbwHRtM9BqmksJp_761w69wmMo+3DcfK3mp6p+rXwajsQnyvkFGoFCxvDJh66pZ875xxeQRUkCsqjxkk7j9url3bHxG9tnKtO6+IVXWUIr9K4Ae21FCHtxSmxKZojWM7N4RjJ6Hh+867Ypk92IKOmUB7WHoSU4otV9nHrl_3K6o0vxibiafgoT0frtynuNAhMgW3JIJlMqh5AQXVgoMLGK5TkvSgcW8kwlYCbghYOJL75+AXiouG4eztiSxQ0l6jVcobm4hYWMOw5cMZK4IzVv6fGnT9_5eWfrfMBuVDEbYk87ArCUsjjKG887idG1pgDJp2OF634ZeYZb1pXDAq6Lp7rQIG9ZZa759z_8IYrL16dVXfrfuhVS9zeo9nTujrvJmwvcU0kCwctMQHKYfJDN87oeOFzXaLrQ2uu+Fo2PO30xM4IBWFRd_3g8fziC4Z_FrUj8w0zcgp6EjaeM9K0rBiyNKpQsq+g0EnBo81IZUv8XL6VyoG1XQkmH1jQwlJu1hLXvWKJOGWRiX2Pdt2tG8LqjihHOT8157CtkUP5f38+m_+Tja_fMpWX58uI2+CaMQrCsuy988n8irNOu9MwM3koyatNXjsoBacNJW0SxdSUICAzV9Akbroh7DIIDxWGIBkOP1+vdcPl9T1c1oU_nS6I81YOiN89db6IYmIu4QOym1Iw6eiYKePmnCOTsQsj49nNlpX++Clv+D5vtJsxZkYpCLmy6+6HiyvOmn+PMHowZzfOMOPTtwTcMWErVTeFHB5X8FVwWVhU_oDhlIMTdhdW9yCcmHch_IZzlovVvXlcRDcjRiGl0jXmKJc3gvZvAku5h1KFT+6+9+DfnvaHdx72OUd1GdRZherQGeJ_3aff_t5IV+yvor2xOeo+qPYS1nmFIL1lgZCKQcFnKJVEKkGl0qiVLKxiFdQ5K77jwRUtzklSk3lxMT6Ztvn8JcLAzeyyZ5HY2vzoWO_h8gJSF4VyHBovjI1n7D875uL_+WybS9A2dDOuB_GWbOft2x5Yfd6xD0GOzo3Eo0PeuEbc06MA1ZR4FMIbpRUCYZIuCiHDJDhtrTDq8KHNOQgUQwI4uIkdlzAswiUMH371crEwnsGF1W0+UqII8VLcRnclT3jl6uih_LMjE8V3rb9sy2HbBGykgDNaQViAnXdsf2bleRsfNmxnkxmLLJOfgPWU7PAogYeAkrNSCErBdGjhkzohH6UgRMp_pQgKVt6QL3sahZOKUsDc4604yn7JMb24mZ2nddtoNH1tRFlGpcpAP69Oxco1lnFz9ycnCu897o3fvKsMNzNdM15ByLZddzy2e9WFa293CuZSTEyO4+RdDkVmBE_LAhBGDmWwUg5178FUrlvCuD2JDGY4bmaHcqweSogPnbNUJKwJhHGo3qbRcSVRzLX9BqRGsIyLu3OLB8dz35gcT1173Ju+82j7M2o_xiNCQVjsZ29_YnzJBcO3RYoRBw3RaZFYNH74eo_GlEJWFwRQyaCrIdovUTAM_2hV5bVVfKDnkJN0JpJxWNbFvsd7zlgmTsI30tv6NVpFmCSzMw8UgMrByXiykBo5VPhUIZf_6IY3fe+lzuTXfqxtaobaT1gYxtd+6q1XRLoTn4gkoifybsjO1TMqeIpGT8SJRp7IJcqSklB5qBDUBLpxvATvlcszWAzD0GpysiAuXTUgPvKaZaK7OIIgfaSkRcI6xyyXIA_PIF38ts+hicKjycn8x4974y0du7+qRW7UTXbE9CDekmBe8uSKc9ffies9FuD7Ghvbu1_iqWBvpq24pTAqfFIRpFPjV8pBxZA9BRVE9iTwwyZ8AStZPfBe_yos6_a0YVlX0tNKQZpLw2+e4D40rLpZFq4F_fqhvHHdpsu_cW9zWGYG9BGpIGTdrh8_PnrsZa_5XiGTyuI7GsdilWtATuC1_DXM36YTNIxZAgJ9SS6ZVZVfxbmB8GBVVyoH4XiFz4VY1r1m0wCGWVP8rkeJiObIbwoaR+_xhTEUwBAj44W9yVTh_w6PGx9ddOXNB5vCM4OAj8ghVjX_zv_bt22KJMwbMC95e7Qngs9Ra6GE4zAZOT8iHXI1yt0x5_xCEqeUoDy0Yu_BfQ8qiHIXcJxkLia2_3jZarGqexJvCnJTsIXq6rhiaB4r2jDXyKUyxa8Us8an1125paOXuk1H1R6xPYiXObvufOzAyrOOu8uMOU9YefsUHHacw6Pz7OoPh_EqAVRB9SAlpfVQJGVLRUi94dAKSsLtj1yqIN5+0gJxwTAvYcDN7M0qR8cVQ5VDf0KOw8HRifwzuaxz_YTZ9Q8bL_9ax64D9XCw487DI0EdLNZ5f3PV2mg8dj1e5f1tszs2lwfhSreidzBfjVoqBz0QUCmjmFhIu6r3kKtVEgbawH9oBfc_2IPwfqt1AzFx4yWrxVxzHO+FNLEpKDPT1HTOZtvDRsiCYoxNFkZxccR_54uRf1p32f8807lcpx_zUacgmoWv_fvfvhgngt+NCfzluNExJpWEtdphAarsPdgjsFsAVVIZ2FvQyWGU+sEh_TxawuM0FLh8piA+_pqV4rI1_K7HKJI0WE0dLpvkrUsK2h2eo8qn0sXv54rO59Zd9o22fThT1+FMsBvk_EwgtXkartp8VXysN3apEYOiRIyLzS68jYUSc1hQaumbRxuaQgo+BZVKga6B_pJSMIwKAZ2hwsgzVjJe9R7sQdIYWr1yUa_41EWrRJc1gm+l11nWnQ6lYFEoKaCf+p5MF+x83rotlSveZKWe+uGmq7dP2z1VJGU6zVGtIJqR521+11CkN38JPkP+wWhX9EQDm4wGmkDZumugNti6Z5CoILhSCeXQiiG6x3B7D2gJ3wxUG4NQFihHEad1E_j9n_NXidcuwzwkbO4xXYoByjlM5b2_+NR3Hh+recSyi58+lLZva+fXZCXPZuDjZaEgmu_n3fiuoWgh+1u4ReUdkXjktEhXtJ_b8lJR3BZSw7ZilxREK4fsMVxFka0vJxvKr2CVn4rCDcLMZE5ceswc8fFzlwgnewAqxa7Gp4o6rRxuljw7xSXb8WQ+mckVtmLT70siU7xldRs_s9wKn6czjQ_3pzP7w5PXlV9411BqJPsGx8REPm6cFYnHBvExcjnskZ8uakEAZW8BJVC2VgrdWzAC_xifcHglj6lTiags7q+Ad8z7APQPlxwj1g_msO+Bl+oooF7TAl3e5KFunZUiFfMhISZThfF80bknW7S_Fk30fnf1+V9s2_fHQ2mZQZGaLTOIpOkj5azPXNXdZYuNUSN2BTa4fltEjWPQq6hGW7aekJYGjFc51JyDE28kpBLQQZuKIXsPqSEyXPq574HJeTqZF+_Fa7TvOAGbgpmRcq4SUdnbdhckQBe1iF4MQygM7exnLMv+SrZY+E5X79B2KMaR+GZWW1j1slaQEgc3C_N13dcsxqm6C3GJ9FWY1L8CQ7BF2J03uDuvhbwE73GUlYOCTyUoKwfBlFIgQiqHUhg5pNOwUJA0dsyPn5MQn7xwWCyIHFLveiC+I4Y1DtxUCn7UCIqAuYVlY36xv1B0HnBMY0s+Y9719Ye+vm_zZjnG6wgZRwrSWQXxqanz__atJ5kx440Yf58HRcHx+shSM4GeBaZaWbwKoePKSsOeg5rAH3RELvkqJdF7HxYm5XzX4y_OWyUuWxXDEm8Ty7o+tNcEoYalTiB_OvS8YhJLyYWc_TyOoP8GKn03CPwOLmk7Io6g15SxgwGzChLC3Ev_6X2JQnrfetuMnIbb6M_G8vDZkLPjsK8SkUvFkHrKnVQAaXGOgRD+u0pR6i3kMIu9CyL1cAsKk07lxSsXYln3dctFvDiKFr3Osm4IvTLKVQi6ZVYyX3WqdmIyb2FR4jfI9peFgvVLTDR+7ZjZp9dd9kPuRM4aHw7MKogPU_yCsFTcJbon5pt2ZD3mKufitdEzMNk+wYxF58ONZWMcvHe5qZVGDq9kr+HpPdwehb0Jl3VjuJn9ExesEucusvBNQZ+JuR8xbpicw0uFwLEahDErCwpRxGYj7u218VGdfD5fPAh6thmOcV8mX_xFLmo8NbB_4ODq3335zitCWFoTNasgNSxpLOCqq66KHDgvtcCc6D8Ry7Enob3ehJTrMNlfhHHMIPy4MFck5HfiyWX2KvyDFKsf5h7JnLj8mLniz85ZJIpZHHjFUV4l6hJcEqIrSJ55kiGIYydEBYNC5PAyVRHzakRN5Av2RC5f3IeB1NN4rWw7rrN+NOqkH30g1Xvg6qu3TLFrcjN_mVma_y+zYnemuBd96R29qV3pYdNx8LNWOYa5FL3MShwVwWV4xoBhOIOYrPdhIaAbc4_uXttJfPL8VZE1vTnDKqZ5urJMmJyqyAFZEV0TLuR0uJKUMWyRLBbtZM5yxrF_chBSvwca8wJuAN9t55xd_d1duxdf_OVp_chMmeijz+WpkaOvcDOlRKfddFqs_8UVvblCsReHrbqxmprITRYSZy_r6_7YGUsiufSImS9iJwbjINLs4DvPZhSjJdvE5bzFvGNFssLAF_ocIxcz7Uwsl0itWXAgZZx_N+8cnTWzHJjlwCwHZjkwy4FZDsxyYJYDsxyY5cAsB2Y5MMuBWQ7McmCWA7McmOXALAdmOTDLgVkOzHJglgOzHGiaA_8_+FzkpWgwON8AAAAASUVORK5CYII=",
+          "BTTTriggerConfig" : {
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000",
+            "BTTTouchBarItemIconHeight" : 20,
+            "BTTTouchBarButtonCornerRadius" : 6,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarButtonName" : "New Chrome Window",
+            "BTTTouchBarButtonColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+            "BTTTouchBarLongPressActionName" : "Open Titleless Youtube",
+            "BTTTouchBarItemIconWidth" : 20,
+            "BTTTouchBarOnlyShowIcon" : true,
+            "BTTTouchBarFreeSpaceAfterButton" : 0,
+            "BTTTouchBarItemPadding" : -10
+          }
+        },
+        {
+          "BTTTriggerType" : 620,
+          "BTTTriggerClass" : "BTTTriggerTypeDrawings",
+          "BTTPredefinedActionType" : 47,
+          "BTTPredefinedActionName" : "Move Window to Next Monitor",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "C8CCF051-497D-4C06-B589-D2740F39F75C",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4,
+          "BTTTriggerConfig" : {
+            "BTTRequiredDrawingCertainty" : "0.700000",
+            "BTTDrawingDirectionShouldMatter" : "0",
+            "BTTDrawingName" : "Up",
+            "BTTDrawingBezierPath" : "YnBsaXN0MDDUAQIDBAUGHB1YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKUHCA4SGVUkbnVsbNIJCgsNWk5TLm9iamVjdHNWJGNsYXNzoQyAAoAE0g8KEBFaTlNTZWdtZW50c08RApEAQ2DBAEMi7wABQ2DBAEMi7wABQ2VLAEMmLgABQ2vGAEMsqgABQ26_AEMvpAABQ3OpAEM0jwABQ3m2AEM52wABQ37uAEM_0gABQ4J9gENFHgABQ4QcgENJqQABQ4Y3gENOlAABQ4hSgENTfwABQ4nPAENXEQABQ4tuAENbnAABQ4zqgENfLgABQ48FgENkGQABQ5A2AENnqwABQ5IoAENrkAABQ5RDAENwewABQ5ZeAEN1ZgABQ5cEgEN2tAABQ5iBAEN5rgABQ5k7gEN8HAABQ5niAEN9agABQ5qIAEN+twABQ5qrAEN+_gABQ5r+gEN_pgABQ5shgEN_pgABQ5shgEN_MAABQ5shgEN+iQABQ5tfgEN8GQABQ5vNgEN6YQABQ5yIgEN38QABQ51YAEN0sgABQ56IgENxIQABQ6BKAENrgwABQ6ILgENl5QABQ6RQAENf2AABQ6aUgENZCgABQ6jZAENSPAABQ6vfgENJmAABQ661gENCTQABQ7IqgEM5qQABQ7hpgEMq5QABQ7qEgEMl+wABQ74xAEMb4QABQ8JKAEMSxQABQ8W_AEMKIQABQ8kygEMCXQABQ8yngEL1LAABQ84egELvUAABQ9AQgELniAABQ9KFgELdtAABQ9RMAELXyAABQ9XIgELR1gABQ9bCAELO6gABQ9e7gELL_gABQ9hNgELKegABQ9igAELJMAABQ9jDAELIpAABQ9jlgELIGgABQ9kIgELHjgABQ9krgELHjgABQ9kOgELHjgABQ9jvgELHjgABQ9jPgELHjgABQ9iwgELHjgABQ9iwgELIHAABQ9iQgELInAABQ9iQgELJKgABQ9htAELJuAABQ9htAELKRgABQ9hEAELLjACAA9ITFBUWWiRjbGFzc25hbWVYJGNsYXNzZXNcTlNCZXppZXJQYXRoohcYXE5TQmV6aWVyUGF0aFhOU09iamVjdNITFBobV05TQXJyYXmiGhhfEA9OU0tleWVkQXJjaGl2ZXLRHh9Ucm9vdIABAAgAEQAaACMALQAyADcAPQBDAEgAUwBaAFwAXgBgAGUAcAMFAwcDDAMXAyADLQMwAz0DRgNLA1MDVgNoA2sDcAAAAAAAAAIBAAAAAAAAACAAAAAAAAAAAAAAAAAAAANy"
+          }
+        },
+        {
+          "BTTTriggerType" : 117,
+          "BTTTriggerTypeDescription" : "Rotate Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 25,
+          "BTTPredefinedActionName" : "Volume Down",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "48A8EE46-884B-4EF5-A182-D2F15AB246D7",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : "",
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0,
+            "BTTGestureForceFeedbackPattern" : 15
+          }
+        },
+        {
+          "BTTTriggerType" : 624,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 98,
+          "BTTPredefinedActionName" : "Center Window on Next Monitor",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "96FA18D9-2D46-4913-B05B-469C8DD2F9C1",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : -1,
+          "BTTShortcutModifierKeys" : -1,
+          "BTTOrder" : 3,
+          "BTTKeySequence" : {
+            "BTTAllowRetrigger" : 1,
+            "BTTPauseBetween" : 0.29999999999999999,
+            "BTTKeyCount" : 4,
+            "BTTKeySequenceDownKeys" : [
+              {
+                "BTTKEYCharacter" : "l⇧ ",
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1
+              },
+              {
+                "BTTKEYCharacter" : "⇧",
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1
+              }
+            ],
+            "BTTKeySequenceMixedKeys" : [
+              {
+                "BTTKEYCharacter" : "l⇧ ",
+                "BTTKEYCode" : 60,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1
+              },
+              {
+                "BTTKEYCharacter" : "l⇧ ",
+                "BTTKEYCode" : 60
+              },
+              {
+                "BTTKEYCharacter" : "⇧",
+                "BTTKEYCode" : 56,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1
+              },
+              {
+                "BTTKEYCharacter" : "⇧",
+                "BTTKEYCode" : 56
+              }
+            ],
+            "BTTKeySequenceUpKeys" : [
+              {
+                "BTTKEYCharacter" : "l⇧ ",
+                "BTTKEYCode" : 60
+              },
+              {
+                "BTTKEYCharacter" : "⇧",
+                "BTTKEYCode" : 56
+              }
+            ]
+          }
+        },
+        {
+          "BTTTriggerType" : 620,
+          "BTTTriggerClass" : "BTTTriggerTypeDrawings",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "94283F20-0EFD-439C-84FA-F2AE0D7EAB9C",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTTriggerConfig" : {
+            "BTTRequiredDrawingCertainty" : "0.700000",
+            "BTTDrawingDirectionShouldMatter" : "0",
+            "BTTDrawingName" : "Spiral",
+            "BTTDrawingBezierPath" : "YnBsaXN0MDDUAQIDBAUGHB1YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKUHCA4SGVUkbnVsbNIJCgsNWk5TLm9iamVjdHNWJGNsYXNzoQyAAoAE0g8KEBFaTlNTZWdtZW50c08RB2sAQ8l3gENcKQABQ8l3gENcKQABQ8l3gENY6gABQ8l3gENWegABQ8l3gENSjQABQ8l3gENNXQABQ8l3gENHCwABQ8l3gEM_zwABQ8l3gEM5fQABQ8kdgEMzKwABQ8iggEMwuwABQ8haAEMs4wABQ8eCAEMo9AABQ8Y1gEMjxAABQ8XWAEMipwABQ8SlAEMfFgABQ8OrAEMdIwABQ8LvgEMbMAABQ8JKAEMZ5gABQ8GjgEMYmgABQ8D8gEMXTQABQ8DZAEMXBwABQ8CFAEMWYAABQ8BiAEMWGwABQ8A+gEMV1QABQ8AbAEMVjwABQ7_3gEMVSQABQ7_UAEMVAwABQ7+xAEMVAwABQ7+xAEMUwAABQ7+NgEMUegABQ79qgEMUNQABQ79HAEMT7wABQ77zAEMTnAABQ77PgEMTVgABQ757gEMTAwABQ74ngEMSsAABQ73TgEMSCQABQ71CAEMRqQABQ7xjgEMQywABQ7rDgEMPtgABQ7mLAEMOvQABQ7frAEMNqAABQ7ZLAEMMkwABQ7RcAEMLeQABQ7JIgEMKSgABQ7AzAEMJsgABQ64dgEMJGgABQ6uFAEMIdAABQ6jsgEMHzgABQ6ZUAEMHKAABQ6NAAEMHKAABQ6CngEMHKAABQ51+AEMHKAABQ5xFgEMHKAABQ5m+AEMHKAABQ5eogEMHwQABQ5YNAEMJXQABQ5TUgEMKVwABQ5OiAEMLxwABQ5MPgEMMigABQ5JpAEMN1wABQ5GtgEMPywABQ5FEgEMRbgABQ5EGAEMT3wABQ5BugEMYAgABQ5A2gEMZvwABQ4_qAEMd6gABQ4+dgEMiFQABQ4+dgEMmQAABQ4+dgEMrcQABQ4+dgEMwogABQ4+dgEM1yAABQ4+dgEM52AABQ5A1gEM+AwABQ5EugENDNAABQ5ISgENHXgABQ5NegENL6QABQ5SRgENQHgABQ5YqgENUmAABQ5fsAENaNwABQ5mLAENewgABQ5sqAENjTQABQ5zrgENo7AABQ57dgENs0QABQ5_VgENuwgABQ6FSAENyVAABQ6PHAEN3PwABQ6VDgEN6OQABQ6cLAEN9MQABQ6jTgEN_kwABQ6qcAEOBRoABQ6yEgEOCGIABQ68YAEODYoABQ7JBAEOEFoABQ7VqAEOFJIABQ7iTAEOF2IABQ7xbAEOGOYABQ7+EAEOG7YABQ8NMAEOHToABQ8Z0AEOHToABQ8o6gEOHr4ABQ84CgEOHr4ABQ9EDAEOHr4ABQ9TLAEOHr4ABQ9fpAEOHr4ABQ9qBAEOHr4ABQ91igEOHDAABQ9_6gEOGEwABQ+DYgEOFpAABQ+Q_gEODwAABQ+aEgEOCdAABQ+hHAEOBSAABQ+oPgEN_lwABQ+uHAEN8qAABQ+1PgEN5rwABQ+7BgEN2NwABQ_DAgENxjgABQ_I9AENt_QABQ_K5gENrjQABQ_PqAENn_AABQ_U2AENjcgABQ_Z8AENeWQABQ_bIAENaLwABQ_dgAENWBQABQ_e5gENPswABQ_gLgENKkAABQ_hhAENEjAABQ_i6gEM+OgABQ_i6gEM2qgABQ_i6gEMwdAABQ_i6gEMuBAABQ_i6gEMnxgABQ_i6gEMjnAABQ_i6gEMcDAABQ_i6gEMX4gABQ_i6gEMT0wABQ_gUAEMOowABQ_eBgEMKogABQ_cEgEMIMgABQ_ZBAEMFJgABQ_W2AEMB5wABQ_TmAEL9UAABQ_QWAEL20gABQ_NagELx8gABQ_KLAELregABQ_HVgELmwgABQ_EaAELi3AABQ_BgAELfAAABQ+7jAELZDgABQ+2IgELUugABQ+yqAELS_gABQ+pkgELNzgABQ+hZAELLeAABQ+a5AELJTgABQ+QggELIAgABQ+D5AELGnAABQ93PgELGnAABQ9q2gELGnAABQ9buAELGnAABQ9MlgELGnAABQ89dAELGnAABQ8w0AELGnAABQ8kKgELJbAABQ8XhAELMPAABQ8K3gELQdAABQ77vAELU_gABQ7smgELbDAABQ7cdgELjHgABQ7MQAELrOgABQ669gEL3VgABQ6prAEMBuQABQ6cDgEMGQwABQ6WtAEMIZwABQ6KmAEMM8QABQ6EpAEMP6wABQ5_OgEMSFgABQ58VgEMUAwABQ56DAEMUxgABQ54hgEMV6wABQ54hgEMWkwABQ54hgEMXtAABQ54hgEMaJAABQ54hgEMb4QABQ54hgEMdngABQ59IAEMhEgABQ5_ugEMiYAABQ6FIgEMkiwABQ6LjAEMpCQABQ6RfgEMsAwABQ6YjgEMu9QABQ6egAEMx7wABQ6nbgEM0fQABQ6ukAEM3dwABQ63pAEM6EAABQ68hAEM7CgABQ7EuAEM8zQABQ7LNgEM94wABQ7RsAEM_ggABQ7YLgENADQABQ7c_AENBBAABQ7h3AENBgQABQ7mvAENBgQABQ7qNAENBgQABQ7tqgENB8AABQ7xIgENB8AABQ70mgENB8AABQ74EgENB8AABQ76VAENB8AABQ79zAENCYAABQ8AFAENCwgCAA9ITFBUWWiRjbGFzc25hbWVYJGNsYXNzZXNcTlNCZXppZXJQYXRoohcYXE5TQmV6aWVyUGF0aFhOU09iamVjdNITFBobV05TQXJyYXmiGhhfEA9OU0tleWVkQXJjaGl2ZXLRHh9Ucm9vdIABAAgAEQAaACMALQAyADcAPQBDAEgAUwBaAFwAXgBgAGUAcAffB+EH5gfxB_oIBwgKCBcIIAglCC0IMAhCCEUISgAAAAAAAAIBAAAAAAAAACAAAAAAAAAAAAAAAAAAAAhM"
+          }
+        },
+        {
+          "BTTTriggerType" : 620,
+          "BTTTriggerClass" : "BTTTriggerTypeDrawings",
+          "BTTPredefinedActionType" : 151,
+          "BTTPredefinedActionName" : "Move Window One Space\/Desktop Left",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "0F004214-599C-4DDD-B818-7BCDCCAADC3A",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTTriggerConfig" : {
+            "BTTRequiredDrawingCertainty" : "0.700000",
+            "BTTDrawingDirectionShouldMatter" : "0",
+            "BTTDrawingName" : "Left Arrow",
+            "BTTDrawingBezierPath" : "YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKcHCBAUGx4hVSRudWxs0gkKCw9aTlMub2JqZWN0c1YkY2xhc3OjDA0OgAKABIAFgAbSEQoSE1pOU1NlZ21lbnRzTxEIMQBEBQcAQyZAAAFEBQcAQyZAAAFEBGrAQyZAAAFEA86AQyZAAAFEAzJAQyZAAAFEAmJAQyZAAAFEAVeAQyZAAAFEAFHAQyZAAAFD_gsAQyZAAAFD+4AAQyZAAAFD97eAQyZAAAFD9AsAQyZAAAFD75YAQyZAAAFD6zoAQyZAAAFD5goAQyZAAAFD3GIAQyZAAAFD1tcAQyZAAAFD0w6AQyZAAAFDzYsAQyZAAAFDx5KAQyZAAAFDwZoAQyZAAAFDvGoAQyVjAAFDt_UAQySUAAFDs4AAQyPFAAFDr7eAQyMEAAFDq+8AQyJDAAFDqVaAQyGdAAFDp7aAQyETAAFDpaEAQyB7AAFDoSwAQx+sAAFDnxaAQx8UAAFDnQEAQx58AAFDmmiAQx3WAAFDl9AAQx3WAAFDlKaAQx0jAAFDkpEAQx0jAAFDkPEAQx0jAAFDjt8AQx0jAAFDjT8AQx0jAAFDi58AQx0jAAFDimaAQx0jAAFDiYgAQx0jAAFDiPWAQx0jAAFDiGMAQx0jAAFDiA+AQx0jAAFDh7uAQx0jAAFDh2eAQx0jAAFDh0QAQx0jAAFDhvAAQx0jAAFDhl2AQx0jAAFDhgmAQx0jAAFDhSsAQx0jAAFDhJiAQx0jAAFDg7oAQx0jAAFDgtuAQx0jAAFDgaMAQx0jAAFDgMSAQx2TAAFDfxgAQx2TAAFDfKcAQx2TAAFDeuoAQx4DAAFDeS0AQx4DAAFDd3AAQx4DAAFDdbMAQx4DAAFDdI4AQx4DAAFDc2kAQx4DAAFDcsEAQx4DAAFDchkAQx4DAAFDcXEAQx5XAAFDcMkAQx5XAAFDcIIAQx5XAAFDcDsAQx5XAAFDb_sAQx6XAAFDb7QAQx6XAAFDb7QAQx7eAAFDb7QAQx8cAAFDb7QAQx9aAAFDb7QAQx+aAAFDb7QAQx_aAAFDb7QAQyAhAAFDb7QAQyBoAAFDb7QAQyCoAAFDb7QAQyDvAAFDb7QAQyE2AAFDcAcAQyHeAAFDcE0AQyIlAAFDcE0AQyJsAAFDcJMAQyKzAAFDcJMAQyNbAAFDcNkAQyOiAAFDcNkAQyPoAAFDcNkAQyQvAAFDcNkAQyR2AAFDcSwAQyUeAAFDcSwAQyVlAAFDcSwAQyYNAAFDcSwAQyZUAAFDcSwAQyb8AAFDcSwAQyekAAFDcSwAQyjJAAFDcSwAQyntAAFDcSwAQyxeAAFDcSwAQy+JAAFDcKEAQzLJAAFDb4sAQzYJAAFDbvIAQzo0AAFDbacAQz9fAAFDbTcAQ0EcAAFDbAYAQ0VHAAFDatUAQ0lyAAFDaaQAQ02dAAFDaRkAQ1DdAAFDaAMAQ1QdAAFDZ4YAQ1aOAAFDZwkAQ1j_AAFDZwkAQ1q8AAFDZowAQ10tAAFDZioAQ15SAAFDZioAQ193AAFDZioAQ2E0AAFDZcgAQ2JZAAFDZcgAQ2MBAAFDZcgAQ2QmAAFDZcgAQ2TOAAFDZcgAQ2XzAAFDZcgAQ2abAAFDZYEAQ2biAAFDZYEAQ2eKAAFDZToAQ2fRAAFDZToAQ2gYAAFDZToAQ2hfAAFDZPMAQ2imAAFDZLcAQ2imAAFDZHcAQ2imAAFDZHcAQ2hgAAFDZBUAQ2c8AAFDZBUAQ2YYAAFDY6UAQ2RcAAFDY6UAQ2M4AAFDYzUAQ2F8AAFDYtMAQ2BYAAFDYnEAQ180AAFDYa4AQ14QAAFDYT4AQ1xUAAFDYHsAQ1swAAFDYBkAQ1oNAAFDX1YAQ1jpAAFDXpMAQ1fFAAFDXbQAQ1YJAAFDXGYAQ1S8AAFDWu8AQ1LJAAFDWX4AQ1DeAAFDVoQAQ01NAAFDVJAAQ0taAAFDUZYAQ0hhAAFDTuEAQ0Y3AAFDS+cAQ0M+AAFDSFUAQ0BFAAFDRaAAQz4bAAFDQ6wAQzylAAFDQLIAQzmsAAFDPl4AQzhHAAFDO6kAQzYdAAFDOnMAQzWDAAFDNegAQzLrAAFDNMMAQzIpAAFDMlIAQzEwAAFDMJUAQzBSAAFDLiQAQy9ZAAFDLGcAQy57AAFDKqoAQy2dAAFDKO0AQy0uAAFDJ8gAQyxsAAFDJgsAQyv9AAFDJOYAQys7AAFDI8EAQyraAAFDIpwAQyp5AAFDIXcAQym3AAFDIM8AQylkAAFDH6oAQykDAAFDHwIAQyhcAAFDHd0AQyf7AAFDHTUAQydUAAFDHI0AQycBAAFDG+UAQyauAAFDG54AQyZoAAFDGvYAQyYVAAFDGrAAQyXQAAFDGrAAQyWKAAFDGrAAQyVNAAFDGrAAQyURAAFDGz0AQyURAAFDG+QAQyURAAFDHQgAQyURAAFDHa8AQyURAAFDHtMAQySwAAFDH_cAQyRPAAFDImcAQyNWAAFDJFoAQyHgAAFDJk0AQx_tAAFDKQEAQx3DAAFDK_oAQxrKAAFDL4sAQxfRAAFDMxwAQxTYAAFDNq0AQxHfAAFDOj4AQw7mAAFDPDEAQw1wAAFDPyoAQwp3AAFDRTcAQwXuAAFDSDAAQwL1AAFDS8EAQv_4AAFDTroAQvoGAAFDUbMAQvQUAAFDVKwAQu4iAAFDWD0AQugwAAFDWzYAQuI+AAFDXscAQtxMAAFDYb4AQtZeAAFDY7EAQtNyAAFDZ0IAQs2AAAFDafYAQsksAAFDbOUAQsNOAAFDbtgAQsBiAAFDcMsAQrx8AAFDcr4AQrmQAAFDc+IAQrgMAAFDdKQAQrXEAAFDdUsAQrR2AAFDdfIAQrPQAAFDdpkAQrMqAAFDdt8AQrKeAAFDdyUAQrISAAFDd2sAQrISAAFDd6gAQrISAIAD0hUWFxhaJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0JlemllclBhdGiiGRpcTlNCZXppZXJQYXRoWE5TT2JqZWN00hEKHBNPEQtbAEQRRUBDJrIAAUQRRUBDJrIAAUQQ_ABDJrIAAUQQ0sBDJrIAAUQQiYBDJrIAAUQQYEBDJrIAAUQQFwBDJrIAAUQP7QBDJrIAAUQPo8BDJrIAAUQPecBDJrIAAUQPNMBDJrIAAUQPCsBDJrIAAUQOwYBDJrIAAUQOeMBDJrIAAUQOL4BDJrIAAUQN5kBDJrIAAUQNSgBDJrIAAUQM2sBDJrIAAUQMPoBDJrIAAUQLM8BDJrIAAUQKxIBDJrIAAUQJ9IBDJrIAAUQJJIBDJrIAAUQIVwBDJrIAAUQHhwBDJrIAAUQGtwBDJrIAAUQF5wBDJrIAAUQFFwBDJrIAAUQERwBDJrIAAUQDqsBDJrIAAUQCXoBDJrIAAUQB74BDJrIAAUQAo0BDJrIAAUP_pwBDJrIAAUP9kYBDJrIAAUP7fABDJrIAAUP5hYBDJrIAAUP3cABDJrIAAUP2kYBDJrIAAUP0fABDJrIAAUPxUoBDJrIAAUPvPQBDJhoAAUPtJ4BDJhoAAUPrEgBDJYIAAUPo_IBDJYIAAUPmZABDJNwAAUPkToBDJEQAAUPhtgBDJEQAAUPg14BDJEQAAUPewgBDI6wAAUPcrIBDI6wAAUPalwBDI6wAAUPXbYBDIvkAAUPVWABDIvkAAUPTQoBDIvkAAUPRLQBDIvkAAUPPGQBDIvkAAUPMgIBDIvkAAUPJ7YBDIvkAAUPItQBDIvkAAUPGn4BDIvkAAUPEigBDIvkAAUPCdIBDImEAAUPAX4BDImEAAUO+UYBDImEAAUO7KABDIa4AAUO5iABDIa4AAUO4UoBDIa4AAUO2soBDISQAAUO0nQBDISQAAUOzZIBDIKgAAUOxxIBDIB4AAUOwJIBDIB4AAUOu7ABDIB4AAUOts4BDH6IAAUOs1QBDH6IAAUOrnIBDH6IAAUOqZYBDHyYAAUOpLQBDHyYAAUOn9IBDHyYAAUOlXABDHoAAAUOkyYBDHh8AAUOjKYBDHh8AAUOhiYBDHh8AAUOf6YBDHZUAAUOesQBDHZUAAUOdEQBDHZUAAUOb2IBDHZUAAUOaoABDHZUAAUOZZ4BDHRkAAUOYLwBDHRkAAUOXUIBDHRkAAUOWcgBDHRkAAUOVk4BDHRkAAUOVAQBDHRkAAUOUboBDHRkAAUOUGoBDHMYAAUOT9wBDHMYAAUOTZIBDHMYAAUOTQQBDHMYAAUOTIQBDHIcAAUOTIQBDHMEAAUOTIQBDHU8AAUOTIQBDHfcAAUOTSgBDHpwAAUOTeoBDH8EAAUOTqwBDIOYAAUOTqwBDIgsAAUOT4gBDI8YAAUOUGYBDJYMAAUOUGYBDJqgAAUOUGYBDKGUAAUOUGYBDKgUAAUOUGYBDK8IAAUOUGYBDLjMAAUOUGYBDL_AAAUOUGYBDMa0AAUOUGYBDNB4AAUOUGYBDNdsAAUOUGYBDOEwAAUOUGYBDOgkAAUOUGYBDO8YAAUOUGYBDPjcAAUOUGYBDP_QAAUOUGYBDQbEAAUOT6IBDQtYAAUOT6IBDRJMAAUOTt4BDRbgAAUOTt4BDRmAAAUOTjYBDRwgAAUOTjYBDR7AAAUOTjYBDR_cAAUOTbYBDSDcAAUOTTYBDSDcAAUOTTYBDR7gAAUOTTYBDRxEAAUOTTYBDRmsAAUOTTYBDRUcAAUOTTYBDRCUAAUOTTYBDQwEAAUOTTYBDQd0AAUOTTYBDQTYAAUOTTYBDP3oAAUOTTYBDPl0AAUOTTYBDPKEAAUOTTYBDOuUAAUOTTYBDOSkAAUOTTYBDNrkAAUOTTYBDNEkAAUOTTYBDMQoAAUOTTYBDLcsAAUOTTYBDK1sAAUOTTYBDKBwAAUOTTYBDJN0AAUOTkoBDIZ4AAUOTkoBDHl8AAUOTkoBDG+8AAUOTkoBDGX8AAUOTkoBDFw8AAUOTkoBDFV0AAUOTkoBDE6EAAUOTkoBDEn8AAUOTkoBDEVsAAUOTkoBDEDwAAUOTkoBDDxgAAUOTkoBDDfkAAUOTkoBDDNUAAUOTkoBDCxkAAUOTkoBDCV0AAUOTygBDB6EAAUOTygBDBoQAAUOTygBDBMgAAUOTygBDA6YAAUOTygBDAoIAAUOT84BDAdsAAUOT84BDATQAAUOT84BDAO4AAUOT84BDAKgAAUOT84BDASIAAUOT84BDAcoAAUOT84BDAu8AAUOT84BDA5cAAUOT84BDBLwAAUOT84BDBeAAAUOT84BDBwUAAUOT84BDCMIAAUOT84BDCn8AAUOT84BDDDwAAUOT84BDDq0AAUOT84BDEtgAAUOT84BDFUcAAUOT84BDGXIAAUOT84BDHK8AAUOT84BDINoAAUOURoBDJgsAAUOUmYBDKzwAAUOUmYBDL2cAAUOU14BDMdYAAUOVHIBDNRYAAUOVHIBDN4cAAUOVWoBDOfgAAUOVWoBDOx0AAUOVWoBDPEIAAUOVhABDPOoAAUOVhABDPTEAAUOVhABDPXgAAUOVhABDPbgAAUOVhABDPf8AAUOVhABDPkYAAUOVhABDPo0AAUOVhABDPzUAAUOVhABDQFoAAUOVhABDQKEAAUOVWgBDQUkAAUOVMABDQfEAAUOVDIBDQjgAAUOU6QBDQn8AAUOUxYBDQsYAAUOUcYBDQsYAAUOUTgBDQsYAAUOT+gBDQsYAAUOTpgBDQsYAAUOTUgBDQsYAAUOS_gBDQsYAAUOSqgBDQsYAAUOSF4BDQmUAAUORw4BDQb4AAUORcABDQRgAAUORHABDQHEAAUOQdQBDPyQAAUOQIQBDPn0AAUOPjoBDPbsAAUOO54BDPG4AAUOOV4BDO68AAUONXYBDOjkAAUOMz4BDOX0AAUOLwYBDOHAAAUOKIYBDNtEAAUOI6QBDNdgAAUOHSQBDNDkAAUOEsIBDMaEAAUOCmwBDL9kAAUOAVYBDLUEAAUN8IABDKqkAAUN3lQBDKBEAAUNzCgBDJXkAAUNxTQBDJJsAAUNswgBDIgMAAUNqUQBDII0AAUNnnABDHmMAAUNlLQBDHWsAAUNjOQBDG_UAAUNhfABDGxcAAUNgVwBDGlUAAUNfMgBDGfQAAUNeDQBDGZMAAUNdZgBDGO0AAUNcvgBDGJoAAUNcFgBDGEcAAUNbbgBDF_QAAUNaSQBDF5MAAUNZoQBDF0AAAUNYfABDFt8AAUNX1ABDFowAAUNWrwBDFisAAUNVigBDFcoAAUNU4gBDFXcAAUNUOgBDFSQAAUNTkgBDFSQAAUNTSwBDFSQAAUNThQBDFSQAAUNULABDFSQAAUNU0wBDFSQAAUNV9wBDFSQAAUNWngBDFSQAAUNXwgBDFSQAAUNY5ABDFSQAAUNaoABDFSQAAUNbwwBDFSQAAUNdfwBDFSQAAUNf7wBDFSQAAUNjLgBDFSQAAUNk5gBDFSQAAUNnVgBDFSQAAUNqlQBDFJoAAUNs_ABDE6QAAUNwOwBDExoAAUNzegBDEgUAAUN16gBDEQwAAUN5KQBDD_cAAUN8aABDDuIAAUN+2ABDDekAAUOBC4BDDNQAAUODo4BDCuIAAUOFQwBDCUMAAUOG4oBDCC4AAUOI94BDBv4AAUOKlwBDBV8AAUOLzwBDBOMAAUONboBDA0QAAUOPDgBDAi8AAUOQRgBDATYAAUORfgBDAD0AAUOSXABC_r4AAUOS7gBC_fwAAUOTgABC_HgAAUOT04BC+9IAAUOUJwBC+ywAAUOUSgBC+qAAAUOUbQBC+hQAAUOUkABC+YgAAUOU44BC+OIAAUOVBoBC+FYAAUOVKYBC98oAAUOVTABC90AAAUOVbwBC9rQAAUOVkgBC9igAAUOVtQBC9ZwAAUOWCIBC9PYAAUOWK4BC9PYAAUOWTgBC9GwAAUOWcQBC9GwAAUOWkIBC9GwAgAPSEQofE08RCGcARAKlQEMdCAABRAKlQEMdCAABRAKTgEMdCAABRAKBwEMdCAABRAJXwEMdCAABRAJGAEMdCAABRAIcAEMdCAABRAHyAEMdCAABRAHgQEMdCAABRAG2QEMdCAABRAGkgEMdCAABRAF6gEMdCAABRAFowEMdCAABRAFXQEMdCAABRAFFgEMdCAABRAE2AEMdCAABRAEmgEMdCAABRAEmgEMdQgABRAEXwEMdQgABRAEIQEMdQgABRAD2gEMdQgABRADkwEMdQgABRACbwEMdQgABRABSgEMdQgABQ_9sgEMdQgABQ_3MgEMdQgABQ_wxgEMdQgABQ_ocAEMdQgABQ_gGgEMd2wABQ_XxAEMd2wABQ_RRAEMd2wABQ_EngEMejwABQ+6PAEMejwABQ+2wgEMejwABQ+ubAEMejwABQ+mhgEMejwABQ+gBgEMejwABQ+ZhgEMejwABQ+TBgEMejwABQ+OJAEMejwABQ+HpAEMejwABQ+EKgEMejwABQ9_SAEMejwABQ97zgEMejwABQ927AEMejwABQ9zcgEMejwABQ9v+AEMejwABQ9rFgEMejwABQ9mNAEMejwABQ9hUgEMejwABQ9a0gEMejwABQ9SfAEMejwABQ9NmgEMejwABQ9HGgEMejwABQ9AmgEMejwABQ86GgEMejwABQ81QgEMejwABQ8uwgEMejwABQ8p4AEMejwABQ8k_gEMejwABQ8hhAEMejwABQ8cogEMejwABQ8ZKAEMejwABQ8VrgEMejwABQ8SNAEMejwABQ8OugEMejwABQ8McAEMejwABQ8I9gEMejwABQ8FfAEMejwABQ8AmgEMejwABQ79IAEMejwABQ74QgEMejwABQ7zYAEMejwABQ7ujAEMejwABQ7pqgEMejwABQ7kyAEMejwABQ7f5gEMejwABQ7bBAEMejwABQ7WIgEMejwABQ7RZgEMejwABQ7N7AEMejwABQ7JCgEMejwABQ7FkAEMejwABQ7ArgEMejwABQ69NAEMejwABQ65ugEMejwABQ602AEMejwABQ6xZgEMejwABQ6t7AEMejwABQ6pNgEMejwABQ6m7AEMejwABQ6jcgEMejwABQ6gAgEMejwABQ6duAEMejwABQ6bbgEMejwABQ6ZOgEMejwABQ6W8AEMejwABQ6UpgEMejwABQ6TVgEMejwABQ6RDAEMejwABQ6PvAEMejwABQ6ObAEMejwABQ6NHAEMejwABQ6LzAEMejwABQ6KfAEMejwABQ6J7gEMejwABQ6JYAEMejwABQ6I1AEMejwABQ6HhAEMejwABQ6G9gEMejwABQ6GaAEMejwABQ6F2gEMejwABQ6EigEMejwABQ6D_AEMejwABQ6DbgEMejwABQ6C4AEMejwABQ6CUgEMejwABQ6BxAEMejwABQ6BNgEMejwABQ6BNgEMeywABQ6BNgEMfEgABQ6BNgEMfugABQ6BNgEMgYgABQ6BNgEMhhgABQ6BNgEMiqwABQ6BNgEMj0AABQ6CFAEMljQABQ6CFAEMnSgABQ6C1gEMobwABQ6DtAEMqLAABQ6EdgEMrUQABQ6EdgEMtDgABQ6FOAEMuMwABQ6FOAEMvWAABQ6FOAEMxFQABQ6F+gEMyOgABQ6F+gEMz9wABQ6G2AEM1tAABQ6G2AEM3cQABQ6HtgEM5LgABQ6HtgEM6UwABQ6IlAEM8EAABQ6IlAEM9NQABQ6IlAEM+WgABQ6IlAEM_fwABQ6IlAENAJwABQ6IlAENBSwABQ6IlAENB8wABQ6IlAENCmwABQ6JOAENDQQABQ6JOAEND6QABQ6JOAENEMAABQ6JOAENEdwABQ6JOAENEvgABQ6JOAENFBQABQ6JOAENFRQABQ6IwgENFCwABQ6F1AENCmwABQ6D4AENAKwABQ6B7AEM9uwABQ6BDAEM7_wABQ5+HgEM5jwABQ578gEM2UAABQ55BAEMz4AABQ50QAEMwTwABQ5xUgEMt3wABQ5q3gEMpWwABQ5miAEMmpwABQ5hHgEMkfQABQ5eggEMjMAABQ5ZIgEMhCgABQ5TuAEMe4AABQ5OVgEMcuQABQ5HMgEMaWAABQ5DSgEMY4gABQ4+aAEMXbAABQ45hgEMV9gABQ40sAEMU_wABQ4xNgEMUIQABQ4u7AEMTXwABQ4ssAEMTAAABQ4qZgEMSnwABQ4pFgEMSnwABQ4nxgEMSnwABQ4nOAEMSnwABQ4mqgEMSnwABQ4mKgEMSnwABQ4mKgEMS3AABQ4mKgEMTIwABQ4mKgEMTywABQ4mKgEMUEgABQ4mKgEMUWQABQ4mKgEMUnwABQ4mqAEMU3wABQ4nNAEMU3wABQ4nwAEMU3wABQ4oTAEMU3wABQ4pmgEMU3wABQ4q6AEMU3wABQ4sNgEMU3wABQ4thAEMU3wABQ4u0gEMU3wABQ4xGgEMU3wABQ4zXAEMU3wABQ41pAEMU3wABQ435gEMUHwABQ47zAEMSqQABQ4+WAEMRYwABQ5CPgEMP7QABQ5GJAEMOdwABQ5KCgEMMhAABQ5PcgEMKWgABQ5TUgEMI5gABQ5YugEMGvAABQ5dmgEMFRgABQ5hgAEMD0AABQ5mYAEMCWgABQ5qRgEMAZwABQ5uLAEL94gABQ5wdAEL8XgABQ5zDgEL5xAABQ51VgEL4QAABQ53ngEL2vAABQ547AEL1bgABQ56NgEL0ygABQ57hAEL0JAABQ58DgELzmgABQ58mgELzDgABQ59JgELyggABQ59sgELyggABQ5+PgELx9gABQ5+vAELx9gABQ5+vAELxagABQ5_OgELxagABQ5_OgELw3gABQ5_OgELwYAABQ5_xgELwYAABQ5_xgELv1AABQ5_xgELvWgCAA9IVFiIjV05TQXJyYXmiIhpfEA9OU0tleWVkQXJjaGl2ZXLRJidUcm9vdIABAAgAEQAaACMALQAyADcAPwBFAEoAVQBcAGAAYgBkAGYAaABtAHgIrQivCLQIvwjICNUI2AjlCO4I8xRSFFQUWRzEHMYcyxzTHNYc6BzrHPAAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAc8g=="
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 118,
+          "BTTPredefinedActionName" : "Insert \/ Type \/ Paste Custom Text",
+          "BTTStringToType" : "✓",
+          "BTTMoveCursorLeftBy" : "0",
+          "BTTAdditionalConfiguration" : "524288",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "D8B0E132-4EA3-46E5-88A8-9DF686EA7E30",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 9,
+          "BTTShortcutModifierKeys" : 524288,
+          "BTTOrder" : 6
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 222,
+          "BTTPredefinedActionName" : "Move Window To Desktop 6",
+          "BTTAdditionalConfiguration" : "655360",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "A3D04359-DBEE-4E91-84C1-E9FEF2526A30",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 22,
+          "BTTShortcutModifierKeys" : 655360,
+          "BTTOrder" : 12
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.google.Chrome",
+      "BTTAppName" : "Google Chrome",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Google Chrome",
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 133,
+          "BTTTriggerTypeDescription" : "TipTap Right (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,124",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "ABC50C92-5736-4B6E-84E3-144DD4C31B49",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 57,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,124",
+          "BTTAdditionalConfiguration" : "1048576",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "91578265-53F3-4883-8B93-F546D91CAECF",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 40,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTTriggerType" : 132,
+          "BTTTriggerTypeDescription" : "TipTap Left (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,123",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "E898478E-83ED-414D-B1FF-E57743396C8F",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 56,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,123",
+          "BTTAdditionalConfiguration" : "1048576",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "D5339177-50D4-47A0-A40E-1AD892A7C7F2",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 38,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 0
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.Safari",
+      "BTTAppName" : "Safari",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,51",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "2ED88364-DFE7-4E20-976A-DC60187D9E28",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 13,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,48",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "9D33837C-F753-49FD-9198-2B0B9C7B4106",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 40,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 133,
+          "BTTTriggerTypeDescription" : "TipTap Right (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,124",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "B61EFA2F-D849-4BB1-AB79-93D9089D9EAC",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,56,48",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "B95A41DA-D2D1-48D8-9A1E-B1A3191A5047",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 38,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 132,
+          "BTTTriggerTypeDescription" : "TipTap Left (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,123",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "105EA6F3-D296-45B2-B27D-F12FAC60F361",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}

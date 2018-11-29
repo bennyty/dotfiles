@@ -34,7 +34,6 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 " Plug 'jeffkreeftmeijer/vim-numbertoggle'               " Switches from relative numbering to absolute when entering end exiting insert mode
 " Plug 'junegunn/goyo.vim'                               " Distraction free mode
 " Plug 'junegunn/limelight.vim'                          " Distraction free mode, paired with Goyo
-Plug 'mhinz/vim-startify'                              " Fancy start screen
 Plug 'junegunn/vim-journal'                            " Highlighting for bulleted lists
 Plug 'kshenoy/vim-signature'                           " Display marks in gutter
 Plug 'luochen1990/rainbow'                             " Rainbow parenthesis
@@ -83,16 +82,11 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'mbbill/undotree', { 'on': 'UndoTreeToggle' }     " <F9> to toggle undo tree, havent found this to be very intitive.
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' } " <F7> to open NerdTree for easy file tree browsing
 " Plug 'majutsushi/tagbar', { 'on': 'TagBarToggle' }     " <F8> to toggle tagbar
-Plug 'majutsushi/tagbar'                               " <F8> to toggle tagbar
-Plug 'tpope/vim-vinegar'                               " Press '-' in normal mode to open netrw in current buffer, awkward.
-" Plug 'vim-ctrlspace/vim-ctrlspace'                     " Super complex space manager. Manages buffers, windows, tabs, workspaces, and file switching inside bookmarked projects
 Plug 'ctrlpvim/ctrlp.vim'                              " Fuzzy finder, unknown if this is faster than vim-ctrlspace
-" Plug 'weynhamz/vim-plugin-minibufexpl'                 " Die vim-ctrlspace! Too much bloat.
 " }}}
 
 " External utilities {{{
-Plug 'vim-latex/vim-latex'                             " Huge plugin for editing latex
-Plug 'szw/vim-g'                                       " :Google
+Plug 'vim-latex/vim-latex', { 'for': 'Latex' }         " Huge plugin for editing latex
 Plug 'junegunn/gv.vim'                                 " git commit browser :GV
 Plug 'rizzatti/dash.vim', { 'on': 'Dash' }             " :Dash to emulate K command in Dash (OSX only)
 Plug 'rking/ag.vim', { 'on': 'Ag' }                    " :Ag to run silver searcher
@@ -100,7 +94,6 @@ Plug 'tpope/vim-fugitive'                              " :GStatus for git status
 Plug 'christoomey/vim-conflicted'                      " :Conflicted to open better merger. dgu for get upstream, dgl for get local
 Plug 'tpope/vim-dispatch'
 Plug 'vim-pandoc/vim-pandoc'
-Plug 'wakatime/vim-wakatime'                           " https://wakatime.com/ time tracking
 Plug 'katono/rogue.vim'                                " rogue2 vim port
 Plug 'uguu-org/vim-matrix-screensaver'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
@@ -109,19 +102,6 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'christoomey/vim-tmux-runner'
 
 Plug 'dbeniamine/cheat.sh-vim'                         " Access to the great site cht.sh
-" }}}
-
-" Unite {{{
-" Plug 'Shougo/unite.vim'                                " Bound space to pull searchable info from sources, kinda clunky in my workflow so far
-" Plug 'Shougo/vimproc.vim', { 'do': 'make' }            " Dependancy for unite.vim, multithreading?
-
-" Plug 'Shougo/unite-outline'                            " Sources for Unite.vim
-" Plug 'Shougo/unite-help'
-" Plug 'Shougo/neoyank.vim'
-" Plug 'Shougo/unite-sudo'
-" Plug 'Shougo/neomru.vim'
-" Plug 'naquad/unite-digraphs'
-" Plug 'ujihisa/unite-colorscheme'
 " }}}
 
 " Text objects {{{
