@@ -110,8 +110,8 @@ focus, grid, swap, warp, warpnf, resize < shift - w         ; warpnf
 # The following keybindings are available in all modes.
 focus, grid, swap, warp, warpnf, resize < space             : chunkc tiling::desktop --rotate 90
 focus, grid, swap, warp, warpnf, resize < shift - space     : chunkc tiling::desktop --rotate 270
-focus, grid, swap, warp, warpnf, resize < x                 : chunkc tiling::desktop --mirror horizontal   # mnemonic: x-axis
-focus, grid, swap, warp, warpnf, resize < y                 : chunkc tiling::desktop --mirror vertical     # mnemonic: y-axis
+focus, grid, swap, warp, warpnf, resize < x                 : chunkc tiling::desktop --mirror vertical     # mnemonic: x-axis
+focus, grid, swap, warp, warpnf, resize < y                 : chunkc tiling::desktop --mirror horizontal   # mnemonic: y-axis
 focus, grid, swap, warp, warpnf, resize < o                 : chunkc tiling::desktop --toggle offset       # mnemonic: _o_ffset
 focus, grid, swap, warp, warpnf, resize < e                 : chunkc tiling::desktop --equalize            # mnemonic: _e_qualize
 focus, grid, swap, warp, warpnf, resize < m                 : chunkc tiling::window --toggle fullscreen    # mnemonic: monacle 
@@ -232,9 +232,15 @@ warp            < tab               : chunkc tiling::window --send-to-monitor ne
 warp            < shift - tab       : chunkc tiling::window --send-to-monitor prev; chunkc tiling::monitor -f prev
 
 # Prefix with cmd to warp window to desktop and follow.
-warp            < cmd - 1           : chunkc tiling::window --send-to-desktop 1; skhd -k "ctrl - space"; skhd -k "cmd + alt - 1"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.4; chunkc border::color 0xffd79921
-warp            < cmd - 2           : chunkc tiling::window --send-to-desktop 2; skhd -k "ctrl - space"; skhd -k "cmd + alt - 2"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.4; chunkc border::color 0xffd79921
-warp            < cmd - 3           : chunkc tiling::window --send-to-desktop 3; skhd -k "ctrl - space"; skhd -k "cmd + alt - 3"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.4; chunkc border::color 0xffd79921
+warp            < cmd - 1           : chunkc tiling::window --send-to-desktop 1; skhd -k "ctrl - space"; skhd -k "alt - 1"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.4; chunkc border::color 0xffd79921
+warp            < cmd - 2           : chunkc tiling::window --send-to-desktop 2; skhd -k "ctrl - space"; skhd -k "alt - 2"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.4; chunkc border::color 0xffd79921
+warp            < cmd - 3           : chunkc tiling::window --send-to-desktop 3; skhd -k "ctrl - space"; skhd -k "alt - 3"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.4; chunkc border::color 0xffd79921
+warp            < cmd - 4           : chunkc tiling::window --send-to-desktop 4; skhd -k "ctrl - space"; skhd -k "alt - 4"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.4; chunkc border::color 0xffd79921
+warp            < cmd - 5           : chunkc tiling::window --send-to-desktop 5; skhd -k "ctrl - space"; skhd -k "alt - 5"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.4; chunkc border::color 0xffd79921
+warp            < cmd - 6           : chunkc tiling::window --send-to-desktop 6; skhd -k "ctrl - space"; skhd -k "alt - 6"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.4; chunkc border::color 0xffd79921
+warp            < cmd - 7           : chunkc tiling::window --send-to-desktop 7; skhd -k "ctrl - space"; skhd -k "alt - 7"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.4; chunkc border::color 0xffd79921
+warp            < cmd - 8           : chunkc tiling::window --send-to-desktop 8; skhd -k "ctrl - space"; skhd -k "alt - 8"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.4; chunkc border::color 0xffd79921
+warp            < cmd - 9           : chunkc tiling::window --send-to-desktop 9; skhd -k "ctrl - space"; skhd -k "alt - 9"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.4; chunkc border::color 0xffd79921
 warp            < cmd - tab         : chunkc tiling::window --send-to-desktop next; skhd -k "ctrl - space"; skhd -k "ctrl - right"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.75; chunkc border::color 0xffd79921
 warp            < cmd + shift - tab : chunkc tiling::window --send-to-desktop prev; skhd -k "ctrl - space"; skhd -k "ctrl - left"; skhd -k "ctrl - space"; skhd -k "w"; sleep 0.75; chunkc border::color 0xffd79921
 
@@ -242,6 +248,12 @@ warp            < cmd + shift - tab : chunkc tiling::window --send-to-desktop pr
 warpnf          < 1                 : chunkc tiling::window --send-to-monitor 1
 warpnf          < 2                 : chunkc tiling::window --send-to-monitor 2
 warpnf          < 3                 : chunkc tiling::window --send-to-monitor 3
+warpnf          < 4                 : chunkc tiling::window --send-to-monitor 4
+warpnf          < 5                 : chunkc tiling::window --send-to-monitor 5
+warpnf          < 6                 : chunkc tiling::window --send-to-monitor 6
+warpnf          < 7                 : chunkc tiling::window --send-to-monitor 7
+warpnf          < 8                 : chunkc tiling::window --send-to-monitor 8
+warpnf          < 9                 : chunkc tiling::window --send-to-monitor 9
 warpnf          < tab               : chunkc tiling::window --send-to-monitor next
 warpnf          < shift - tab       : chunkc tiling::window --send-to-monitor prev
 
@@ -249,6 +261,12 @@ warpnf          < shift - tab       : chunkc tiling::window --send-to-monitor pr
 warpnf          < cmd - 1           : chunkc tiling::window --send-to-desktop 1
 warpnf          < cmd - 2           : chunkc tiling::window --send-to-desktop 2
 warpnf          < cmd - 3           : chunkc tiling::window --send-to-desktop 3
+warpnf          < cmd - 4           : chunkc tiling::window --send-to-desktop 4
+warpnf          < cmd - 5           : chunkc tiling::window --send-to-desktop 5
+warpnf          < cmd - 6           : chunkc tiling::window --send-to-desktop 6
+warpnf          < cmd - 7           : chunkc tiling::window --send-to-desktop 7
+warpnf          < cmd - 8           : chunkc tiling::window --send-to-desktop 8
+warpnf          < cmd - 9           : chunkc tiling::window --send-to-desktop 9
 warpnf          < cmd - tab         : chunkc tiling::window --send-to-desktop next
 warpnf          < cmd + shift - tab : chunkc tiling::window --send-to-desktop prev
  
