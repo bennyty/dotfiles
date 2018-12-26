@@ -1,15 +1,1 @@
-plugged/
-
-# Created by https://www.gitignore.io/api/vim
-
-### Vim ###
-[._]*.s[a-w][a-z]
-[._]s[a-w][a-z]
-*.un~
-Session.vim
-.netrwhist
-*~
-
-### Weechat ###
-.weechat/logs/
-.weechat/sec.conf
+nvim/.config/nvim/plugged
