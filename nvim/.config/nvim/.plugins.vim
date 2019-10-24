@@ -11,12 +11,14 @@ call plug#begin()
 Plug 'tpope/vim-git', { 'for': 'git' }
 " Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'pangloss/vim-javascript'                         " Javascript indent support
+Plug 'posva/vim-vue'
 
 " Plug 'sheerun/vim-polyglot'                            " 70+ syntaxs
 " Plug 'vim-pandoc/vim-pandoc-syntax'
 " }}}
 
 " Visual sugar {{{
+Plug 'dracula/vim', { 'as': 'dracula' }                " Dracula colorscheme/theme for vim
 " Plug 'jeffkreeftmeijer/vim-numbertoggle'               " Switches from relative numbering to absolute when entering end exiting insert mode
 " Plug 'junegunn/goyo.vim'                               " Distraction free mode
 " Plug 'junegunn/limelight.vim'                          " Distraction free mode, paired with Goyo
@@ -54,12 +56,13 @@ Plug 'tommcdo/vim-exchange'                            " Normal mode cx{motion} 
                                                        " :%Subvert/facilit{y,ies}/building{,s}/g                                 --- to substitute variants
 Plug 'tpope/vim-commentary'                            " gc to toggle comments
 Plug 'tpope/vim-repeat'                                " Does some amazing magic to make a lot of plugins' mappings repeatable the . operator
-" Plug 'tpope/vim-sensible'                              " Sets a lot of default options to something reasonable
+Plug 'tpope/vim-sensible'                              " Sets a lot of default options to something reasonable
 " Plug 'tpope/vim-sleuth'                                " Automatically sets the shiftwidth and expandtab based on this file and nearby similar files
 Plug 'tpope/vim-surround'                              " ysiw( will surround the inner word with (). Same with cs and ds for change and delete
 Plug 'tpope/vim-unimpaired'                            " Paired mappings for [<Space> cos col con etc. Check :h unimpaired.txt
 " Plug 'tpope/vim-eunuch'                                " Many Unix helpers
 Plug 'editorconfig/editorconfig-vim'
+Plug 'bronson/vim-visual-star-search'                  " * operator in visual mode
 " }}}
 
 " Organizers {{{

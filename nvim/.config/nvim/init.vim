@@ -7,9 +7,15 @@
 " Source all external configs first
 source ~/.config/nvim/.plugins.vim
 
-" set diffopt=filler,vertical
+set diffopt=filler,vertical
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set hidden
+set ignorecase
+set smartcase
 
-" set listchars=tab:▸\ ,eol:¬,space:⋅
+set listchars=tab:▸\ ,eol:¬,space:⋅
 " set shell=/bin/zsh
 let mapleader = "\<Space>"
 
@@ -17,6 +23,13 @@ let mapleader = "\<Space>"
 nnoremap <Leader>so :so $MYVIMRC<CR> :echo "Sourced $MYVIMRC"<CR>
 nnoremap <Leader>vim :e $MYVIMRC<CR>
 nnoremap <Leader>plug :e .plugins.vim<CR>
+
+" Colorscheme
+colorscheme dracula
+
+" Insert the date at the top of the file (for development log)
+" http://squarism.com/2015/11/13/why-a-dev-log-is-great/
+nnoremap <leader>D ggi# <C-R>=strftime("%Y-%m-%d - %A")<CR><CR><CR>
 
 " Mapping for quick finding git repos inside ' ' marks
 nnoremap <Leader>gitopen ^f'"gyi':!open http://github.com/g
@@ -54,6 +67,10 @@ onoremap iz :normal viz<CR>
 
 " Make Y consistent with D and C
 noremap Y y$
+
+" Edit a register with "a<leader>m
+nnoremap <leader>m  :<c-u><c-r><c-r>='let @'. v:register .' = '. string(getreg(v:register))<cr><c-f><left>
+
 
 " sudo vim
 cmap w!! %!sudo tee > /dev/null %
@@ -114,7 +131,7 @@ nnoremap <Leader>X  <Plug>SwapSwapWithL_WORD
 let g:VtrOrientation = "h"
 let g:VtrUseVtrMaps = 1
 " let g:VtrClearSequence = ""
-let g:VtrClearSequence = ""
+let g:VtrClearSequence = ""
 nnoremap <leader>ar :VtrAttachToPane<cr>
 nnoremap <leader>si :VtrSendCommandToRunner <cr>
 
@@ -127,98 +144,59 @@ let g:rainbow_active = 1
 nnoremap <F7> :NERDTreeToggle<CR>
 let NERDTreeHijackNetrw=1
 
-" Normally don't use netrw but sometime I end up in it.
-let g:netrw_banner=0
-let g:netrw_browse_split=4
-let g:netrw_altv=1
-let g:netrw_liststyle=3
-let g:netrw_list_hide=netrw_gitignore#Hide()
-let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
+"" Normally don't use netrw but sometime I end up in it.
+"let g:netrw_banner=0
+"let g:netrw_browse_split=4
+"let g:netrw_altv=1
+"let g:netrw_liststyle=3
+"let g:netrw_list_hide=netrw_gitignore#Hide()
+"let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 
-"============
-" SimpleFold
-"============
-function! Num2S(num, len)
-	let filler = "                                                            "
-	let text = '' . a:num
-	return strpart(filler, 1, a:len - strlen(text)) . text
-endfunction
 
-function! FoldText()
-	let sub = substitute(getline(v:foldstart), '/\*\|\*/\|{{{\d\=', '', 'g')
-	let diff = v:foldend - v:foldstart + 1
-	return  '+' . v:folddashes . '[' . Num2S(diff,3) . ']' . sub
-endfunction
-
-set foldtext=FoldText()
+"Diff colors
+highlight DiffAdd    cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+highlight DiffDelete cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+highlight DiffChange cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Red
 
 "=======================================
 " Tmux compatible cursor shapes in vim!
 "=======================================
 if empty($TMUX)
-	let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-	let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-	" let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+       "let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+       "let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+       "" let &t_SR = "\<Esc>]50;CursorShape=2\x7"
 else
-	let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
-	let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
-	" let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
+       "let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+       "let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+       "" let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
 endif
 
 
 
-
-" Sillyness {{{
-" Press <Leader>rot to start rotating lines and <C-c> (Control+c) to stop.
-
-function! s:RotateString(string)
-    let split_string = split(a:string, '\zs')
-    return join(split_string[-1:] + split_string[:-2], '')
+function! UseColemak()
+	" Langmap remaps letters best AFAIK
+	set langmap=fe,FE,pr,PR,gt,GT,jy,JY,lu,LU,ui,UI,yo,YO,rs,RS,sd,SD,tf,TF,dg,DG,nj,NJ,ek,EK,il,IL,op,OP,kn,KN,\\;:,:\\;
+	" Ctrl Modified Keys
+	noremap <C-f> <C-e>
+	noremap <C-p> <C-r>
+	noremap <C-g> <C-t>
+	noremap <C-j> <C-y>
+	noremap <C-l> <C-u>
+	noremap <C-u> <C-i>
+	noremap <C-y> <C-o>
+	noremap <C-o> <C-p>
+	noremap <C-r> <C-s>
+	noremap <C-s> <C-d>
+	noremap <C-t> <C-f>
+	noremap <C-d> <C-g>
+	noremap <C-n> <C-j>
+	noremap <C-e> <C-k>
+	noremap <C-i> <C-l>
+	noremap <C-k> <C-n>
 endfunction
+let useColemak=$useColemak
+if useColemak == '1'
+	call UseColemak()
+endif
 
-function! s:RotateLine(line, leading_whitespace, trailing_whitespace)
-    return substitute(
-        \ a:line,
-        \ '^\(' . a:leading_whitespace . '\)\(.\{-}\)\(' . a:trailing_whitespace . '\)$',
-        \ '\=submatch(1) . <SID>RotateString(submatch(2)) . submatch(3)',
-        \ ''
-    \ )
-endfunction
-
-function! s:RotateLines()
-    let saved_view = winsaveview()
-    let first_visible_line = line('w0')
-    let last_visible_line = line('w$')
-    let lines = getline(first_visible_line, last_visible_line)
-    let leading_whitespace = map(
-        \ range(len(lines)),
-        \ 'matchstr(lines[v:val], ''^\s*'')'
-    \ )
-    let trailing_whitespace = map(
-        \ range(len(lines)),
-        \ 'matchstr(lines[v:val], ''\s*$'')'
-    \ )
-    try
-        while 1 " <C-c> to exit
-            let lines = map(
-                \ range(len(lines)),
-                \ '<SID>RotateLine(lines[v:val], leading_whitespace[v:val], trailing_whitespace[v:val])'
-            \ )
-            call setline(first_visible_line, lines)
-            redraw
-            sleep 50m
-        endwhile
-    finally
-        if &modified
-            silent undo
-        endif
-        call winrestview(saved_view)
-    endtry
-endfunction
-
-nnoremap <silent> <Plug>(RotateLines) :<C-u>call <SID>RotateLines()<CR>
-
-nmap <leader>rot <Plug>(RotateLines)
-" }}}
-"
-" vim: foldmethod=marker
