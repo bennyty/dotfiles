@@ -4,4 +4,4 @@ Installation:
 
 Create symlinks:
 
-    ./install.sh
+    Run `./stow nvim` (replace nvim for each dotfile directory)
