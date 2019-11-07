@@ -29,7 +29,7 @@ colorscheme dracula
 
 " Insert the date at the top of the file (for development log)
 " http://squarism.com/2015/11/13/why-a-dev-log-is-great/
-nnoremap <leader>D ggi# <C-R>=strftime("%Y-%m-%d - %A")<CR><CR><CR>
+nnoremap <leader>D ggi= <C-R>=strftime("%Y-%m-%d - %A")<CR> =<CR><CR><CR><Up><Up>
 
 " Mapping for quick finding git repos inside ' ' marks
 nnoremap <Leader>gitopen ^f'"gyi':!open http://github.com/g
@@ -60,6 +60,9 @@ nnoremap zg zG
 nnoremap zG zg
 nnoremap zug zuG
 nnoremap zuG zug
+
+" Set spell in git commit buffers
+autocmd FileType gitcommit setlocal spell
 
 " Fold text object
 xnoremap iz :<C-U>silent!normal![zV]z<CR>
