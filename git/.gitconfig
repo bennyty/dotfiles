@@ -1,3 +1,34 @@
 [user]
 	email = bespey@mitre.org
 	name = Benjamin Espey
+[merge]
+	tool = vscode
+	conflictstyle = merge
+[mergetool "vscode"]
+	cmd = "code --wait $MERGED"
+[core]
+	excludesfile = /Users/bespey/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/bespey/.stCommitMsg
+	verbose = true
+[pull]
+	rebase = true
+[alias]
+	conflicted = !nvim +Conflicted
+	fpush = push --force-with-lease
+    llog = log --graph --oneline --exclude=refs/stash --exclude='refs/remotes/origin/*' --decorate-refs-exclude='refs/remotes/origin*' --topo-order
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff  "
+[rerere]
+	enabled = true
+[rebase]
+	autosquash = true
+
