@@ -2,7 +2,8 @@
 # VERSION: 3.0
 SETUVAR ALL_PROXY:http\x3a//gatekeeper\x2emitre\x2eorg\x3a80
 SETUVAR --export EDITOR:/usr/local/bin/nvim
-SETUVAR --export LESS:rj\x2e5
+SETUVAR --export GPG_TTY:/dev/ttys000
+SETUVAR --export LESS:j\x2e5
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
 SETUVAR Z_DATA:/Users/bespey/\x2elocal/share/z/data
@@ -12,15 +13,21 @@ SETUVAR __fish_classic_git_prompt_initialized:\x1d
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
+SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_cd_2D_:cd\x20\x2d
 SETUVAR _fish_abbr_dockc:docker\x2dcompose
+SETUVAR _fish_abbr_formatjq:pbpaste\x20\x7c\x20jq\x20\x7c\x20pbcopy
 SETUVAR _fish_abbr_g:git
 SETUVAR _fish_abbr_gco:git\x20checkout
 SETUVAR _fish_abbr_gd:git\x20diff
+SETUVAR _fish_abbr_glog:git\x20log\x20\x2d\x2doneline\x20\x2d\x2dgraph\x20\x2d\x2dall
+SETUVAR _fish_abbr_grc:git\x20rebase\x20\x2d\x2dcontinue
+SETUVAR _fish_abbr_gri:git\x20rebase\x20\x2di
 SETUVAR _fish_abbr_gsp:git\x20stash\x20pop
 SETUVAR _fish_abbr_gss:git\x20stash
 SETUVAR _fish_abbr_gsw:git\x20switch
-SETUVAR _fish_abbr_mdev:git\x20stash\x20apply\x20a9b7e037141ceeb7d09228e1beda060ff1f92acb
+SETUVAR _fish_abbr_pst:pbpaste\x20\x7c\x20vim\x20\x2d
+SETUVAR _fish_abbr_qrshow:qrencode\x20\x2do\x20\x2d
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:\x2d\x2dbold
@@ -32,6 +39,7 @@ SETUVAR fish_color_error:brred
 SETUVAR fish_color_escape:bryellow\x1e\x2d\x2dbold
 SETUVAR fish_color_history_current:\x2d\x2dbold
 SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
 SETUVAR fish_color_match:\x2d\x2dbackground\x3dbrblue
 SETUVAR fish_color_normal:normal
 SETUVAR fish_color_operator:bryellow

@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/bespey/Desktop/org.mitre.atwork.dev 2021-02-19 11:38.22.795.xcappdata/AppData/Documents'
+let g:netrw_dirhist_2='/Users/bespey/Desktop/org.mitre.atwork.dev 2021-02-19 11:38.22.795.xcappdata/AppData'
+let g:netrw_dirhist_1='/Users/bespey/Desktop/org.mitre.atwork.dev 2021-02-19 11:38.22.795.xcappdata'

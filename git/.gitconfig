@@ -23,6 +23,10 @@
 	conflicted = !nvim +Conflicted
 	fpush = push --force-with-lease
     llog = log --graph --oneline --exclude=refs/stash --exclude='refs/remotes/origin/*' --decorate-refs-exclude='refs/remotes/origin*' --topo-order
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    code-changes = "!git log --format=format: --name-only | egrep -v '^$' | sort | uniq -c | sort -rg | head -10"
+[diff "swift"]
+    xfuncname = ^[ \t]*(private |fileprivate |static | public)*((class|func)[ \t].*)$
 [diff]
 	tool = vscode
 [difftool "vscode"]
@@ -31,4 +35,9 @@
 	enabled = true
 [rebase]
 	autosquash = true
-
+	missingCommitsCheck = error
+	instructionFormat = (%an <%ae>) %s
+[core]
+    pager = delta --dark
+[interactive]
+    diffFilter = delta --color-only

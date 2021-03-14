@@ -1,7 +1,7 @@
 fish_hybrid_key_bindings
 
 set -x EDITOR /usr/local/bin/nvim
-set -x LESS "rj.5"
+set -x LESS "j.5"
 
 alias ls=exa
 alias la="exa -a"
@@ -16,3 +16,4 @@ alias dip="docker inspect -f '{{.NetworkSettings.IPAddress}}'"
 bind -M insert \cd expand_glob
 
 source ~/.iterm2_shell_integration.(basename $SHELL)
+bass source ~/.profile

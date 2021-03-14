@@ -14,6 +14,8 @@ set expandtab
 set hidden
 set ignorecase
 set smartcase
+set confirm
+set shiftround
 
 set listchars=tab:▸\ ,eol:¬,space:⋅
 " set shell=/bin/zsh
@@ -85,6 +87,9 @@ nnoremap <c-f> [s1z=<c-o>
 " Atomic xp
 nnoremap <silent> <Plug>TransposeCharacters xph :call repeat#set("\<Plug>TransposeCharacters")<CR>
 nmap cp <Plug>TransposeCharacters
+
+" Alternative to CtrlP using fzf.vim
+nnoremap <C-p> :Files<Cr>
 
 " Make Q something useful
 nnoremap Q @q
@@ -202,4 +207,25 @@ let useColemak=$useColemak
 if useColemak == '1'
 	call UseColemak()
 endif
+
+function! s:customhighlight()
+    let l:matches = matchlist(getline('$'), '^# highlight: \(.*\)$')
+    if len(l:matches)
+        let s:matchid = matchadd('SpecialComment', l:matches[1])
+    endif
+endfunction
+
+function! s:customunhighlight()
+    if exists('s:matchid')
+        call matchdelete(s:matchid)
+        unlet s:matchid
+    endif
+endfunction
+
+augroup customhighlight
+    autocmd!
+    " Set up custom auto highlighters for .wiki files
+    au BufEnter *.wiki call s:customhighlight()
+    au BufLeave *.wiki call s:customunhighlight()
+augroup END
 
